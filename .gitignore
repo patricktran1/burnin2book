@@ -1,0 +1,6 @@
+node_modules/
+dist/*
+!dist/README.md
+.DS_Store
+*.log
+.vercel/

@@ -1,0 +1,189 @@
+# BURN IN, Version 2.0 — book manifest
+# Markdown files in manuscript/ are the source of truth. This file declares
+# order, structure, titles, and per-file word-count targets used by
+# scripts/build-book.mjs, scripts/validate.mjs, and scripts/word-count.mjs.
+
+title: "BURN IN"
+subtitle: "Building a Life You Can Stay In"
+edition: "Version 2.0"
+author: "Patrick Tran"
+year: 2026
+language: en
+description: "A substantially rewritten second edition of Patrick Tran's Burn-In, for ambitious high performers whose competence can conceal burnout, depression, shame, or collapse."
+figures_dir: assets/figures
+cover_dir: assets/cover
+output_dir: dist
+
+contents:
+  - file: manuscript/00-front-matter.md
+    kind: front
+    title: "Before You Begin"
+    slug: front-matter
+  - file: manuscript/01-authors-note.md
+    kind: front
+    title: "Author's Note"
+    slug: authors-note
+  - file: manuscript/02-introduction.md
+    kind: introduction
+    title: "Introduction"
+    slug: introduction
+    min: 2600
+    max: 3000
+
+  - file: manuscript/03-chapter-01.md
+    kind: chapter
+    number: 1
+    part: "Part I"
+    part_title: "The Achievement Trap"
+    title: "Who Am I, and How Did I Get Here?"
+    slug: chapter-01
+    min: 3600
+    max: 4200
+  - file: manuscript/04-chapter-02.md
+    kind: chapter
+    number: 2
+    part: "Part I"
+    part_title: "The Achievement Trap"
+    title: "Where Am I Going?"
+    slug: chapter-02
+    min: 3900
+    max: 4500
+  - file: manuscript/05-chapter-03.md
+    kind: chapter
+    number: 3
+    part: "Part I"
+    part_title: "The Achievement Trap"
+    title: "The Achievement Bargain"
+    slug: chapter-03
+    min: 3400
+    max: 3900
+  - file: manuscript/06-chapter-04.md
+    kind: chapter
+    number: 4
+    part: "Part I"
+    part_title: "The Achievement Trap"
+    title: "Ego, Confidence, and Blind Spots"
+    slug: chapter-04
+    min: 3900
+    max: 4500
+
+  - file: manuscript/07-chapter-05.md
+    kind: chapter
+    number: 5
+    part: "Part II"
+    part_title: "When the Fire Turns Inward"
+    title: "The Cost of Performing Fine"
+    slug: chapter-05
+    min: 4400
+    max: 5000
+  - file: manuscript/08-chapter-06.md
+    kind: chapter
+    number: 6
+    part: "Part II"
+    part_title: "When the Fire Turns Inward"
+    title: "More Than Burnout"
+    slug: chapter-06
+    min: 3900
+    max: 4500
+  - file: manuscript/09-chapter-07.md
+    kind: chapter
+    number: 7
+    part: "Part II"
+    part_title: "When the Fire Turns Inward"
+    title: "Shame Loves Secrecy"
+    slug: chapter-07
+    min: 3300
+    max: 3800
+
+  - file: manuscript/10-chapter-08.md
+    kind: chapter
+    number: 8
+    part: "Part III"
+    part_title: "Burn In"
+    title: "Agency Without Self-Blame"
+    slug: chapter-08
+    min: 3500
+    max: 4000
+  - file: manuscript/11-chapter-09.md
+    kind: chapter
+    number: 9
+    part: "Part III"
+    part_title: "Burn In"
+    title: "Here and Now"
+    slug: chapter-09
+    min: 3500
+    max: 4000
+  - file: manuscript/12-chapter-10.md
+    kind: chapter
+    number: 10
+    part: "Part III"
+    part_title: "Burn In"
+    title: "Money Creates Margin, Not Meaning"
+    slug: chapter-10
+    min: 4000
+    max: 4600
+  - file: manuscript/13-chapter-11.md
+    kind: chapter
+    number: 11
+    part: "Part III"
+    part_title: "Burn In"
+    title: "We're All in This Together"
+    slug: chapter-11
+    min: 3500
+    max: 4000
+
+  - file: manuscript/14-chapter-12.md
+    kind: chapter
+    number: 12
+    part: "Part IV"
+    part_title: "Build a Life You Can Stay In"
+    title: "Design Beats Willpower"
+    slug: chapter-12
+    min: 3300
+    max: 3800
+  - file: manuscript/15-chapter-13.md
+    kind: chapter
+    number: 13
+    part: "Part IV"
+    part_title: "Build a Life You Can Stay In"
+    title: "The Burn In Protocol"
+    slug: chapter-13
+    min: 3300
+    max: 3800
+  - file: manuscript/16-chapter-14.md
+    kind: chapter
+    number: 14
+    part: "Part IV"
+    part_title: "Build a Life You Can Stay In"
+    title: "Ambition After Collapse"
+    slug: chapter-14
+    min: 3500
+    max: 4000
+  - file: manuscript/17-chapter-15.md
+    kind: chapter
+    number: 15
+    part: "Part IV"
+    part_title: "Build a Life You Can Stay In"
+    title: "What I Want My Children to Know"
+    slug: chapter-15
+    min: 2900
+    max: 3400
+
+  - file: manuscript/18-epilogue.md
+    kind: epilogue
+    title: "Epilogue: Still Here"
+    slug: epilogue
+    min: 1200
+    max: 1600
+  - file: manuscript/19-acknowledgments.md
+    kind: back
+    title: "Acknowledgments"
+    slug: acknowledgments
+  - file: manuscript/20-about-author.md
+    kind: back
+    title: "About the Author"
+    slug: about-the-author
+  - file: manuscript/21-notes.md
+    kind: notes
+    title: "Notes"
+    slug: notes

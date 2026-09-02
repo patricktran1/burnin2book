@@ -1,0 +1,13 @@
+/* EPUB stylesheet for BURN IN, Version 2.0 (used by Pandoc when available) */
+body { font-family: Georgia, "Times New Roman", serif; line-height: 1.5; margin: 0 5%; }
+h1 { font-size: 1.8em; font-weight: bold; margin: 2em 0 1em; line-height: 1.2; }
+h1.part { text-align: center; color: #dc5231; margin-top: 35%; }
+h2 { font-size: 1.2em; margin: 1.8em 0 .6em; }
+p { margin: 0 0 .9em; text-align: left; }
+hr { border: 0; text-align: center; margin: 1.6em 0; }
+hr::before { content: "\2022\2002\2002\2022\2002\2002\2022"; color: #8a8d8e; }
+figure { margin: 1.5em 0; text-align: center; }
+figure img { max-width: 100%; height: auto; }
+figcaption { font-size: .85em; color: #4a4d4e; margin-top: .5em; }
+blockquote { margin: 1em 1.5em; border-left: 3px solid #dc5231; padding-left: .8em; color: #4a4d4e; }
+.footnotes { font-size: .9em; }

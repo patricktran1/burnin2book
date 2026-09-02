@@ -1,0 +1,21 @@
+{
+  "name": "burnin2book",
+  "version": "2.0.0",
+  "private": true,
+  "description": "BURN IN, Version 2.0 by Patrick Tran — manuscript, editorial audit trail, and build system",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-book.mjs",
+    "preview": "node scripts/build-book.mjs && node scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs",
+    "wordcount": "node scripts/word-count.mjs",
+    "check": "npm run validate && npm run wordcount && npm run build"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "marked": "^15.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

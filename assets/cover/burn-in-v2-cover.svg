@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2560" width="1600" height="2560">
+  <title>BURN IN, Version 2.0 — cover</title>
+  <rect width="1600" height="2560" fill="#ffffff"/>
+  <g font-family="Oswald, 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="330" text-anchor="middle" transform="translate(800 0) scale(0.86 1)">
+    <text x="0" y="640" fill="#dc5231">BURN-IN</text>
+    <text x="0" y="940" fill="#4a4d4e">BURN-IN</text>
+    <text x="0" y="1240" fill="#a4a6a7">BURN-IN</text>
+    <text x="0" y="1540" fill="#d0d3d3">BURN-IN</text>
+  </g>
+  <text x="800" y="1720" text-anchor="middle" font-family="Charter, 'Iowan Old Style', Georgia, serif" font-style="italic" font-size="64" fill="#4a4d4e">Building a Life You Can Stay In</text>
+  <text x="800" y="1830" text-anchor="middle" font-family="Charter, Georgia, serif" font-size="44" letter-spacing="8" fill="#dc5231">VERSION 2.0</text>
+  <rect x="660" y="2000" width="280" height="8" fill="#dc5231"/>
+  <text x="800" y="2130" text-anchor="middle" font-family="Charter, 'Iowan Old Style', Georgia, serif" font-size="72" fill="#232426">Patrick Tran</text>
+</svg>
