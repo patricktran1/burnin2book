@@ -10,7 +10,7 @@ The truest scene I put in the first book was not the one I thought was true at t
 
 I put that routine in a chapter about how the work continues, and I used it to illustrate a saying. The saying was the least important thing on the page. What I was actually recording, without knowing it, was the one part of that year that was not a fight. Everything else about your treatment was a schedule and a war: blood counts, cycles, the feeding tube in your nose, the thick curly hair that came out, the fever that meant I packed the bag and drove back to the hospital. Bedtime was the ten minutes when nothing was being done to you. Fish, teeth, book, Mickey, light, music, kiss. Nobody was measuring anything.
 
-I want you to know that I was neither a saint nor a wreck in those months. I went to work. I put on a face for my patients, and in the first edition I was proud of that, and elsewhere in this one I take the pride apart. At bedtime the face came off, because you did not need it. You needed the fish fed. There is a kind of love that consists mostly of showing up for the same ten minutes in the same order every night, and I learned it from you, before you could say the word for it.
+I want you to know that I was neither a saint nor a wreck in those months. Work happened. So did the face I put on for my patients, which the first edition was proud of and which this one takes apart elsewhere. At bedtime the face came off, because you did not need it. You needed the fish fed. There is a kind of love that consists mostly of showing up for the same ten minutes in the same order every night, and I learned it from you, before you could say the word for it.
 
 * * *
 

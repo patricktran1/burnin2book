@@ -86,6 +86,10 @@ Flags: `node scripts/build-book.mjs --no-pandoc --no-pdf` skips the optional ste
 
 The repository is Vercel-ready: `vercel.json` runs `npm run build` and serves `dist/` as a static site with clean URLs. Any static host that can run `npm run build` will work; the output has no server-side dependencies.
 
+## Status
+
+The manuscript is complete: front matter, Author's Note, Introduction, fifteen chapters in four parts, Epilogue, Acknowledgments, About the Author, and Notes — **64,198 words** excluding endnotes. `npm run validate` passes with 0 errors, and `npm run build` produces every output including EPUB, DOCX, and PDF. `editorial/FINAL_QA.md` records the actual results, the four deliberately-kept cadence warnings, the fourteen citations to re-verify against live pages, the twenty items needing the author's confirmation, and the legal-review flags.
+
 ## Editorial record
 
 Start with `editorial/BOOK_BIBLE.md` for the structure and rules the rewrite followed, then `editorial/EDITORIAL_DECISIONS.md`. `editorial/FINAL_QA.md` records the actual results of the final validation, word counts, figure totals, legacy-term searches, and open items requiring the author's confirmation or counsel's review.

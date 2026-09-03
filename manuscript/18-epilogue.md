@@ -6,7 +6,7 @@ I did not go back for years. When I did, I was not on a pilgrimage. I had been n
 
 There was still a hollow in it. That surprised me more than anything else about the visit. The branches had gone in and never come back out; there was a shape in the middle of that shrub, roughly the size of a man, that the plant had simply grown around. Whatever it does with its remaining years, it is going to do them with that gap in the middle. And down in the hollow, in the space my body made, there were flowers. Small ones. Not planted, not tended, not remarkable to anybody who did not know what the hole was. They were growing in the one part of that shrub where the light could get in.
 
-I stood there for a while. I want to report accurately that I did not feel much. I did not weep, or pray, or take a picture, and I have never gone back again. What I mostly felt was the ordinariness of it: the sound of cars, the heat coming off the pavement, a piece of landscaping doing what landscaping does. Then I went and got in my car and drove home, and it was a Tuesday or something like a Tuesday, and I made dinner.
+I stood there for a while. To report it accurately: I did not feel much. There was no weeping, no praying, no photograph, and I have never gone back again. What I mostly felt was the ordinariness of it: the sound of cars, the heat coming off the pavement, a piece of landscaping doing what landscaping does. Then I went and got in my car and drove home, and it was a Tuesday or something like a Tuesday, and I made dinner.
 
 * * *
 
@@ -14,7 +14,7 @@ Here is what I have made of it since, and I have had a long time to think about 
 
 The hollow did not close. That is the part I keep returning to. Nothing in that plant reached across the gap and knitted it shut, and nothing will. If you cut it down and counted, the missing years would be right there in the structure. It is not that the shrub healed and you can no longer tell. It is that the shrub kept growing, and the hole kept being a hole, and both of those are simply true at the same time.
 
-I spent a great deal of my life believing that recovery meant restoration: you get sick, you get treated, and afterward you are returned to the person you were before, ideally with a lesson attached. That is what I would have promised you in the first edition. It is not what happened. There is a gap in me where those months are. Certain things are still harder than they were, and certain sounds and hours still get a reaction out of my body before I have a vote. I am not the man who wrote that first book, and he is not coming back, and for a while I waited for him.
+I spent a great deal of my life believing that recovery meant restoration: you get sick, you get treated, and afterward you are returned to the person you were before, ideally with a lesson attached. That is what I would have promised you in the first edition. It is not what happened. There is a gap in me where those months are. Certain things are still harder than they were, and certain sounds and hours still get a reaction out of my body before I have a vote. The man who wrote that first book is not coming back, and for a while I waited for him.
 
 What grew instead grew in the gap. Not over it. I do not have a tidy way to say this without sounding like the kind of author I have been trying not to be, so I will say it flatly: the parts of my life that I now think are worth the most are in the space that got made. The way I am with my son. What I am willing to say out loud to another person, and how quickly. The fact that when a colleague tells me he is fine, I sometimes ask again. None of that existed in me before, and none of it required the hole to be filled in. It required light to get in, which is not the same thing.
 
@@ -34,7 +34,7 @@ Adrian's is his. He has a history, and it is written in his own body, and someda
 
 The legal and financial one I have deliberately not narrated. Parts of it are not mine alone to tell, and the parts that are mine are less interesting than everyone expects. What I have given you is the only piece that generalizes: what fear did to a competent man, and how long he could look fine while it did it.
 
-Mine is not finished either. I still get up early. I am still ambitious, more carefully than before but not one degree less; there are things I intend to build, and I intend to build them at a pace that would have embarrassed me in 2021, which I now regard as a feature. I have a physician of my own. I have people who will tell me I look terrible. I keep a calendar with white space in it that I defend like a case, and I have not always defended it well, and that is going to keep being true.
+Mine is not finished either. I still get up early, and I am still ambitious, more carefully than before but not one degree less; there are things I intend to build, and the pace I intend to build them at would have embarrassed me in 2021, which I now regard as a feature. There is a physician of my own, and there are people who will tell me I look terrible. I keep a calendar with white space in it that I defend like a case, and I have not always defended it well, and that is going to keep being true.
 
 * * *
 

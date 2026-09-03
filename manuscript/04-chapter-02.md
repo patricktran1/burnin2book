@@ -62,7 +62,7 @@ Doctors are not spared this. The most careful recent look at the question pooled
 
 * * *
 
-What I did with my misery, in the end, was look for an exit that would not look like an exit.
+My response to the misery, in the end, was to look for an exit that would not look like an exit.
 
 The first one I considered was pathology. I emailed an old professor of mine from medical school, thinking that a specialty with no patients in it might be less taxing. It is not, for the record, an easier field; it is a demanding one with its own long training. But the people I spoke with told me their department regularly heard from burned-out residents in other specialties who were looking for a door. I did not actually want to be a pathologist. I wanted to stop.
 

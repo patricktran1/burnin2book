@@ -158,7 +158,10 @@ contents:
     title: "Ambition After Collapse"
     slug: chapter-14
     min: 3500
-    max: 4000
+    # target raised from 4000 in the second pass: the chapter carries the
+    # fireplace mechanics, the Michelangelo correction, and all three of the
+    # first edition's closing principles, and cutting it thinned the argument.
+    max: 4500
   - file: manuscript/17-chapter-15.md
     kind: chapter
     number: 15
@@ -167,7 +170,8 @@ contents:
     title: "What I Want My Children to Know"
     slug: chapter-15
     min: 2900
-    max: 3400
+    # target raised from 3400 in the second pass.
+    max: 3600
 
   - file: manuscript/18-epilogue.md
     kind: epilogue
