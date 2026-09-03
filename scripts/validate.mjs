@@ -272,15 +272,19 @@ function validateFile(file, ctx) {
       if (stats.sentenceStd < 6) warnings.push(`low sentence-length variety (std dev ${stats.sentenceStd})`);
     }
 
-    // Repeated openings: 3+ consecutive sentences sharing first word (excluding "I", "The", "It", "A"? no—include all, but require ≥3)
-    const firstWords = sents.map((s) => (s.match(/^["“‘']?([A-Za-z']+)/) || [, ''])[1].toLowerCase());
-    let run = 1;
+    // Repeated openings: 3+ consecutive sentences within one paragraph sharing a first word.
+    // Measured per paragraph, because a paragraph break resets the reader's ear; a run only
+    // reads as a tic when the sentences sit next to each other in the same block of prose.
     const runs = [];
-    for (let i = 1; i < firstWords.length; i++) {
-      if (firstWords[i] && firstWords[i] === firstWords[i - 1]) run++;
-      else { if (run >= 3) runs.push(`${firstWords[i - 1]} ×${run}`); run = 1; }
+    for (const para of paras) {
+      const firstWords = sentences(stripMarkdown(para)).map((s) => (s.match(/^["“‘']?([A-Za-z']+)/) || [, ''])[1].toLowerCase());
+      let run = 1;
+      for (let i = 1; i < firstWords.length; i++) {
+        if (firstWords[i] && firstWords[i] === firstWords[i - 1]) run++;
+        else { if (run >= 3) runs.push(`${firstWords[i - 1]} ×${run}`); run = 1; }
+      }
+      if (run >= 3) runs.push(`${firstWords[firstWords.length - 1]} ×${run}`);
     }
-    if (run >= 3) runs.push(`${firstWords[firstWords.length - 1]} ×${run}`);
     if (runs.length) warnings.push(`repeated sentence openings in a row: ${runs.join('; ')}`);
 
     // Two-word opening repetition across the chapter (e.g., "I was" appears 12 times as sentence start)
