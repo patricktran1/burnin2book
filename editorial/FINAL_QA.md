@@ -63,26 +63,26 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 64,303 words.** Introduction + 15 chapters + epilogue: 62,913. Notes: 1,103. Total including notes: 65,406. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 64,293 words.** Introduction + 15 chapters + epilogue: 62,903. Notes: 1,103. Total including notes: 65,396. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
 | `00-front-matter.md` | 242 | — | Before You Begin |
 | `01-authors-note.md` | 754 | — | Author's Note |
-| `02-introduction.md` | 2,995 | 2,600–3,000 | Introduction: Fourteen Centimeters |
+| `02-introduction.md` | 2,991 | 2,600–3,000 | Introduction: Fourteen Centimeters |
 | `03-chapter-01.md` | 3,781 | 3,600–4,200 | 1. Who Am I, and How Did I Get Here? |
 | `04-chapter-02.md` | 4,168 | 3,900–4,500 | 2. Where Am I Going? |
 | `05-chapter-03.md` | 3,403 | 3,400–3,900 | 3. The Achievement Bargain |
-| `06-chapter-04.md` | 3,920 | 3,900–4,500 | 4. Ego, Confidence, and Blind Spots |
+| `06-chapter-04.md` | 3,919 | 3,900–4,500 | 4. Ego, Confidence, and Blind Spots |
 | `07-chapter-05.md` | 4,537 | 4,400–5,000 | 5. The Cost of Performing Fine |
 | `08-chapter-06.md` | 4,208 | 3,900–4,500 | 6. More Than Burnout |
 | `09-chapter-07.md` | 3,313 | 3,300–3,800 | 7. Shame Loves Secrecy |
 | `10-chapter-08.md` | 3,983 | 3,500–4,000 | 8. Agency Without Self-Blame |
 | `11-chapter-09.md` | 3,768 | 3,500–4,000 | 9. Here and Now |
-| `12-chapter-10.md` | 4,576 | 4,000–4,600 | 10. Money Creates Margin, Not Meaning |
+| `12-chapter-10.md` | 4,572 | 4,000–4,600 | 10. Money Creates Margin, Not Meaning |
 | `13-chapter-11.md` | 3,846 | 3,500–4,000 | 11. We're All in This Together |
 | `14-chapter-12.md` | 3,770 | 3,300–3,800 | 12. Design Beats Willpower |
-| `15-chapter-13.md` | 3,377 | 3,300–3,800 | 13. The Burn In Protocol |
+| `15-chapter-13.md` | 3,376 | 3,300–3,800 | 13. The Burn In Protocol |
 | `16-chapter-14.md` | 4,368 | 3,500–4,500 | 14. Ambition After Collapse |
 | `17-chapter-15.md` | 3,488 | 2,900–3,600 | 15. What I Want My Children to Know |
 | `18-epilogue.md` | 1,412 | 1,200–1,600 | Epilogue: Still Here |
@@ -200,6 +200,31 @@ Other findings:
 - **Cross-references** were checked in both directions and all resolve (see the table above for the three that did not, now corrected): Chapter 5's forward reference to Chapter 7 ("the machinery of that silence") is delivered by Chapter 7; Chapter 5's promise to return to the bush "at the very end of this book" is delivered by the Epilogue; Chapter 4's foreshadowing of the conviction ("I am getting ahead of the story") is picked up verbatim by Chapter 5; Chapter 10's closing line about people as margin is picked up by Chapter 11's opening; Chapter 9's reference to "the sentence that came through" points correctly to Chapter 4.
 - **Handoffs** between all 15 chapters, the Introduction, and the Epilogue were read as a sequence. Each chapter's final paragraph sets up the next chapter's subject.
 - **Voice** is consistent across the four parts. Chapter 5 is the only chapter with no figures and no deflecting humor, which is intentional.
+
+## 8b. Mechanical copyedit
+
+This is not a substitute for a professional copyedit, which the manuscript still needs and which `AUTHOR_CHECKLIST.md` §F still asks for. It is the mechanical layer of one: the checks that can be run exhaustively rather than read for. Every `.md` file in `manuscript/` was scanned for doubled words, spacing errors, mixed spelling conventions, inconsistent compounds, number style, and punctuation faults.
+
+| Check | Result |
+|---|---|
+| Doubled words, double spaces, space before punctuation in prose, missing space after a period or comma, trailing whitespace | none |
+| American vs British spellings | consistent; no British forms |
+| `toward` / `towards`, `email` / `e-mail`, `okay` / `OK` | consistent throughout |
+| Numbers under 100 in prose | spelled out without exception |
+| Em dashes | 1 in 64,000 words; the brief warned against saturation |
+| Ellipses, double hyphens | none; nothing to normalise |
+| Endnote sources cited more than once | one: the 988 Lifeline, in Chapters 5, 6, and 13. Deliberate — a crisis number belongs wherever a reader might need it |
+
+Four things were wrong and are fixed:
+
+| Defect | Fix |
+|---|---|
+| **The first edition's title was set two ways.** The front matter ("First published in 2021 as *Burn-In*") and About the Author both use *Burn-In*, the 2021 title; the Introduction called it *Burn In* twice, which is this edition's title, not the first edition's. | Both Introduction instances set as *Burn-In* |
+| **`real estate` was set both ways as a compound modifier** — hyphenated in five places, bare in eight, with *real estate portfolio* appearing both ways in the same book (Introduction and Chapter 10 bare, Chapter 11 hyphenated). | Hyphenated as a modifier in all thirteen places; the five bare uses as a noun ("in real estate", "real estate was") left alone |
+| **Endnote URLs were followed by a space before the period or semicolon**, seven times, to stop the punctuation reading as part of the address. In print that is a spacing error, and in the HTML and EPUB the URL is auto-linked, so the ambiguity it guarded against does not arise. | Punctuation closed up |
+| **The HTML editions were set with typewriter quotes.** Pandoc smartens the EPUB and DOCX itself, but the HTML pages are rendered by marked, which dropped smart punctuation in v7 — so the reading preview, the print edition, and the PDF printed from it were the only editions of the book set with `"` and `'`. 220 apostrophes and 210 quotation marks. | A typographic pass was added to `build-book.mjs`, over rendered HTML text only: never attribute values, never `<code>`, `<pre>`, `<script>`, or `<style>`, with paragraph boundaries resetting the open/close context. Titles from `book.yml` are smartened at load, before the endnote index captures them for its group headings. `check-output.mjs` now fails on a typewriter quote in visible text or a curly quote inside a script or style block, so the pass cannot be silently bypassed again |
+
+The word count moved from 64,303 to 64,293: eight hyphenations and two title corrections, each joining two words into one.
 
 ## 9. Remaining factual items requiring Patrick's confirmation
 

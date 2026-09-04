@@ -83,7 +83,7 @@ Flags: `node scripts/build-book.mjs --no-pandoc --no-pdf` skips the optional ste
 - One `#` heading per file (the title); `##` subheads sparingly; `* * *` for scene breaks.
 - Figures: `![Caption sentence.](../assets/figures/fig-NN-name.png)` on its own line. The caption is the alt text. Each retained figure appears once.
 - Endnotes: `[^c05-1]` in the text; `[^c05-1]: source` in `manuscript/21-notes.md`. The build numbers them in reading order; Pandoc renders them as footnotes.
-- `npm run check-output` runs after a build and checks what was actually produced: that every retained figure is byte-identical to its supplied original (nothing re-encoded or swapped), that the previous/next chain reaches every section in `book.yml` order with no gaps or loops, that every internal link, asset, and `#fragment` resolves, that all endnotes round-trip in both directions, that the EPUB is structurally valid, and that the print edition contains every section and figure.
+- `npm run check-output` runs after a build and checks what was actually produced: that every retained figure is byte-identical to its supplied original (nothing re-encoded or swapped), that the previous/next chain reaches every section in `book.yml` order with no gaps or loops, that every internal link, asset, and `#fragment` resolves, that all endnotes round-trip in both directions, that no typewriter quote survives in visible text (and no curly quote has been introduced into a script or style block), that the EPUB is structurally valid, and that the print edition contains every section and figure.
 - `npm run validate` fails on legacy terms that must not appear in the manuscript (former-spouse references, `$22 million`, `Wealthbound`, placeholders), missing figures, unresolved endnotes, and structural errors; it warns on prose-cadence patterns (one-sentence-paragraph runs, repeated openings, tic phrases, em-dash density, generic vocabulary) and on `FIRE` outside historical use.
 
 ## Deploying the preview
@@ -92,7 +92,7 @@ The repository is Vercel-ready: `vercel.json` runs `npm run build` and serves `d
 
 ## Status
 
-The manuscript is complete: front matter, Author's Note, Introduction, fifteen chapters in four parts, Epilogue, Acknowledgments, About the Author, and Notes — **64,303 words** excluding endnotes. `npm run validate` passes with 0 errors, and `npm run build` produces every output including EPUB, DOCX, and PDF. `editorial/FINAL_QA.md` records the actual results, the four deliberately-kept cadence warnings, the fourteen citations to re-verify against live pages, the twenty items needing the author's confirmation, and the legal-review flags.
+The manuscript is complete: front matter, Author's Note, Introduction, fifteen chapters in four parts, Epilogue, Acknowledgments, About the Author, and Notes — **64,293 words** excluding endnotes. `npm run validate` passes with 0 errors, and `npm run build` produces every output including EPUB, DOCX, and PDF. `editorial/FINAL_QA.md` records the actual results, the four deliberately-kept cadence warnings, the fourteen citations to re-verify against live pages, the twenty items needing the author's confirmation, and the legal-review flags.
 
 ## Editorial record
 

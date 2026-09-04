@@ -37,6 +37,79 @@ const report = { built: [], skipped: [], warnings: [], startedAt: new Date().toI
 // helpers
 // ---------------------------------------------------------------------------
 const esc = (s = '') => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+// ---------------------------------------------------------------------------
+// typographic quotes
+// ---------------------------------------------------------------------------
+// Pandoc applies its `smart` extension to the EPUB and DOCX, so those editions
+// already set curly quotes. The HTML pages here are rendered by marked, which
+// dropped smartypants in v7 and passes straight quotes through, and the print
+// edition and the PDF are printed from that HTML. Without this the reading
+// preview and the PDF are the only editions of the book set with typewriter
+// quotes. Runs over rendered HTML: text between tags only, never attribute
+// values, never the contents of <code> or <pre>.
+
+const ELISIONS = /^(?:cause|em|n|round|til|tis|twas|bout|nother|s)\b/i;
+
+function smartenText(text, prevChar) {
+  // marked escapes quotes in text content, so the characters arrive here as
+  // entities. Decode just those two before deciding; the curly replacements
+  // need no escaping, and &amp;quot; is left alone because the character
+  // before `quot;` is a semicolon, not an ampersand.
+  text = text.replace(/&quot;/g, '"').replace(/&#0*39;|&apos;/g, "'");
+  let out = '';
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (ch !== '"' && ch !== "'") { out += ch; prevChar = ch; continue; }
+    const next = text[i + 1] || '';
+    // An HTML entity (&quot; &amp;) never reaches here as a bare quote, so the
+    // only decision is opening vs closing, made from the character before it.
+    const opensHere = prevChar === '' || /[\s(\[{—–“‘]/.test(prevChar);
+    if (ch === '"') {
+      out += opensHere ? '“' : '”';
+    } else if (/[A-Za-z0-9]/.test(prevChar) && /[A-Za-z]/.test(next)) {
+      out += '’';                       // don't, I'm, o'clock
+    } else if (/[A-Za-z]/.test(prevChar) && !/[A-Za-z0-9]/.test(next)) {
+      out += '’';                       // the surgeons' lounge, 1990s'
+    } else if (opensHere && ELISIONS.test(text.slice(i + 1))) {
+      out += '’';                       // 'cause, 'em, 'til
+    } else if (opensHere && /^\d\ds\b/.test(text.slice(i + 1))) {
+      out += '’';                       // '60s
+    } else {
+      out += opensHere ? '‘' : '’';
+    }
+    prevChar = out[out.length - 1];
+  }
+  return { text: out, prevChar };
+}
+
+function smarten(html) {
+  let out = '';
+  let prevChar = '';
+  let skipDepth = 0;
+  const re = /<\/?([A-Za-z][\w-]*)\b[^>]*>|<!--[\s\S]*?-->/g;
+  let last = 0;
+  let m;
+  while ((m = re.exec(html)) !== null) {
+    const chunk = html.slice(last, m.index);
+    if (skipDepth > 0) { out += chunk; }
+    else { const r = smartenText(chunk, prevChar); out += r.text; prevChar = r.prevChar; }
+    const tag = (m[1] || '').toLowerCase();
+    if (tag === 'code' || tag === 'pre' || tag === 'kbd' || tag === 'samp') {
+      if (m[0].startsWith('</')) skipDepth = Math.max(0, skipDepth - 1);
+      else if (!m[0].endsWith('/>')) skipDepth++;
+    }
+    // A block boundary resets the reader's context: a quote opening a new
+    // paragraph must not be read as closing one from the paragraph before.
+    if (/^(?:p|h[1-6]|li|blockquote|figcaption|div|section|hr|br|ol|ul|table|td|th)$/.test(tag)) prevChar = '';
+    out += m[0];
+    last = m.index + m[0].length;
+  }
+  const tailChunk = html.slice(last);
+  out += skipDepth > 0 ? tailChunk : smartenText(tailChunk, prevChar).text;
+  return out;
+}
+
 const NUMBER_WORDS = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen', 'Twenty'];
 const numberWord = (n) => NUMBER_WORDS[n] ?? String(n);
 
@@ -112,6 +185,13 @@ if (notesEntry && !notesEntry.missing) {
   }
 }
 
+// Titles, part names, and the blurbs come from book.yml rather than from the
+// manuscript, so they never pass through the renderer. Smarten them once here;
+// slugs are declared in book.yml and are not derived from these strings.
+const typo = (v) => (typeof v === 'string' ? smartenText(v, '').text : v);
+for (const k of ['title', 'subtitle', 'edition', 'author', 'description']) book[k] = typo(book[k]);
+for (const e of entries) for (const k of ['title', 'part', 'part_title', 'kicker']) e[k] = typo(e[k]);
+
 // global numbering in reading order
 const noteOrder = []; // [{id, number, chapterSlug, chapterTitle}]
 const noteNumber = new Map();
@@ -144,7 +224,7 @@ marked.use({
   renderer: {
     image({ href, text }) {
       const src = href.replace(/^(\.\.\/)+assets\//, 'assets/');
-      const cap = text || '';
+      const cap = smartenText(text || '', '').text;
       return `<figure class="figure"><img src="${esc(src)}" alt="${esc(cap)}" loading="lazy"><figcaption>${esc(cap)}</figcaption></figure>`;
     },
     hr() {
@@ -166,7 +246,7 @@ function renderBody(e, { notesHref }) {
   // image paths in the body are relative to manuscript/; the renderer normalises them.
   const html = marked.parse(preprocess(e.body, { notesHref }));
   // demote subheads inside a page: H2 stays H2 (chapter title is the H1 in the template)
-  return html;
+  return smarten(html);
 }
 
 function renderNotesBody() {
@@ -180,7 +260,7 @@ function renderNotesBody() {
       html += `<h2 class="notes-group">${esc(currentChapter)}</h2><ol class="notes" start="${n.number}">`;
     }
     const text = noteDefs.get(n.id) || '<em>Definition missing.</em>';
-    html += `<li id="note-${n.number}" value="${n.number}">${marked.parseInline(text)} <a class="backlink" href="${n.chapterSlug}.html#ref-${n.number}" aria-label="Back to text">↩</a></li>`;
+    html += `<li id="note-${n.number}" value="${n.number}">${smarten(marked.parseInline(text))} <a class="backlink" href="${n.chapterSlug}.html#ref-${n.number}" aria-label="Back to text">↩</a></li>`;
   }
   html += '</ol>';
   return html;
@@ -340,7 +420,7 @@ ${titleBlock()}
 ${lastRead}
 ${tocHtml({ hrefFor: (e) => `${e.slug}.html` })}
 <section class="downloads"><h2>Other formats</h2><ul>
-<li><a href="print.html">Print-friendly HTML</a> (single page; use your browser's print dialog for PDF)</li>
+<li><a href="print.html">Print-friendly HTML</a> (single page; use your browser’s print dialog for PDF)</li>
 <li><a href="burn-in-v2.md">Merged manuscript (Markdown)</a></li>
 ${fs.existsSync(path.join(DIST, 'burn-in-v2.epub')) ? '<li><a href="burn-in-v2.epub">EPUB</a></li>' : ''}
 </ul></section>

@@ -16,6 +16,8 @@
  *      with no gaps, no loops, and correct endpoints.
  *   5. Endnotes — every note reference links to a note that exists, and every
  *      note links back to the reference that cites it.
+ *   5b. Typography — no typewriter quotes in visible text, and no curly quotes
+ *      inside script or style blocks.
  *   6. Table of contents — one entry per section, each resolving.
  *   7. EPUB — valid zip, correct mimetype, container, OPF, and one document per
  *      section (skipped with a notice if the EPUB was not built).
@@ -159,6 +161,33 @@ if (notesPage) {
   const seq = [...defined].sort((a, b) => a - b);
   if (seq.length && (seq[0] !== 1 || seq[seq.length - 1] !== seq.length)) warnings.push(`endnote numbering is not a contiguous 1..n run (${seq.length} notes, max ${seq[seq.length - 1]})`);
   notes.push(`endnotes: ${refs.length} references, ${defined.size} notes, all round-trips checked`);
+}
+
+// ---------------------------------------------------------------------------
+// 5b. Typography
+// ---------------------------------------------------------------------------
+// Pandoc smartens the EPUB and DOCX itself; these HTML pages are rendered by
+// marked, which does not, and the print edition and the PDF come from them. A
+// straight quote reaching visible text means the build's typographic pass was
+// bypassed on some path, which is easy to reintroduce and invisible until the
+// book is set. Script and style bodies are exempt: their quotes are syntax.
+{
+  let checked = 0;
+  const before = errors.length;
+  for (const p of pages.values()) {
+    const visible = p.html
+      .replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/g, '')
+      .replace(/<[^>]*>/g, '');
+    const straight = visible.match(/["']/g);
+    if (straight) {
+      const i = visible.search(/["']/);
+      errors.push(`${p.file}: ${straight.length} typewriter quote(s) in visible text — …${visible.slice(Math.max(0, i - 40), i + 40).replace(/\s+/g, ' ')}…`);
+    }
+    const inCode = p.html.match(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/g) || [];
+    for (const blk of inCode) if (/[\u201c\u201d\u2018\u2019]/.test(blk)) errors.push(`${p.file}: curly quotes inside a ${blk.slice(1, 7)} block — the typographic pass ran over code`);
+    checked++;
+  }
+  if (errors.length === before) notes.push(`typographic quotes: ${checked} pages, no typewriter quotes in visible text`);
 }
 
 // ---------------------------------------------------------------------------
