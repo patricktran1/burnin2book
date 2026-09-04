@@ -88,7 +88,7 @@ Specifically confirmed:
 | `18-epilogue.md` | 1,412 | 1,200–1,600 | Epilogue: Still Here |
 | `19-acknowledgments.md` | 299 | — | Acknowledgments |
 | `20-about-author.md` | 95 | — | About the Author |
-| `21-notes.md` | 977 | — | Notes |
+| `21-notes.md` | 1,103 | — | Notes |
 
 Two targets were revised during the second pass rather than cutting prose: Chapter 14 from 4,000 to 4,500 (it carries the fireplace mechanics, the Michelangelo correction, and all three of the first edition's closing principles) and Chapter 15 from 3,400 to 3,600. Both changes are recorded as comments in `book.yml`.
 
@@ -223,6 +223,10 @@ Full list in `editorial/LEGAL_REVIEW.md`, including per-chapter passages collect
 - **The validator's cadence rules are heuristics.** They caught real problems during drafting, and by the end they were flagging deliberate anaphora (§7). They are a floor, not a substitute for a human line editor.
 - **No professional copyedit** has been performed. The manuscript has been line-edited by its writers and read consecutively for continuity, but it has not been through a copyeditor or proofreader, and it should be before publication.
 
-## 12. Unresolved issues
+## 12. Handoff
+
+`editorial/AUTHOR_CHECKLIST.md` collects everything in sections 5, 9, and 10 into one page of questions and actions addressed to the author and his counsel, so that none of it has to be reconstructed from this report.
+
+## 13. Unresolved issues
 
 None that block a read-through. The manuscript is complete, every chapter is in range, all builds pass, and the prohibited-term searches are clean. What stands between this repository and a publishable book is the list in §9 (author confirmations), §10 (counsel), §5 (re-verifying the fourteen sources against live pages), and a professional copyedit and cover design.

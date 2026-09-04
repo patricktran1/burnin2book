@@ -35,6 +35,7 @@ editorial/
   CUT_MATERIAL.md        what was removed from the 2021 edition and why
   CHANGELOG_V2.md        edition-to-edition changes
   FINAL_QA.md            actual results of the final checks
+  AUTHOR_CHECKLIST.md    the decisions, confirmations, and permissions still owed
 
 source/                  canonical inputs: the 2021 print PDF, its extracted text, the 36 extracted figures,
                          the contact sheet, author-confirmed facts, the V2 introduction reference, the prompts
@@ -95,4 +96,4 @@ The manuscript is complete: front matter, Author's Note, Introduction, fifteen c
 
 ## Editorial record
 
-Start with `editorial/BOOK_BIBLE.md` for the structure and rules the rewrite followed, then `editorial/EDITORIAL_DECISIONS.md`. `editorial/FINAL_QA.md` records the actual results of the final validation, word counts, figure totals, legacy-term searches, and open items requiring the author's confirmation or counsel's review.
+If you are the author picking this up, start with `editorial/AUTHOR_CHECKLIST.md` — one page of the decisions, confirmations, and permissions that only you can supply. For how the rewrite was made, start with `editorial/BOOK_BIBLE.md`, then `editorial/EDITORIAL_DECISIONS.md`. `editorial/FINAL_QA.md` records the actual results of the final validation, word counts, figure totals, legacy-term searches, and open items requiring the author's confirmation or counsel's review.
