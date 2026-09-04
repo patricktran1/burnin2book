@@ -55,9 +55,11 @@ Requires Node 18 or newer.
 
 ```
 npm install
-npm run validate     # checks the manuscript; exits non-zero on errors
+npm run validate     # checks the manuscript source; exits non-zero on errors
 npm run wordcount    # per-file counts and totals against book.yml targets
 npm run build        # writes dist/
+npm run check-output # checks the built output in dist/
+npm run check        # validate + wordcount + build + check-output
 npm run preview      # build, then serve dist/ at http://localhost:4173
 ```
 
@@ -80,6 +82,7 @@ Flags: `node scripts/build-book.mjs --no-pandoc --no-pdf` skips the optional ste
 - One `#` heading per file (the title); `##` subheads sparingly; `* * *` for scene breaks.
 - Figures: `![Caption sentence.](../assets/figures/fig-NN-name.png)` on its own line. The caption is the alt text. Each retained figure appears once.
 - Endnotes: `[^c05-1]` in the text; `[^c05-1]: source` in `manuscript/21-notes.md`. The build numbers them in reading order; Pandoc renders them as footnotes.
+- `npm run check-output` runs after a build and checks what was actually produced: that every retained figure is byte-identical to its supplied original (nothing re-encoded or swapped), that the previous/next chain reaches every section in `book.yml` order with no gaps or loops, that every internal link, asset, and `#fragment` resolves, that all endnotes round-trip in both directions, that the EPUB is structurally valid, and that the print edition contains every section and figure.
 - `npm run validate` fails on legacy terms that must not appear in the manuscript (former-spouse references, `$22 million`, `Wealthbound`, placeholders), missing figures, unresolved endnotes, and structural errors; it warns on prose-cadence patterns (one-sentence-paragraph runs, repeated openings, tic phrases, em-dash density, generic vocabulary) and on `FIRE` outside historical use.
 
 ## Deploying the preview

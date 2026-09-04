@@ -8,8 +8,9 @@
     "build": "node scripts/build-book.mjs",
     "preview": "node scripts/build-book.mjs && node scripts/serve.mjs",
     "validate": "node scripts/validate.mjs",
+    "check-output": "node scripts/check-output.mjs",
     "wordcount": "node scripts/word-count.mjs",
-    "check": "npm run validate && npm run wordcount && npm run build"
+    "check": "npm run validate && npm run wordcount && npm run build && npm run check-output"
   },
   "dependencies": {
     "js-yaml": "^4.1.0",

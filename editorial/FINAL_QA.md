@@ -12,10 +12,12 @@ Actual results of the final checks, not aspirations. Every command below was run
 | `npm run validate` | **PASS — 0 errors, 4 warnings** (all four reviewed and deliberately kept; see §7) |
 | `npm run wordcount` | PASS — every chapter within its `book.yml` target range (§3) |
 | `npm run build` | **PASS — all outputs produced, nothing skipped** (§2) |
+| `npm run check-output` | **PASS — 0 errors, 0 warnings** — built-output integrity (§2a) |
 | Legacy-term searches | PASS — see §6 |
 | Figure integrity check | PASS — 23 references, 23 files, each used exactly once |
 | Endnote integrity check | PASS — 18 markers, 18 definitions, no orphans, no duplicates |
 | Rendered-output inspection | PASS — index, chapter, notes, dark mode, and PDF pages inspected visually |
+| Metaphysical-certainty scan | PASS — see §7 |
 
 ## 2. Build outputs (`npm run build`)
 
@@ -33,6 +35,31 @@ Nothing was faked or stubbed. `dist/build-report.json` records `"skipped": []` a
 | `assets/`, `styles.css`, `reader.js`, `favicon.svg` | copied | — | — |
 
 Optional-dependency behaviour was verified rather than assumed: Pandoc and a Chromium binary were both present in this environment, so EPUB, DOCX, and PDF were produced. On a machine without them the build prints a `skipped` line with the reason, still produces the Markdown and HTML, and exits 0. `node scripts/build-book.mjs --no-pandoc --no-pdf` exercises that path deliberately.
+
+## 2a. Built-output integrity (`npm run check-output`)
+
+`scripts/validate.mjs` checks the manuscript source; `scripts/check-output.mjs` checks what the build actually produced, which is where a different class of defect appears. Full output:
+
+```
+  ok      figures byte-identical to their supplied originals: 23
+  ok      built pages scanned: 24
+  ok      navigation chain complete: 22 sections, front-matter.html -> notes.html
+  ok      endnotes: 18 references, 18 notes, all round-trips checked
+  ok      contents lists all 22 sections
+  ok      EPUB structure OK: correct mimetype, container, nav, 25 chapter documents
+  ok      print.html contains all 22 sections and all 23 figures
+
+0 error(s), 0 warning(s)
+```
+
+Specifically confirmed:
+
+- **No figure was distorted, re-encoded, or swapped.** All 23 retained illustrations are byte-for-byte identical to the supplied originals in `source/figures/`, and each one's new descriptive filename carries the same figure number as the original it came from.
+- **Chapter navigation is unbroken.** Every previous/next link was compared against the order declared in `book.yml`, and the chain was then walked forward from the first page: it reaches all 22 sections, front matter through notes, with no gaps and no loops.
+- **Every internal link and asset reference resolves**, including in-page anchors and cross-page `#fragments`, across all 24 built pages.
+- **Endnotes round-trip in both directions.** All 18 references reach a note that exists, and every note links back to the exact reference that cites it, on the correct page.
+- **The EPUB is structurally valid** (correct `mimetype`, `META-INF/container.xml`, navigation document, and one document per section).
+- **The print edition is complete** — all 22 sections and all 23 figures are present in `print.html`, which is what the PDF is generated from.
 
 ## 3. Word counts (`npm run wordcount`)
 
@@ -139,6 +166,8 @@ Final state: **0 errors, 4 warnings.** Every warning was inspected during the se
 Aggregate cadence statistics across the manuscript: average sentence length 17–22 words per chapter with standard deviations of 11–14 (good variety); one-sentence paragraphs between 0% and 20% per chapter, well under the 22% threshold; em-dashes total 1 across the entire manuscript; rhetorical questions 0–5 per chapter.
 
 **Cross-chapter repetition.** A phrase-level audit was run over the whole manuscript for the author's signature expressions. Four appeared in four chapters each and were trimmed to two uses apiece during the second pass: "meat bag held up by sticks," "the hypocritical oath," "I look twelve," and the property-manager/stove anecdote. Governed images were verified: **"hand of God" appears exactly once in the book** (Chapter 5; the validator fails the build on a second occurrence), "performing fine" three times and only in Chapter 5, and the fireplace image is stated in the Introduction, developed in Chapter 14, and closed in the Epilogue.
+
+**Metaphysical certainty and subjective-versus-objective framing.** A mechanical scan was run for unhedged assertions inherited from the 2021 edition ("the universe is/was/sent/wants," "the soul is," "souls go," "energy radiating," "manifestation," "vibration," "oneness," "reincarnation," "law of attraction"). Seven hits, every one correct: three are explicit retractions of 2021 claims in Chapter 11 ("I would not write that now"), one is Chapter 9's retraction of the "oneness of everything" paragraph, one is the single permitted hedged sentence in Chapter 5 ("I experienced it, and still experience it, as though I had been caught by the hand of God"), one is Chapter 9 describing the practice, and one is the literal vibration of a jet-ski engine in Chapter 10. No unhedged metaphysical assertion survives anywhere in the manuscript. Experiential hedging ("it felt as though," "I experienced it as," "I began to wonder," "I do not know what") appears in twelve of the twenty-two sections, concentrated where the subjective material is.
 
 **Duplication found and fixed.** Two passages I had drafted duplicated material owned by other chapters and were cut: a second-retreat description in Chapter 4 (Chapter 9 owns the practice) and the 2021 commitments list plus the Tesla in Chapter 3 (Chapters 11 and 10 own them).
 
