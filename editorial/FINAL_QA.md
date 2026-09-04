@@ -63,7 +63,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 64,299 words.** Introduction + 15 chapters + epilogue: 62,909. Notes: 1,103. Total including notes: 65,402. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 64,303 words.** Introduction + 15 chapters + epilogue: 62,913. Notes: 1,103. Total including notes: 65,406. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
@@ -78,10 +78,10 @@ Specifically confirmed:
 | `08-chapter-06.md` | 4,208 | 3,900–4,500 | 6. More Than Burnout |
 | `09-chapter-07.md` | 3,313 | 3,300–3,800 | 7. Shame Loves Secrecy |
 | `10-chapter-08.md` | 3,983 | 3,500–4,000 | 8. Agency Without Self-Blame |
-| `11-chapter-09.md` | 3,776 | 3,500–4,000 | 9. Here and Now |
+| `11-chapter-09.md` | 3,768 | 3,500–4,000 | 9. Here and Now |
 | `12-chapter-10.md` | 4,576 | 4,000–4,600 | 10. Money Creates Margin, Not Meaning |
 | `13-chapter-11.md` | 3,846 | 3,500–4,000 | 11. We're All in This Together |
-| `14-chapter-12.md` | 3,758 | 3,300–3,800 | 12. Design Beats Willpower |
+| `14-chapter-12.md` | 3,770 | 3,300–3,800 | 12. Design Beats Willpower |
 | `15-chapter-13.md` | 3,377 | 3,300–3,800 | 13. The Burn In Protocol |
 | `16-chapter-14.md` | 4,368 | 3,500–4,500 | 14. Ambition After Collapse |
 | `17-chapter-15.md` | 3,488 | 2,900–3,600 | 15. What I Want My Children to Know |
@@ -182,10 +182,22 @@ Aggregate cadence statistics across the manuscript: average sentence length 17�
 
 ## 8. Continuity and structure
 
-The complete manuscript was read consecutively, beginning to end, after all chapters existed. Findings:
+The complete manuscript was read consecutively, beginning to end, after all chapters existed — every one of the 22 sections in full, not in excerpt. A final pass closed a gap in that claim: Chapters 10 and 12 had been checked only by targeted search during the first consecutive pass, and were then read in full. That read found four defects, all now fixed, and they are recorded here rather than quietly corrected, because two of them were introduced by the editing that preceded them.
+
+| Defect | Where | Fix |
+|---|---|---|
+| **Wrong cross-reference.** "the version of the hypocritical oath I described a chapter ago" — the phrase is introduced in Chapter 6, which is three chapters earlier, not one. Introduced by an earlier de-duplication edit. | Ch. 9 | Now "described in Chapter 6" |
+| **Wrong cross-reference.** "the first delegation I ever did well is the one I described in the last chapter" — the property manager is in Chapter 10, and the chapter before Chapter 12 is Chapter 11. Also introduced by an earlier de-duplication edit. | Ch. 12 | Now "described in Chapter 10" |
+| **Imprecise cross-reference.** The WHO burnout definition was cited as "a few chapters ago"; it is six chapters back. | Ch. 12 | Now "in Chapter 6" |
+| **Duplicated beat across a seam.** Chapter 12 closed on "I resisted the word, and then I used it," and Chapter 13 opens "I resisted the word for a long time," so the opening arrived as a repeat instead of a turn. | Ch. 12 → 13 | Chapter 12 now closes by naming the need without spending the beat, so Chapter 13's first line lands as the payoff |
+| **Duplicated opening move in consecutive chapters.** Chapters 8 and 9 both opened "The first edition of this book had a chapter called / with this title. I reread it before starting this one…" | Ch. 9 | Chapter 9's opening rewritten in present tense without the "I reread it" framing |
+
+All sixteen chapter seams were then printed as pairs (each chapter's closing paragraph against the next chapter's opening) and read as a sequence. The remaining fourteen are clean. Every explicit cross-reference in the manuscript — 34 of them — was checked against its target; all now resolve correctly.
+
+Other findings:
 
 - **Timeline** is internally consistent. No calendar date is attached to the crisis or the attempt anywhere in the book. Adrian's age is given only as "not yet two" at diagnosis, and his current health and age are never stated.
-- **Cross-references** were checked in both directions and all resolve: Chapter 5's forward reference to Chapter 7 ("the machinery of that silence") is delivered by Chapter 7; Chapter 5's promise to return to the bush "at the very end of this book" is delivered by the Epilogue; Chapter 4's foreshadowing of the conviction ("I am getting ahead of the story") is picked up verbatim by Chapter 5; Chapter 10's closing line about people as margin is picked up by Chapter 11's opening; Chapter 9's reference to "the sentence that came through" points correctly to Chapter 4.
+- **Cross-references** were checked in both directions and all resolve (see the table above for the three that did not, now corrected): Chapter 5's forward reference to Chapter 7 ("the machinery of that silence") is delivered by Chapter 7; Chapter 5's promise to return to the bush "at the very end of this book" is delivered by the Epilogue; Chapter 4's foreshadowing of the conviction ("I am getting ahead of the story") is picked up verbatim by Chapter 5; Chapter 10's closing line about people as margin is picked up by Chapter 11's opening; Chapter 9's reference to "the sentence that came through" points correctly to Chapter 4.
 - **Handoffs** between all 15 chapters, the Introduction, and the Epilogue were read as a sequence. Each chapter's final paragraph sets up the next chapter's subject.
 - **Voice** is consistent across the four parts. Chapter 5 is the only chapter with no figures and no deflecting humor, which is intentional.
 
