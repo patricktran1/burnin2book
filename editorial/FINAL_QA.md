@@ -63,7 +63,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 64,198 words.** Introduction + 15 chapters + epilogue: 62,808. Notes: 977. Total including notes: 65,175. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 64,299 words.** Introduction + 15 chapters + epilogue: 62,909. Notes: 1,103. Total including notes: 65,402. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
@@ -75,7 +75,7 @@ Specifically confirmed:
 | `05-chapter-03.md` | 3,403 | 3,400–3,900 | 3. The Achievement Bargain |
 | `06-chapter-04.md` | 3,920 | 3,900–4,500 | 4. Ego, Confidence, and Blind Spots |
 | `07-chapter-05.md` | 4,537 | 4,400–5,000 | 5. The Cost of Performing Fine |
-| `08-chapter-06.md` | 4,107 | 3,900–4,500 | 6. More Than Burnout |
+| `08-chapter-06.md` | 4,208 | 3,900–4,500 | 6. More Than Burnout |
 | `09-chapter-07.md` | 3,313 | 3,300–3,800 | 7. Shame Loves Secrecy |
 | `10-chapter-08.md` | 3,983 | 3,500–4,000 | 8. Agency Without Self-Blame |
 | `11-chapter-09.md` | 3,776 | 3,500–4,000 | 9. Here and Now |
@@ -127,6 +127,15 @@ Of the 25 retained figures, 23 appear in the manuscript body (each exactly once,
 14. Paul DeWolf reporting (University Record; Detroit News).
 
 No citation was invented. Where no authoritative source could be reached, the claim was removed or hedged rather than sourced speculatively: the first edition's "300 to 400 doctors a year" suicide figure, its Medscape burnout percentage, and its lottery-winner/amputee happiness claim are all gone, and the Rumi line is attributed as "often attributed to."
+
+### Correction made during final verification
+
+A repeat attempt to reach the blocked primary sources surfaced a genuine defect in Chapter 6, now fixed:
+
+- The chapter quoted the label's **psoriatic arthritis** depression figures (1.0%, 10 of 998, versus 0.8%, 4 of 495) as if they were the pooled result for all controlled trials. The label reports depression incidence separately for each indication studied. Beyond the imprecision, quoting one indication's numbers risked implying what the author took the drug for, which the manuscript deliberately withholds. The passage now uses the indication-independent pooled figures (0.2% serious depression, 0.3% discontinuation, 0.2% suicidal ideation and behavior, all of 1,441 exposed subjects) and describes depression incidence as "roughly one percent … with the exact figures differing by which condition was being treated."
+- The same review found a material omission. The label records that **two subjects taking placebo died by suicide during the trials while no subject taking apremilast did.** Omitting it overstated the signal in the author's favour, in a chapter whose entire argument is about separating what he wonders from what the evidence shows. It is now in the text, introduced as "the sentence I would have left out if I were building a case rather than describing one."
+
+`editorial/BOOK_BIBLE.md` §4 item 2 was updated with the corrected approved wording so the error cannot be reintroduced, and `FACT_CHECK.md` §1 row S2 now carries the full per-indication and pooled breakdown.
 
 ## 6. Prohibited and legacy term searches
 
