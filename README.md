@@ -92,7 +92,7 @@ The repository is Vercel-ready: `vercel.json` runs `npm run build` and serves `d
 
 ## Status
 
-The manuscript is complete: front matter, Author's Note, Introduction, fifteen chapters in four parts, Epilogue, Acknowledgments, About the Author, and Notes — **64,293 words** excluding endnotes. `npm run validate` passes with 0 errors, and `npm run build` produces every output including EPUB, DOCX, and PDF. `editorial/FINAL_QA.md` records the actual results, the four deliberately-kept cadence warnings, the fourteen citations to re-verify against live pages, the twenty items needing the author's confirmation, and the legal-review flags.
+The manuscript is complete: front matter, Author's Note, Introduction, fifteen chapters in four parts, Epilogue, Acknowledgments, About the Author, and Notes — **64,341 words** excluding endnotes. `npm run validate` passes with 0 errors, and `npm run build` produces every output including EPUB, DOCX, and PDF. `editorial/FINAL_QA.md` records the actual results, the four deliberately-kept cadence warnings, the fourteen citations to re-verify against live pages, the twenty items needing the author's confirmation, and the legal-review flags.
 
 ## Editorial record
 

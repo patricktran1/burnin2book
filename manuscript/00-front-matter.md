@@ -10,7 +10,7 @@ This is a personal account. It is not medical, psychiatric, legal, or financial 
 
 ## Dedication
 
-For Adrian.
+For Adrian and Elliot.
 
 And for everyone who is very good at seeming fine.
 

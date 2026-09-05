@@ -2,6 +2,28 @@
 
 Passages and decisions that should receive publishing-law review before publication, and the posture the manuscript takes. This is an editorial flag list, not legal advice. Chapter-specific passages flagged by the chapter editors are collected in Section 6.
 
+## 0. The author's decisions, September 2026
+
+Two of the questions this document raised have been answered by the author, and one has been declined.
+
+- **No obligation constrains the account.** He confirms there is no settlement, litigation, lender agreement, or confidentiality agreement bearing on the financial crisis. The restraint in Chapters 5 and 10 is therefore editorial and legal-risk judgment rather than compliance, and it stays as written.
+- **The endnote naming the convicted individual stays.** He has no objection to that person being identifiable from the cited public record. The name remains in the endnote only.
+- **He has declined a publishing attorney.** That is his call and this document is not an attempt to reopen it. It is worth being precise about what the decision does and does not settle, so that nothing is lost by being filed under a heading he has closed.
+
+What a lawyer would have looked at, and where it now stands:
+
+| Item | Status after his decision |
+|---|---|
+| The bank-fraud passages and the endnote | His call, made. The manuscript's language was written to be defensible without counsel: every legal assertion tracks the public record, his own exposure is stated only as belief, and no motive is attributed to anyone. |
+| Any obligation constraining the account | Answered: none. |
+| The Otezla passage, the ayahuasca disclosure, naming Linda | His call, made — all three stay. |
+| **Rights to reuse the first edition** | **Not settled by declining counsel.** The 2021 book was published by a third party and its cover was designed by an outside firm. Whether he may reuse the 23 illustrations, the stacked wordmark, and the quoted passages is a question about his contract with that publisher. It needs reading the contract, not legal advice, and it is the one item here that could stop the book. |
+| **Re-permission from the DeWolf family** | **Not settled by declining counsel.** This is a courtesy owed to a bereaved family, not a legal exposure. Thom DeWolf's words about forgiveness were given for the 2021 edition; Chapter 11 paraphrases them. He should be asked again. |
+
+Everything below stands as written, and remains the record of what was considered.
+
+---
+
 ## 1. Posture
 
 - **No identifiable living person is accused of anything beyond the public record.** The only allegation-adjacent material concerns a person convicted of bank fraud in federal court; the manuscript states only what the U.S. Attorney's Office press release states, and only in the endnote.

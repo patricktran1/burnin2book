@@ -63,7 +63,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 64,293 words.** Introduction + 15 chapters + epilogue: 62,903. Notes: 1,103. Total including notes: 65,396. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 64,341 words.** Introduction + 15 chapters + epilogue: 62,945. Notes: 1,103. Total including notes: 65,444. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
@@ -80,11 +80,11 @@ Specifically confirmed:
 | `10-chapter-08.md` | 3,983 | 3,500–4,000 | 8. Agency Without Self-Blame |
 | `11-chapter-09.md` | 3,768 | 3,500–4,000 | 9. Here and Now |
 | `12-chapter-10.md` | 4,572 | 4,000–4,600 | 10. Money Creates Margin, Not Meaning |
-| `13-chapter-11.md` | 3,846 | 3,500–4,000 | 11. We're All in This Together |
+| `13-chapter-11.md` | 3,845 | 3,500–4,000 | 11. We're All in This Together |
 | `14-chapter-12.md` | 3,770 | 3,300–3,800 | 12. Design Beats Willpower |
 | `15-chapter-13.md` | 3,376 | 3,300–3,800 | 13. The Burn In Protocol |
-| `16-chapter-14.md` | 4,368 | 3,500–4,500 | 14. Ambition After Collapse |
-| `17-chapter-15.md` | 3,488 | 2,900–3,600 | 15. What I Want My Children to Know |
+| `16-chapter-14.md` | 4,370 | 3,500–4,500 | 14. Ambition After Collapse |
+| `17-chapter-15.md` | 3,529 | 2,900–3,600 | 15. What I Want My Children to Know |
 | `18-epilogue.md` | 1,412 | 1,200–1,600 | Epilogue: Still Here |
 | `19-acknowledgments.md` | 299 | — | Acknowledgments |
 | `20-about-author.md` | 95 | — | About the Author |
@@ -262,6 +262,28 @@ The preview had been built and checked structurally — every link resolving, th
 Behaviour was tested rather than assumed: the previous and next links on Chapter 9 point to Chapters 8 and 10; visiting a chapter records it; returning to the contents shows "Continue reading: Here and Now"; and with storage empty that element stays hidden rather than rendering blank.
 
 One apparent defect turned out to be an artifact of the screenshot script rather than the page — faint text above the title in the first dark capture, which did not reproduce in a clean browser profile and had no corresponding element in the DOM. Recorded here because it was investigated and dismissed on evidence, not overlooked.
+
+## 8e. The author's answers, and what they changed
+
+The checklist came back answered. Six of the nine questions changed nothing, which is worth saying plainly: they were questions, and the answer to most of them was that the manuscript was already right. `FACT_CHECK.md` §3b has the full table.
+
+The one answer that changed the book was the second son. **Elliot.** That is a structural change to Chapter 15, which is written in the second person to one child, and it could not be done by search and replace: the chapter's "you" carries the cancer, the radiation, the bedtimes, the Hot Wheels. Adding a name to the addressee line without anchoring those passages would have left a reader unable to tell which son the fourteen-centimeter tumor belonged to.
+
+What was done instead:
+
+- The addressee line names both, and one added sentence says that where a story belongs to one of them it uses his name.
+- Four passages that are Adrian's were anchored to him: the first edition "had a great deal in it about you," the radiation, the belly that looked asymmetric, and the morning that closes the book.
+- The homework passage, which quotes the 2021 book about Adrian, moved to the third person and then opens out, so that the sentence the chapter exists to carry — "I would rather have you here" — is now explicitly addressed to both of them.
+- Three present-tense references to "my son" elsewhere in the book would have implied an only child once a second was named. The trees in Chapter 11 took Adrian's name because the anecdote is his; the self-talk test in Chapter 14 and the list of what matters in the Epilogue became plural.
+- The dedication and the About the Author line.
+
+Nothing is asserted about Elliot anywhere but his name and that he is Patrick's son. No age, no birth order, no health, nothing he has said or done — none of that was supplied, and the rule against inventing a life for a child in this book applies to the second one exactly as it applied to the first.
+
+Word count 64,293 → 64,341.
+
+Two answers were verified rather than acted on. The bipolar wording he asked for was already the wording in Chapter 6. The restraint in Chapters 5 and 10 turns out never to have been compliance with an obligation — he has none — so it stays on its own merits.
+
+One answer produced a question back to him rather than a change: confirming Chapter 5, he volunteered the injuries. That is recorded in `FACT_CHECK.md` §3b and is deliberately not in the manuscript, since the brief excludes graphic injury detail and he had just said the chapter was fine as it stands. `AUTHOR_CHECKLIST.md` item 7 offers him the middle version — one sentence, no catalogue — and leaves the decision with him.
 
 ## 9. Remaining factual items requiring Patrick's confirmation
 

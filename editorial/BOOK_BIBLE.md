@@ -66,6 +66,15 @@ The finished book must read as one continuous book by one author, not a set of e
 - First book: *The Tran Hammer Method* (Rubik's Cube). Burn-In (2021) was his second book. He recorded the audiobook.
 - Humor and phrases that are his: "hot shit"; "the 25th grade"; "hypocritical oath"; "meat bag held up by sticks"; the velvet plush pillow surgeons want under their balls; "Get a grip, dude"; "not in an Alanis Morissette kind of way"; "Band-Aid on a bullet wound"; "box of matches" for an emergency fund; "chop wood, carry water"; "brave little toaster"; "Aho. Namaste. Peace be with you."
 
+### Confirmed by the author after the manuscript was complete (September 2026)
+
+- **Two sons: Adrian and Elliot.** See the entry below for what may and may not be said about Elliot.
+- **Patrick was born in 1988; Adrian was born in 2019.** These are for internal consistency checking only. Neither year is stated in the manuscript, and the practice of giving Adrian no dates and no current age stands: "not yet two" at diagnosis remains the only marker.
+- **There is no settlement, litigation, lender agreement, or confidentiality obligation** constraining what he may say about the financial crisis. The restraint in Chapters 5 and 10 is therefore editorial and legal-risk judgment, not compliance with an obligation, and remains in place for the reasons given in `LEGAL_REVIEW.md`.
+- **The endnote naming the convicted individual stays as written.** The author has no objection to that person being identifiable from the public record cited. The name still does not appear in body text.
+- **The Otezla and ayahuasca disclosures stay**, as written, with the hedging as written.
+- **The suicide chapter's level of detail stays as written.** The author separately confirmed that the injuries were severe and individually survivable-by-margin. That information is recorded in `FACT_CHECK.md` §3 and is deliberately **not** in the manuscript; see the note there before adding anything.
+
 ### Things that must NOT be asserted (unknown, unverified, or unsafe)
 - Any dollar figure for Patrick's portfolio, deals, or losses (except the feared "nearly ten million dollars in personal exposure," framed as belief at the time).
 - How Patrick's own legal or financial exposure resolved. Do not say he went bankrupt or did not; do not describe settlements, lawsuits, or lenders. He may say he is not going to narrate the resolution.
@@ -76,7 +85,7 @@ The finished book must read as one continuous book by one author, not a set of e
 - Why Patrick took Otezla (do not name a diagnosis; say he took samples of a medication he prescribes).
 - Dates or setting of ayahuasca use beyond "in the years before the crisis, in ceremonial settings."
 - Adrian's current health status or age today. Write timelessly. Do not say "cured," "in remission," or "cancer-free."
-- Whether Patrick has children other than Adrian. Chapter 15 is addressed to Adrian "and to any child of mine who reads this later."
+- ~~Whether Patrick has children other than Adrian.~~ **Resolved by the author (September 2026): there are two sons, Adrian and Elliot.** Chapter 15 is addressed to both by name. Nothing may be asserted about Elliot beyond his name and that he is Patrick's son — not his age, his birth order relative to Adrian, his health, or anything he has said or done. He appears in the dedication, in the About the Author line, and as an addressee; the illness material stays anchored to Adrian by name.
 - Current employer, licensure, practice status, net worth, company names, valuations, or where Patrick lives now.
 - Any statistic, study, quote, or legal fact not listed in Section 4 below. If a writer wants a fact not listed, the sentence must be rewritten without it, or the claim goes to the fact-check log as NEEDS SOURCE and the sentence is hedged ("as I remember it," "I have read").
 
