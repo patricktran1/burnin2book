@@ -248,6 +248,21 @@ The fix took some finding, because two Chromium behaviours hide it. Declaring `@
 | Figures in the PDF | 23 | 23, now verified by a check |
 | Pages | 130 | 199 |
 
+## 8d. The reading preview, looked at
+
+The preview had been built and checked structurally — every link resolving, the navigation chain complete, every section present — but only one page of it had ever been displayed. It has now been rendered and read in the four states that matter, and nothing was wrong.
+
+| State | Result |
+|---|---|
+| Contents, light | Title page, stacked wordmark in the original palette, contents grouped by part with chapter numbers in orange. Reads as a book's front matter |
+| Contents, dark | Palette inverts cleanly; the wordmark's four tones stay distinct against the dark ground |
+| Chapter at 400px | No horizontal overflow, measure stays readable, part opener and chapter head hold their proportions |
+| Notes, dark | Endnotes grouped by chapter, numbered continuously, URLs auto-linked, every back-link present |
+
+Behaviour was tested rather than assumed: the previous and next links on Chapter 9 point to Chapters 8 and 10; visiting a chapter records it; returning to the contents shows "Continue reading: Here and Now"; and with storage empty that element stays hidden rather than rendering blank.
+
+One apparent defect turned out to be an artifact of the screenshot script rather than the page — faint text above the title in the first dark capture, which did not reproduce in a clean browser profile and had no corresponding element in the DOM. Recorded here because it was investigated and dismissed on evidence, not overlooked.
+
 ## 9. Remaining factual items requiring Patrick's confirmation
 
 Twenty items are catalogued in `editorial/FACT_CHECK.md` §3 (A1–A20). The ones that matter most before print:
