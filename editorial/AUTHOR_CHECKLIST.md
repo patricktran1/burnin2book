@@ -95,7 +95,7 @@ Drawn from the 2021 edition and your fact sheet, and used throughout. Full list 
 - [ ] **Cover.** `assets/cover/burn-in-v2-cover.png` is a typographic derivation of the original stacked wordmark in the original palette — a placeholder, not finished art. A designer should take it from here.
 - [ ] **Author photo.** The 2021 back cover was cut; a current photograph is needed.
 - [ ] **Copyedit.** The manuscript has been line-edited, read consecutively for continuity, and put through the mechanical layer of a copyedit — spelling convention, compounds, number style, spacing, doubled words, punctuation faults, and typographic quotes, with the four defects that found recorded in `FINAL_QA.md` §8b. That is the part a machine can do exhaustively. It still needs a human copyeditor and a proofreader, who read for the things a search cannot express.
-- [ ] **Typesetting.** `dist/burn-in-v2.pdf` is a convenience artifact printed from HTML. For print, hand a designer `dist/burn-in-v2.docx` or `dist/burn-in-v2.md`.
+- [ ] **Typesetting.** `dist/burn-in-v2.pdf` is still a convenience artifact printed from HTML rather than typeset, but it is now readable as a book: 199 pages, 72 characters to the line, 12pt, page numbers throughout. Read it on a screen or print it at home. For an actual printed edition, hand a designer `dist/burn-in-v2.docx` or `dist/burn-in-v2.md`.
 - [ ] **Read it aloud.** You recorded the first audiobook yourself. Reading this one aloud is also the fastest way to find any sentence that still sounds like someone else wrote it.
 
 ---

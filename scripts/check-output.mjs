@@ -18,6 +18,8 @@
  *      note links back to the reference that cites it.
  *   5b. Typography — no typewriter quotes in visible text, and no curly quotes
  *      inside script or style blocks.
+ *   5c. PDF — embeds one image per retained figure (the print step can run
+ *      before the figures decode and produce a book with none of them).
  *   6. Table of contents — one entry per section, each resolving.
  *   7. EPUB — valid zip, correct mimetype, container, OPF, and one document per
  *      section (skipped with a notice if the EPUB was not built).
@@ -188,6 +190,28 @@ if (notesPage) {
     checked++;
   }
   if (errors.length === before) notes.push(`typographic quotes: ${checked} pages, no typewriter quotes in visible text`);
+}
+
+// ---------------------------------------------------------------------------
+// 5c. PDF
+// ---------------------------------------------------------------------------
+// The PDF is printed from print.html by a headless browser, and the failure to
+// watch for is a silent one: the browser prints before the figures decode and
+// produces a complete-looking book with no illustrations in it. That happened
+// once here. Count the image objects in the file rather than trusting the
+// build's exit status.
+{
+  const pdfPath = path.join(DIST, 'burn-in-v2.pdf');
+  if (!fs.existsSync(pdfPath)) {
+    notes.push('burn-in-v2.pdf not built — skipping the PDF check');
+  } else {
+    const buf = fs.readFileSync(pdfPath);
+    const images = buf.toString('latin1').match(/\/Subtype\s*\/Image/g)?.length || 0;
+    const expected = fs.readdirSync(ASSET_FIGS).filter((f) => !f.startsWith('.')).length;
+    if (images < expected) errors.push(`burn-in-v2.pdf embeds ${images} images for ${expected} retained figures — the print step ran before the figures loaded`);
+    else if (buf.length < 200000) errors.push(`burn-in-v2.pdf is only ${buf.length} bytes — it is unlikely to be the whole book`);
+    else notes.push(`PDF: ${(buf.length / 1e6).toFixed(1)}MB, ${images} figures embedded`);
+  }
 }
 
 // ---------------------------------------------------------------------------

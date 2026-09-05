@@ -170,9 +170,16 @@ ol.notes li:target { background: color-mix(in srgb, var(--orange) 12%, transpare
 @media print {
   :root { --paper: #fff; --ink: #000; --ink-2: #222; --gray: #555; --rule: #bbb; --orange-ink: #000; }
   html { scroll-behavior: auto; }
-  body { font-size: 10.5pt; line-height: 1.45; background: #fff; color: #000; }
+  body { font-size: 12pt; line-height: 1.55; background: #fff; color: #000; }
   .topbar, .pager, .progress, .skip, .downloads, .continue, .backlink, .site-footer { display: none !important; }
-  .page { max-width: none; padding: 0; }
+  /* The measure has to be set here, on the container, not with page margins.
+     Chromium lays the document out at a fixed CSS width and then scales that
+     whole layout down to fit the paper, so widening the page margins only
+     shrinks the type — the line still holds the same number of characters. The
+     print rules used to drop the screen's max-width entirely, which is why the
+     PDF ran to about a hundred characters a line, half again a book's measure,
+     and read like a printed web page. 30em gives 72. */
+  .page { max-width: 30em; margin: 0 auto; padding: 0; }
   .title-page { padding: 30vh 0 0; page-break-after: always; }
   .stack span { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .toc { page-break-after: always; border-top: 0; }
@@ -189,7 +196,17 @@ ol.notes li:target { background: color-mix(in srgb, var(--orange) 12%, transpare
   a { color: inherit; text-decoration: none; }
   .note-ref a { color: #000; }
   ol.notes li { page-break-inside: avoid; }
-  @page { margin: 22mm 20mm; }
+  /* Leave the sheet size to the paper. Declaring `size: 6in 9in` makes Chromium
+     scale the document to fit it, rendering every rule at 0.83 of what it asks
+     for; the bottom margin carries the page number. */
+  @page { margin: 20mm 18mm 22mm; }
+  .prose p { margin-bottom: 1.05em; }
+  .title-page .subtitle { font-size: 15pt; }
+  .title-page .author { font-size: 13pt; }
+  .prose table { font-size: 10pt; }
+  /* Sized in vw for the screen, which overflows the print measure — and one
+     overflowing element scales the whole book down. */
+  .stack span { font-size: 52pt; }
 }
 
 @media (max-width: 600px) {

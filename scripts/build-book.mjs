@@ -20,6 +20,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
+import os from 'node:os';
 import yaml from 'js-yaml';
 import { marked } from 'marked';
 
@@ -446,7 +447,12 @@ ${body}
 </main>
 <footer class="site-footer"><p>© ${meta.year} ${esc(meta.author)}</p></footer>
 </body></html>`;
-  fs.writeFileSync(path.join(DIST, 'print.html'), html.replace(/<div class="progress"[^>]*><span><\/span><\/div>/, ''));
+  fs.writeFileSync(path.join(DIST, 'print.html'), html
+    .replace(/<div class="progress"[^>]*><span><\/span><\/div>/, '')
+    // The reading pages defer offscreen figures; a print sheet wants all 23 of
+    // them decoded before the first page is composed, and nothing here is ever
+    // scrolled into view to trigger the deferral.
+    .replace(/ loading="lazy"/g, ''));
   report.built.push({ output: 'print.html' });
 }
 
@@ -515,6 +521,104 @@ function findChrome() {
   return null;
 }
 
+// ---------------------------------------------------------------------------
+// PDF via Chromium's DevTools protocol
+// ---------------------------------------------------------------------------
+// `--print-to-pdf` cannot draw a page number: its only options are Chrome's own
+// header and footer, which print the document title, the file URL and the date.
+// Page.printToPDF takes a footer template, so the folio is the reason for going
+// through the protocol rather than the flag. If any step of it fails the caller
+// falls back to the flag, and the build reports which one produced the file.
+async function pdfViaCdp(chrome, fileUrl, outPath) {
+  const { spawn } = await import('node:child_process');
+  const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'burn-in-pdf-'));
+  const child = spawn(chrome, ['--headless=new', '--disable-gpu', '--no-sandbox', '--no-first-run', '--disable-background-networking',
+     '--disable-component-update', '--disable-default-apps', '--disable-sync', '--metrics-recording-only',
+     '--remote-debugging-port=0', `--user-data-dir=${profile}`], { stdio: ['ignore', 'ignore', 'pipe'] });
+  const cleanup = () => { try { child.kill(); } catch {} try { fs.rmSync(profile, { recursive: true, force: true }); } catch {} };
+  try {
+    const wsUrl = await new Promise((resolve, reject) => {
+      const timer = setTimeout(() => reject(new Error('Chromium did not report a DevTools endpoint within 30s')), 30000);
+      child.on('error', (e) => { clearTimeout(timer); reject(e); });
+      child.stderr.on('data', (d) => { const m = /ws:\/\/\S+/.exec(String(d)); if (m) { clearTimeout(timer); resolve(m[0]); } });
+    });
+    const sock = new WebSocket(wsUrl);
+    let seq = 0;
+    const pending = new Map();
+    const onceEvent = new Map();
+    sock.onmessage = (e) => {
+      const msg = JSON.parse(e.data);
+      if (msg.id && pending.has(msg.id)) {
+        const { resolve, reject } = pending.get(msg.id);
+        pending.delete(msg.id);
+        msg.error ? reject(new Error(msg.error.message)) : resolve(msg.result);
+      }
+      if (msg.method && onceEvent.has(msg.method)) { onceEvent.get(msg.method)(); onceEvent.delete(msg.method); }
+    };
+    await new Promise((resolve, reject) => { sock.onopen = resolve; sock.onerror = () => reject(new Error('DevTools socket failed to open')); });
+    const send = (method, params = {}, sessionId) => new Promise((resolve, reject) => {
+      const id = ++seq;
+      pending.set(id, { resolve, reject });
+      sock.send(JSON.stringify({ id, method, params, sessionId }));
+    });
+    try {
+      const { targetId } = await send('Target.createTarget', { url: 'about:blank' });
+      const { sessionId } = await send('Target.attachToTarget', { targetId, flatten: true });
+      await send('Page.enable', {}, sessionId);
+      const loaded = new Promise((resolve) => onceEvent.set('Page.loadEventFired', resolve));
+      await send('Page.navigate', { url: fileUrl }, sessionId);
+      await Promise.race([loaded, new Promise((_, rej) => setTimeout(() => rej(new Error('page load timed out')), 120000))]);
+      // The load event fires before the figures have decoded, and printToPDF
+      // will happily produce a 190-page book with no illustrations in it. Wait
+      // for every image to report complete, and for the fonts, before printing.
+      // Runtime.evaluate works without enabling the domain, and must be used
+      // that way: with Runtime.enable in effect, Page.printToPDF on this
+      // document never returns.
+      const settled = await send('Runtime.evaluate', {
+        awaitPromise: true,
+        returnByValue: true,
+        timeout: 120000,
+        expression: `(async () => {
+          const imgs = [...document.images];
+          const settle = (i) => i.complete && i.naturalWidth
+            ? Promise.resolve()
+            : new Promise((r) => { i.addEventListener('load', r, { once: true }); i.addEventListener('error', r, { once: true }); });
+          // Bounded: printing a book with no illustrations is the failure this
+          // guards against, and hanging the build is not an improvement on it.
+          const deadline = new Promise((r) => setTimeout(r, 45000));
+          await Promise.race([Promise.all(imgs.map(settle)), deadline]);
+          return { total: imgs.length, decoded: imgs.filter((i) => i.complete && i.naturalWidth > 0).length };
+        })()`,
+      }, sessionId);
+      const shot = settled.result?.value;
+      if (!shot || shot.decoded !== shot.total) throw new Error(`only ${shot ? shot.decoded : 0} of ${shot ? shot.total : '?'} figures decoded before printing`);
+      await new Promise((r) => setTimeout(r, 500));
+      // ReturnAsStream, not the default base64: a 7MB book returned inline never
+      // arrives, and printToPDF appears to hang.
+      const { stream } = await send('Page.printToPDF', {
+        transferMode: 'ReturnAsStream',
+        printBackground: true,
+        preferCSSPageSize: true,
+        displayHeaderFooter: true,
+        headerTemplate: '<span></span>',
+        // Chromium's default template font is 8px and unstyled; set it here.
+        // Every leaf gets a folio, the title page included — the template has no
+        // way to ask which page it is drawing.
+        footerTemplate: '<div style="width:100%;padding:0 18mm;font-family:Georgia,\'Times New Roman\',serif;font-size:9pt;color:#555;text-align:center">'
+          + '<span class="pageNumber"></span></div>',
+      }, sessionId);
+      const chunks = [];
+      for (let eof = false; !eof; ) {
+        const r = await send('IO.read', { handle: stream, size: 1 << 20 }, sessionId);
+        chunks.push(Buffer.from(r.data, r.base64Encoded ? 'base64' : 'utf8'));
+        eof = r.eof;
+      }
+      await send('IO.close', { handle: stream }, sessionId);
+      fs.writeFileSync(outPath, Buffer.concat(chunks));
+    } finally { sock.close(); }
+  } finally { cleanup(); }
+}
+
 if (NO_PDF) {
   report.skipped.push({ output: 'burn-in-v2.pdf', reason: '--no-pdf' });
 } else {
@@ -525,9 +629,17 @@ if (NO_PDF) {
   const weasy = which('weasyprint');
   let done = false;
   if (chrome) {
-    const r = run(chrome, ['--headless=new', '--disable-gpu', '--no-sandbox', '--no-pdf-header-footer', '--virtual-time-budget=15000', `--print-to-pdf=${pdfOut}`, printHtml], { timeout: 300000 });
-    if (r.ok && fs.existsSync(pdfOut) && fs.statSync(pdfOut).size > 1000) { report.built.push({ output: 'burn-in-v2.pdf', tool: `Chromium headless (${chrome})` }); done = true; }
-    else report.warnings.push(`Chromium PDF attempt failed: ${(r.stderr || r.error?.message || '').trim().slice(0, 300)}`);
+    try {
+      await pdfViaCdp(chrome, printHtml, pdfOut);
+      if (fs.existsSync(pdfOut) && fs.statSync(pdfOut).size > 1000) { report.built.push({ output: 'burn-in-v2.pdf', tool: `Chromium headless, DevTools protocol (${chrome})`, note: 'page numbers in the footer' }); done = true; }
+    } catch (e) {
+      report.warnings.push(`Chromium DevTools PDF attempt failed (${String(e.message).slice(0, 160)}); falling back to --print-to-pdf, which cannot draw page numbers`);
+    }
+    if (!done) {
+      const r = run(chrome, ['--headless=new', '--disable-gpu', '--no-sandbox', '--no-pdf-header-footer', '--virtual-time-budget=15000', `--print-to-pdf=${pdfOut}`, printHtml], { timeout: 300000 });
+      if (r.ok && fs.existsSync(pdfOut) && fs.statSync(pdfOut).size > 1000) { report.built.push({ output: 'burn-in-v2.pdf', tool: `Chromium headless (${chrome})`, note: 'no page numbers: the DevTools path was unavailable' }); done = true; }
+      else report.warnings.push(`Chromium PDF attempt failed: ${(r.stderr || r.error?.message || '').trim().slice(0, 300)}`);
+    }
   }
   if (!done && wk) {
     const r = run(wk, ['--quiet', '--enable-local-file-access', printHtml, pdfOut], { timeout: 300000 });

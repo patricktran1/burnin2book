@@ -226,6 +226,28 @@ Four things were wrong and are fixed:
 
 The word count moved from 64,303 to 64,293: eight hyphenations and two title corrections, each joining two words into one.
 
+## 8c. The printed edition
+
+The PDF had been built and reported as an output for several passes without anyone opening it. Doing so found three defects, none of which any existing check would have caught.
+
+**The measure ran to about a hundred characters a line.** A book is set to sixty-five or seventy-five; past that the eye loses the start of the next line. The page read as a printed web page, which is what it was. The cause was one line in the print stylesheet: the screen rules constrain `.page` to a readable width and the print rules dropped that constraint entirely, letting the text span the full layout width.
+
+The fix took some finding, because two Chromium behaviours hide it. Declaring `@page { size: 6in 9in }` to get a trade page makes Chromium scale the whole document to fit the paper — every rule then renders at 0.83 of the size it asks for, silently. And widening the page margins does not change the measure at all: Chromium lays the document out at a fixed CSS width and scales that layout to the printable area, so a wider margin only shrinks the type while the line holds the same number of characters. Both were established by measuring the rendered type in the output rather than by reading the CSS. The measure is now set on the container, where it works: `.page { max-width: 30em }` gives 72 characters at a true 12pt.
+
+**There were no page numbers**, in 199 pages. `--print-to-pdf` cannot draw one: its only option is Chrome's own header and footer, which prints the document title, the file URL, and the date. The build now prints through the DevTools protocol, which takes a footer template, and falls back to the flag if any step of that fails — the build report says which path produced the file. Every leaf gets a folio, the title page included; the template has no way to ask which page it is drawing.
+
+**The first DevTools build produced a 192-page book with no illustrations at all.** The load event fires before the figures have decoded, and `printToPDF` prints whatever is there. Two further faults surfaced while fixing it, both of which hung the build rather than failing it: the figures carry `loading="lazy"` for the reading pages, and a page that is never scrolled never loads the ones below the fold, so waiting on them waits forever; and `Page.printToPDF` never returns when the Runtime domain has been enabled, or when a 7MB result is asked for inline rather than as a stream. The print sheet is now written without the lazy attribute, the images are confirmed decoded before printing, the Runtime domain is left disabled, and the PDF comes back over `IO.read`.
+
+`check-output.mjs` now counts the image objects in the PDF against the retained figures, because that failure — a complete-looking book with nothing in it — is invisible from the build's exit status. The whole build takes six seconds.
+
+| | before | after |
+|---|---|---|
+| Characters per line | ~100 | 72 |
+| Type size | 10.5pt declared, rendered smaller by an unnoticed scale | 12pt, rendered at 12pt |
+| Page numbers | none | every page |
+| Figures in the PDF | 23 | 23, now verified by a check |
+| Pages | 130 | 199 |
+
 ## 9. Remaining factual items requiring Patrick's confirmation
 
 Twenty items are catalogued in `editorial/FACT_CHECK.md` §3 (A1–A20). The ones that matter most before print:
