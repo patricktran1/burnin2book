@@ -63,7 +63,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 64,341 words.** Introduction + 15 chapters + epilogue: 62,945. Notes: 1,103. Total including notes: 65,444. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 64,497 words.** Introduction + 15 chapters + epilogue: 63,101. Notes: 1,103. Total including notes: 65,600. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
@@ -74,7 +74,7 @@ Specifically confirmed:
 | `04-chapter-02.md` | 4,168 | 3,900–4,500 | 2. Where Am I Going? |
 | `05-chapter-03.md` | 3,403 | 3,400–3,900 | 3. The Achievement Bargain |
 | `06-chapter-04.md` | 3,919 | 3,900–4,500 | 4. Ego, Confidence, and Blind Spots |
-| `07-chapter-05.md` | 4,537 | 4,400–5,000 | 5. The Cost of Performing Fine |
+| `07-chapter-05.md` | 4,693 | 4,400–5,000 | 5. The Cost of Performing Fine |
 | `08-chapter-06.md` | 4,208 | 3,900–4,500 | 6. More Than Burnout |
 | `09-chapter-07.md` | 3,313 | 3,300–3,800 | 7. Shame Loves Secrecy |
 | `10-chapter-08.md` | 3,983 | 3,500–4,000 | 8. Agency Without Self-Blame |
@@ -284,6 +284,28 @@ Word count 64,293 → 64,341.
 Two answers were verified rather than acted on. The bipolar wording he asked for was already the wording in Chapter 6. The restraint in Chapters 5 and 10 turns out never to have been compliance with an obligation — he has none — so it stays on its own merits.
 
 One answer produced a question back to him rather than a change: confirming Chapter 5, he volunteered the injuries. That is recorded in `FACT_CHECK.md` §3b and is deliberately not in the manuscript, since the brief excludes graphic injury detail and he had just said the chapter was fine as it stands. `AUTHOR_CHECKLIST.md` item 7 offers him the middle version — one sentence, no catalogue — and leaves the decision with him.
+
+## 8f. The second round of answers
+
+Four more answers came back. Three resolved open items; one changed the book.
+
+**Chapter 5 gained two paragraphs.** Asked whether he wanted the severity of the injuries conveyed, the author said he had not read the chapter, and then gave the two things he would want a reader to understand: that surviving was improbable, since falls of one or two stories kill and disable people; and that nothing about him now shows any of it.
+
+Neither is an injury detail, so both went in, immediately after the paragraph that refuses the details. The specific injuries — bleeding in the brain, liver, and spleen, and multiple spinal fractures — stayed out, and are recorded in `FACT_CHECK.md` §3b. The brief excludes graphic injury detail, and a catalogue of bleeds and fractures is exactly that.
+
+Two things are worth noting about what the addition does. It closes a real gap: *landed in a bush* invites a reader to picture a soft landing and to file the chapter under near-miss, which is the opposite of the truth, and the chapter had no answer to that. And it runs with safe-messaging practice rather than against it, because it describes such a fall as unpredictable and disabling rather than as a reliable exit.
+
+The second paragraph also does work beyond the correction. "If you passed me now, you would see nothing wrong" is the thesis of the chapter it sits in — *The Cost of Performing Fine* — and of the dedication, which is for everyone who is very good at seeming fine. It arrives as evidence rather than as a theme restated.
+
+Chapter 5: 4,537 to 4,693 words. Manuscript: 64,341 to 64,497.
+
+**Three items resolved without a change to the text.**
+
+| Item | Answer | Effect |
+|---|---|---|
+| Rights to reuse the first edition | The 2021 publisher permits any reuse | Resolved. This was the only open item that could have stopped the book |
+| The DeWolf family | The author's judgment is that they will not object | The paraphrase stays. Recorded as a prediction rather than a permission, since nobody has asked them |
+| Elliot's birth date | August 2022 | Consistency only. No child's date appears in the manuscript and none was added — the rule that gives Adrian no dates was not going to hold for one son and not the other. His birth falls after every event the book describes, so nothing implies he was present for any of them |
 
 ## 9. Remaining factual items requiring Patrick's confirmation
 

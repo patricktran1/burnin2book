@@ -17,10 +17,10 @@ What a lawyer would have looked at, and where it now stands:
 | The bank-fraud passages and the endnote | His call, made. The manuscript's language was written to be defensible without counsel: every legal assertion tracks the public record, his own exposure is stated only as belief, and no motive is attributed to anyone. |
 | Any obligation constraining the account | Answered: none. |
 | The Otezla passage, the ayahuasca disclosure, naming Linda | His call, made — all three stay. |
-| **Rights to reuse the first edition** | **Not settled by declining counsel.** The 2021 book was published by a third party and its cover was designed by an outside firm. Whether he may reuse the 23 illustrations, the stacked wordmark, and the quoted passages is a question about his contract with that publisher. It needs reading the contract, not legal advice, and it is the one item here that could stop the book. |
-| **Re-permission from the DeWolf family** | **Not settled by declining counsel.** This is a courtesy owed to a bereaved family, not a legal exposure. Thom DeWolf's words about forgiveness were given for the 2021 edition; Chapter 11 paraphrases them. He should be asked again. |
+| Rights to reuse the first edition | **Resolved.** The author states the 2021 publisher permits any reuse. The 23 illustrations, the stacked wordmark, and the quoted passages stand. |
+| Re-permission from the DeWolf family | **The author's judgment is that they will not object**, and the paraphrase stays on that basis. Recorded as a prediction rather than a permission, since no one has asked them. A courtesy note before publication would convert it into one, and would cost nothing. |
 
-Everything below stands as written, and remains the record of what was considered.
+With those two resolved, nothing in this document is blocking. It stands as the record of what was considered and why the manuscript is phrased the way it is.
 
 ---
 

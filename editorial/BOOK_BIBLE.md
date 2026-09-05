@@ -69,11 +69,11 @@ The finished book must read as one continuous book by one author, not a set of e
 ### Confirmed by the author after the manuscript was complete (September 2026)
 
 - **Two sons: Adrian and Elliot.** See the entry below for what may and may not be said about Elliot.
-- **Patrick was born in 1988; Adrian was born in 2019.** These are for internal consistency checking only. Neither year is stated in the manuscript, and the practice of giving Adrian no dates and no current age stands: "not yet two" at diagnosis remains the only marker.
+- **Patrick was born in 1988; Adrian in 2019; Elliot in August 2022.** These are for internal consistency checking only. **No child's date appears in the manuscript and none may be added** — the practice of giving Adrian no dates and no current age now covers Elliot equally. "Not yet two" at diagnosis remains the only time marker attached to a child. Elliot's birth date does place him after the events this book describes, so nothing may imply he was present for the illness, the crisis, or the attempt.
 - **There is no settlement, litigation, lender agreement, or confidentiality obligation** constraining what he may say about the financial crisis. The restraint in Chapters 5 and 10 is therefore editorial and legal-risk judgment, not compliance with an obligation, and remains in place for the reasons given in `LEGAL_REVIEW.md`.
 - **The endnote naming the convicted individual stays as written.** The author has no objection to that person being identifiable from the public record cited. The name still does not appear in body text.
 - **The Otezla and ayahuasca disclosures stay**, as written, with the hedging as written.
-- **The suicide chapter's level of detail stays as written.** The author separately confirmed that the injuries were severe and individually survivable-by-margin. That information is recorded in `FACT_CHECK.md` §3 and is deliberately **not** in the manuscript; see the note there before adding anything.
+- **The suicide chapter.** The injuries themselves stay out, as the brief requires and as they always were. Two things the author asked for have been added instead, in two paragraphs after the jump: that a bush is not a soft landing and that shorter falls kill and disable people, and that nothing about him now shows what happened. The specific injuries remain recorded in `FACT_CHECK.md` §3b and out of the book.
 
 ### Things that must NOT be asserted (unknown, unverified, or unsafe)
 - Any dollar figure for Patrick's portfolio, deals, or losses (except the feared "nearly ten million dollars in personal exposure," framed as belief at the time).
