@@ -63,7 +63,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 64,497 words.** Introduction + 15 chapters + epilogue: 63,101. Notes: 1,103. Total including notes: 65,600. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 64,410 words.** Introduction + 15 chapters + epilogue: 63,014. Notes: 1,103. Total including notes: 65,513. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
@@ -74,7 +74,7 @@ Specifically confirmed:
 | `04-chapter-02.md` | 4,168 | 3,900–4,500 | 2. Where Am I Going? |
 | `05-chapter-03.md` | 3,403 | 3,400–3,900 | 3. The Achievement Bargain |
 | `06-chapter-04.md` | 3,919 | 3,900–4,500 | 4. Ego, Confidence, and Blind Spots |
-| `07-chapter-05.md` | 4,693 | 4,400–5,000 | 5. The Cost of Performing Fine |
+| `07-chapter-05.md` | 4,606 | 4,400–5,000 | 5. The Cost of Performing Fine |
 | `08-chapter-06.md` | 4,208 | 3,900–4,500 | 6. More Than Burnout |
 | `09-chapter-07.md` | 3,313 | 3,300–3,800 | 7. Shame Loves Secrecy |
 | `10-chapter-08.md` | 3,983 | 3,500–4,000 | 8. Agency Without Self-Blame |
@@ -306,6 +306,22 @@ Chapter 5: 4,537 to 4,693 words. Manuscript: 64,341 to 64,497.
 | Rights to reuse the first edition | The 2021 publisher permits any reuse | Resolved. This was the only open item that could have stopped the book |
 | The DeWolf family | The author's judgment is that they will not object | The paraphrase stays. Recorded as a prediction rather than a permission, since nobody has asked them |
 | Elliot's birth date | August 2022 | Consistency only. No child's date appears in the manuscript and none was added — the rule that gives Adrian no dates was not going to hold for one son and not the other. His birth falls after every event the book describes, so nothing implies he was present for any of them |
+
+## 8g. The author read Chapter 5
+
+He had not read it when he answered the checklist. He read it, and sent back the sharpest notes of the project, and all of them were right.
+
+**The three-register passage is cut.** Chapter 5 used to name no one, then spend two paragraphs explaining, at length, the care it was taking not to. His note: "there's too much bullshit about not talking about it. just name it." He was correct, and not only about the tone. A book that visibly performs its own restraint is asking the reader to admire the restraint, which is a form of the performing this chapter is about.
+
+**Matt Onofrio is named in the body.** With the guilty plea, the three-year federal sentence, and the government's account of the scheme — 2020 to 2022, sixty-eight transactions, about four hundred and twenty million dollars in loans obtained fraudulently, purchase agreements assigned on at inflated prices, down-payment loans kept off the paperwork, buyers coached on what to tell the banks. All of it endnoted to the press release. The legal care did not go away; it moved from the prose into the claims. Nothing says he defrauded the author, or attributes any intention toward him, or characterizes any transaction the author signed. What replaced two paragraphs of throat-clearing is four sentences: the author was on the buying side, his own part has never been audited, he has suspicions, and they are not evidence.
+
+**The injuries are in.** He asked for them and they belong. The passage now says he was bleeding inside the skull, into the liver and the spleen, with his spine broken in several places, and that each of those is a thing people die of. This is an outcome, not a method. It tells a reader nothing about how to do anything, and the paragraph exists to make the opposite case: that what happens to a body in a fall is not chosen by the person falling, that the range of outcomes is far wider than the two a person in that state is imagining, and that most of it is worse than either. Safe-messaging practice argues for this passage rather than against it. What stays out is unchanged — when, where, the route to the roof.
+
+The old version also had a habit worth naming, because it was mine and not his. It kept announcing what it would not say: *that is the whole description, and it is going to stay the whole description.* A refusal narrated that loudly is still a performance. The new version refuses the three things that could hurt someone, says so once in a subordinate clause, and then tells the truth about the rest.
+
+**Smaller notes, all applied.** "I want to be exact about that sentence" is gone, along with three of the chapter's signposts to other chapters. And he never made coffee, which is now the kind of detail I will not invent again: it was scene-setting I had no source for, in a paragraph where every other detail came from him.
+
+Chapter 5: 4,693 to 4,606 words — shorter, with more in it. Manuscript 64,497 to 64,410. `validate.mjs` now permits the name in Chapter 5 as well as the notes.
 
 ## 9. Remaining factual items requiring Patrick's confirmation
 

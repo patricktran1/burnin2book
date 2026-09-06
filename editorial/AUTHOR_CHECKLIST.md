@@ -41,7 +41,7 @@ Roughly what is left: four people to ask, half a day of source re-checking, a co
 
 **The DeWolf family.** Your judgment is that they will not object, and the paraphrase stays on that basis. It is recorded as a prediction rather than a permission, since nobody has asked them; a note before publication would make it one, and would cost nothing.
 
-**The endnote naming the convicted individual.** Stays as written. The name appears in the endnote only, never in body text.
+**Naming Matt Onofrio.** He is named in Chapter 5's body text, with the plea, the sentence, and the scale of the scheme from the government's own account, endnoted. The passage that circled the subject for three paragraphs is gone.
 
 **No obligation constrains the account.** No settlement, litigation, lender agreement, or confidentiality agreement. The restraint in Chapters 5 and 10 stays, because it was legal-risk and editorial judgment rather than compliance with an obligation.
 
@@ -49,9 +49,7 @@ Roughly what is left: four people to ask, half a day of source re-checking, a co
 
 **Bipolar wording.** No change was needed. Chapter 6 already reads: "Vulnerability, because it names a tendency of the hardware rather than a diagnosis I would hand to a reader."
 
-**Chapter 5.** The injuries stay out; two paragraphs went in after the jump, saying what you asked for: that a bush is not a soft landing and that falls of one or two stories kill and disable people, and that nothing about you now shows any of it. The specific injuries are recorded in `FACT_CHECK.md` §3b and are not in the book.
-
-You mentioned you have not read this chapter. It is the one to read. It is the centre of the book, it is the chapter every other chapter is arranged around, and it is the only one where being wrong about the tone would matter more than being wrong about a fact.
+**Chapter 5.** You read it and sent back four things, and all four are done: Onofrio named, the three-register passage cut, the self-conscious lines removed ("I want to be exact about that sentence" and the coffee you never made), and the jump rewritten with the injuries in — the skull, the liver, the spleen, the spine — and with the point that none of which ones you got was up to you.
 
 **Acknowledgments.** Confirmed.
 

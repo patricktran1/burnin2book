@@ -93,7 +93,7 @@ The checklist in `AUTHOR_CHECKLIST.md` was returned answered. What follows is wh
 | Second son | **Elliot.** | Chapter 15 is now addressed to Adrian and Elliot by name; the dedication reads "For Adrian and Elliot"; About the Author says "the father of Adrian and Elliot." Three present-tense references to "my son" that would now imply an only child were made plural or given Adrian's name. Nothing is asserted about Elliot but his name. |
 | Birth years | **Patrick 1988; Adrian 2019; Elliot August 2022.** | Consistency check only. No child's date appears in the manuscript and none may be added. Elliot's birth places him after the events the book describes, so nothing implies he was present for the illness, the crisis, or the attempt. Patrick being thirty-two in the summer of 2021 is consistent with a 1988 birth and a birthday later in the year. |
 | Obligations constraining the account | **None.** No settlement, litigation, lender agreement, or confidentiality agreement. | No text changed. The restraint in Chapters 5 and 10 was never compliance with an obligation; it is legal-risk and editorial judgment, and it stands. |
-| The endnote naming the convicted individual | **Keep as written.** No objection to his being identifiable. | No change. The name remains in the endnote only, never in body text. |
+| Naming the convicted individual | **Name him in the body.** The author's instruction: "just name it." | Chapter 5 now names Matt Onofrio and gives the plea, the three-year sentence, and the government's account of the scheme (2020–2022, sixty-eight transactions, about $420 million in fraudulently obtained loans), endnoted. The three-register passage that circled the subject is cut. Nothing asserts he defrauded the author or intended anything toward him. |
 | Otezla, ayahuasca | **Keep both**, as written. | No change. |
 | Bipolar wording | **Vulnerability, not diagnosis.** | No change needed: Chapter 6 already reads "Vulnerability, because it names a tendency of the hardware rather than a diagnosis I would hand to a reader." Verified rather than edited. |
 | Chapter 5's level of detail | **Fine as is.** | No change. See the row below. |
@@ -102,17 +102,16 @@ The checklist in `AUTHOR_CHECKLIST.md` was returned answered. What follows is wh
 | Rights to reuse the first edition | **Granted.** The 2021 publisher permits any reuse. | Resolved. The 23 illustrations, the wordmark, and the quoted passages stand. This was the one open item that could have stopped the book. |
 | The DeWolf family | **The author's judgment is that they will not object.** | The paraphrase of Thom DeWolf's words stays. This is his call as the author, and it is his relationship. It is recorded as a prediction rather than as a permission, because no one has asked them; a courtesy note before publication would convert it into one. |
 
-**The injuries, and what went in instead.** Confirming Chapter 5, the author volunteered that the injuries included bleeding in the brain, liver, and spleen and multiple spinal fractures, any one of which could have killed him. Asked whether he wanted the severity conveyed, he said he had not read the chapter, and gave the two things he would want a reader to understand: that surviving was improbable, and that people are killed and disabled by falls of one or two stories; and that nothing about him now shows it.
+**The injuries are in the book.** The author read Chapter 5 and reversed the earlier answer. The passage after the jump now states that he was bleeding inside the skull, into the liver and into the spleen, and that his spine was broken in several places, and that each of those is a thing people die of.
 
-Those are not injury details, so both went in, as two paragraphs following the jump. The specific injuries did not, and are recorded here instead: the brief excludes graphic injury detail, and a catalogue of bleeds and fractures is that. The added paragraphs also run with rather than against safe-messaging practice, since they describe such a fall as unpredictable and disabling rather than as a reliable exit.
-
-The second addition does work beyond the correction. "If you passed me now, you would see nothing wrong" is the thesis of the chapter it sits in, which is called *The Cost of Performing Fine*, and of the dedication, which is for everyone who is very good at seeming fine.
+This is an outcome rather than a method, which is why it is publishable: it tells a reader nothing about how to do anything, and the paragraph exists to make the opposite point — that what happens to a body in a fall is not chosen by the person falling, that the range of outcomes is far wider than the two a person in that state imagines, and that most of that range is worse than either. Safe-messaging practice argues for saying this, not against it. What stays out is unchanged: when, where, the route to the roof, and anything procedural.
 
 | Item | Label |
 |---|---|
-| Survival was improbable; falls of one to two stories kill and disable people | AUTHOR-CONFIRMED; general medical knowledge, stated without a figure or a citation |
-| No visible sign of the injuries now | AUTHOR-CONFIRMED (his own words: "if you looked at me now I am unscathed") |
-| Bleeding in the brain, liver, and spleen; multiple spinal fractures | AUTHOR-CONFIRMED; **deliberately not in the manuscript** |
+| Bleeding inside the skull; into the liver; into the spleen; multiple spinal fractures | AUTHOR-CONFIRMED; **now in the manuscript**, Ch. 5 |
+| Each of those is individually life-threatening | Author's own clinical statement, made in the text as a physician |
+| No visible sign of any of it now | AUTHOR-CONFIRMED (his words: "if you looked at me now I am unscathed") |
+| Survival attributable to where the bush was | AUTHOR-CONFIRMED; stated as such, not as a claim about causation |
 
 ## 4. Source-history conflicts that could not be reconciled from the supplied materials
 

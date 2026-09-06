@@ -7,7 +7,7 @@ Passages and decisions that should receive publishing-law review before publicat
 Two of the questions this document raised have been answered by the author, and one has been declined.
 
 - **No obligation constrains the account.** He confirms there is no settlement, litigation, lender agreement, or confidentiality agreement bearing on the financial crisis. The restraint in Chapters 5 and 10 is therefore editorial and legal-risk judgment rather than compliance, and it stays as written.
-- **The endnote naming the convicted individual stays.** He has no objection to that person being identifiable from the cited public record. The name remains in the endnote only.
+- **The name is in the body text.** The author's later instruction was to stop circling it: Chapter 5 now names Matt Onofrio, states that he pleaded guilty and was sentenced to three years, and gives the scale of the scheme from the government's own account, endnoted to the press release. Every assertion tracks the public record. The manuscript still does not say that he defrauded the author, does not attribute any intention toward the author, and does not characterize any transaction the author signed; Chapter 5 says explicitly that the author's own part has never been audited, and separates his suspicions from evidence in as many words.
 - **He has declined a publishing attorney.** That is his call and this document is not an attempt to reopen it. It is worth being precise about what the decision does and does not settle, so that nothing is lost by being filed under a heading he has closed.
 
 What a lawyer would have looked at, and where it now stands:
