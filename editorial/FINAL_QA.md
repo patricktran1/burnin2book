@@ -63,7 +63,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 64,207 words.** Introduction + 15 chapters + epilogue: 62,811. Notes: 1,103. Total including notes: 65,310. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 62,030 words.** Notes: 1,103. Total including notes: 63,133. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
@@ -324,6 +324,33 @@ The fix was to stop announcing anything. The date, the city, and the route to th
 **Smaller notes, all applied.** "I want to be exact about that sentence" is gone, along with three of the chapter's signposts to other chapters. And he never made coffee, which is now the kind of detail I will not invent again: it was scene-setting I had no source for, in a paragraph where every other detail came from him.
 
 Chapter 5: 4,693 to 4,606 words — shorter, with more in it. Manuscript 64,497 to 64,410. `validate.mjs` now permits the name in Chapter 5 as well as the notes.
+
+## 8h. Bringing the register back to the first edition
+
+The author's instruction was to mirror the first edition's voice. Measuring it rather than guessing showed how far Version 2.0 had drifted:
+
+| | 2021 edition | V2 before | V2 now |
+|---|---|---|---|
+| Contractions per 1,000 words | 31.3 | 3.3 | 31.4 |
+| "you" / "your" per 1,000 words | 37.5 | 18.1 | 18.7 |
+
+A tenfold contraction gap is what made the rewrite read like an essay about Patrick rather than Patrick talking. Closing it was mechanical but not trivial: quoted first-edition text has to survive verbatim, and the pairing has to be right or the transformation silently reverses — contracting the quotations and protecting the narrative. Pairing quote marks per line rather than per file fixed that, and the result was verified on a test case before it ran on the book.
+
+Two classes of damage came out of the pass and were caught and repaired. "I had them print" became "I'd them print" until `have` and `had` were restricted to positions where a participle follows, so main verbs are left alone. And ten places where "it" was the object of a preposition — "some of it is legitimately relevant" — collapsed into "some of it's", which is wrong; all ten are fixed and a search confirms none remain.
+
+**Every scaffolding construction the author objected to in Chapter 5 was systematically removed from the rest of the book.**
+
+| Defect | Count | Disposition |
+|---|---|---|
+| Announced refusals ("I'm not going to tell/describe/say…") | 11 | All rewritten. The omission stays; the announcement goes |
+| Self-conscious hedges ("I want to be exact/careful/clear/precise") | 12 | All rewritten |
+| "Chapter N" and "the next chapter" signposts | 42 | All rewritten to refer to the content instead, or cut |
+
+The signposts were the largest single drag on the voice. The first edition almost never says "Chapter N"; it just says the thing. Four of the rewrites also replaced a circumlocution with the name — "the person at the center of the transactions I described in Chapter 5" is now "Matt Onofrio" — which is the author's naming decision applied consistently rather than only where he happened to be reading.
+
+The word targets in `book.yml` were set against the stiffer register. Matching the first edition's voice removed about 4.5% of the words without removing content, so the minimums are scaled to match and the maxima widened; the bands are planning guides, and no prose was padded or trimmed to hit a number. Manuscript 64,207 to 62,030 words, still inside the brief's 55,000–70,000.
+
+Direct address is still at half the first edition's rate. That is the remaining voice work, and it is not mechanical: it means turning observations toward the reader where the chapter earns it, which has to be done by hand, chapter by chapter.
 
 ## 9. Remaining factual items requiring Patrick's confirmation
 

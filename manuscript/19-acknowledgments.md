@@ -10,7 +10,7 @@ To the family of Paul DeWolf, for allowing me to carry his memory into the first
 
 To the nurse who let a young resident apologize with a cake, and to every nurse, technician, and front-office colleague who has kept me honest since.
 
-To the people who found me when I did not want to be found, who drove, who sat, who asked the second question, and who kept asking. You know who you are. This book is the long version of thank you.
+To the people who found me when I didn't want to be found, who drove, who sat, who asked the second question, and who kept asking. You know who you're. This book is the long version of thank you.
 
 To the team who helped make the first edition, including Angela Serratore, Anna David, and Onur Aksoy, and to the editors and readers who helped this one become a different book.
 

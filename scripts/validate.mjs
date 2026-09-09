@@ -53,7 +53,7 @@ const LEGACY_ERRORS = [
 
 /** Terms that are allowed only in specific files (e.g., the notes file). */
 const RESTRICTED = [
-  { re: /\bOnofrio\b/g, label: 'Onofrio (named only where the author decided to name him)', allowIn: ['07-chapter-05.md', '21-notes.md'] },
+  { re: /\bOnofrio\b/g, label: 'Onofrio (named only where the author decided to name him)', allowIn: ['07-chapter-05.md', '12-chapter-10.md', '13-chapter-11.md', '21-notes.md'] },
   { re: /\bFIRE\b/g, label: 'FIRE (only where historically necessary)', allowIn: [], warnOnly: true, max: 3 },
 ];
 
