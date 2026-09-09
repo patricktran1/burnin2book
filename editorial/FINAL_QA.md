@@ -63,7 +63,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 64,410 words.** Introduction + 15 chapters + epilogue: 63,014. Notes: 1,103. Total including notes: 65,513. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 64,207 words.** Introduction + 15 chapters + epilogue: 62,811. Notes: 1,103. Total including notes: 65,310. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
@@ -74,7 +74,7 @@ Specifically confirmed:
 | `04-chapter-02.md` | 4,168 | 3,900–4,500 | 2. Where Am I Going? |
 | `05-chapter-03.md` | 3,403 | 3,400–3,900 | 3. The Achievement Bargain |
 | `06-chapter-04.md` | 3,919 | 3,900–4,500 | 4. Ego, Confidence, and Blind Spots |
-| `07-chapter-05.md` | 4,606 | 4,400–5,000 | 5. The Cost of Performing Fine |
+| `07-chapter-05.md` | 4,403 | 4,400–5,000 | 5. The Cost of Performing Fine |
 | `08-chapter-06.md` | 4,208 | 3,900–4,500 | 6. More Than Burnout |
 | `09-chapter-07.md` | 3,313 | 3,300–3,800 | 7. Shame Loves Secrecy |
 | `10-chapter-08.md` | 3,983 | 3,500–4,000 | 8. Agency Without Self-Blame |
@@ -317,7 +317,9 @@ He had not read it when he answered the checklist. He read it, and sent back the
 
 **The injuries are in.** He asked for them and they belong. The passage now says he was bleeding inside the skull, into the liver and the spleen, with his spine broken in several places, and that each of those is a thing people die of. This is an outcome, not a method. It tells a reader nothing about how to do anything, and the paragraph exists to make the opposite case: that what happens to a body in a fall is not chosen by the person falling, that the range of outcomes is far wider than the two a person in that state is imagining, and that most of it is worse than either. Safe-messaging practice argues for this passage rather than against it. What stays out is unchanged — when, where, the route to the roof.
 
-The old version also had a habit worth naming, because it was mine and not his. It kept announcing what it would not say: *that is the whole description, and it is going to stay the whole description.* A refusal narrated that loudly is still a performance. The new version refuses the three things that could hurt someone, says so once in a subordinate clause, and then tells the truth about the rest.
+The passage took three attempts, and the failure in the first two was the same one. Both kept narrating the refusal — *that is the whole description, and it is going to stay the whole description*, then *I am not going to tell you when it was, or where, or how I got up there*. His verdict on the second attempt was that it was garbage, and he was right: a refusal announced that loudly is still a performance, and the thing this chapter is about is performance.
+
+The fix was to stop announcing anything. The date, the city, and the route to the roof are simply absent. A memoir does not have to say it is withholding a date; it can just not give one, and the reader never feels a gap. What is left is four short paragraphs that say what happened, what it did to him, that none of it was his to choose, and that none of it shows. The safety point is now carried by the argument rather than by a disclaimer: *a man standing where I stood believes he is choosing between two outcomes. He is not choosing anything.*
 
 **Smaller notes, all applied.** "I want to be exact about that sentence" is gone, along with three of the chapter's signposts to other chapters. And he never made coffee, which is now the kind of detail I will not invent again: it was scene-setting I had no source for, in a paragraph where every other detail came from him.
 
