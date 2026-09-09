@@ -42,11 +42,11 @@ When my father's heart condition was diagnosed during Adrian's treatment, nobody
 
 * * *
 
-So what was the hardware problem? I don't have a single answer, and I've learned to distrust people who do, including the version of me who wrote the first edition. What I have is a list of contributors, and the honest thing is to take them one at a time and say, for each, how sure I'm.
+So what was the hardware problem? I don't have a single answer, and I've learned to distrust people who do, including the version of me who wrote the first edition. What I have is a list of contributors, and the honest thing is to take them one at a time and say, for each, how sure I am.
 
 Start with the obvious one. For a long stretch I lived under severe financial and legal stress of a kind I'd never experienced and hadn't believed could happen to me. What matters clinically is the shape of that stress: chronic rather than acute, uncontrollable rather than solvable, and aimed at my identity rather than my bank balance. Stress isn't a diagnosis. It's, in my experience, the most reliable way to find out what a person's brain was already inclined to do under load, and mine had inclinations I didn't know about.
 
-Depression is the second, and about this one I'm no longer uncertain. I met the description the NIMH gives, and I met it for far longer than two weeks. I kept working through it, which I'd once have offered as proof that it couldn't be depression, and which I now understand proves nothing except that I'm stubborn and had a full clinic. The depression was largely hidden, so well hidden that almost nobody understood how bad it was. A hidden depression is in one respect worse than an obvious one. No one can treat what they can't see, and that includes the person carrying it.
+Depression is the second, and about this one I'm no longer uncertain. I met the description the NIMH gives, and I met it for far longer than two weeks. I kept working through it, which I'd once have offered as proof that it couldn't be depression, and which I now understand proves nothing except that I'm stubborn and had a full clinic. The depression was largely hidden, so well hidden that almost nobody understood how bad it was. A hidden depression is in one respect worse than an obvious one. No one can treat what they can't see, and that includes you, when you are the one carrying it.
 
 Fear I count separately from worry, because worry is a thought and what I had wasn't a thought. I'd wake at night, or in the dark before a call with attorneys in the Midwest whose mornings began before mine, with terror already present, fully assembled, before any idea had shown up to justify it. The idea would arrive a moment later, usually about money, and then the two would feed each other until it was time to shower and go to work. The body can be afraid on its own, without consulting the mind; I knew this as a fact about patients. Learning it as a fact about myself was a different kind of education.
 
@@ -88,6 +88,10 @@ If you recognized yourself somewhere in that list, here's what I'd do now, and w
 
 If you're in the United States and the thought has moved from wanting it to stop to how to make it stop, call or text 988, the Suicide and Crisis Lifeline, or chat through its website. It's free, confidential, and open at every hour, including the hours I have described in this chapter.[^c06-5] Outside the United States there is a number for your country, and it's worth knowing it before you need it.
 
-The later chapters of this book are about building a life that can hold ambition without consuming the person generating it. None of them will be any use to someone who isn't alive to read them, and I say that as a man who very nearly wasn't. The order of operations matters. Precision first, so that you know which kind of help you need. Help second, from someone whose job it's. The redesign of your life comes after that, and it will go better once the hardware is being looked after by somebody other than you.
+The later chapters of this book are about building a life that can hold ambition without consuming the person generating it. None of them will be any use to someone who isn't alive to read them, and I say that as a man who very nearly wasn't. The order of operations matters. Precision first, so that you know which kind of help you need. Help second, from someone whose job it is. The redesign of your life comes after that, and it will go better once the hardware is being looked after by somebody other than you.
 
 I've spent this chapter on words because words were where I failed first. The criteria were in my head and the label was in my hand. Looking at my own nights the way I look at a slide, and saying plainly what I saw, was well within my competence, and I didn't do it, for reasons the rest of this part of the book will try to explain. The hardest part was never the diagnosis. It was saying any of it out loud.
+
+* * *
+
+Get the name right before you accept it. The wrong word sends you to the wrong room, and you can spend years being treated for something you don't have.

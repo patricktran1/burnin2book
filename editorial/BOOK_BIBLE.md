@@ -181,6 +181,20 @@ Anything not on this list is NEEDS SOURCE. Writers hedge or cut.
 
 ---
 
+## 5b. The closing charge
+
+The first edition ends every chapter with a short second-person charge, set off from the body: *Be the creator of your own life. Chisel it out of marble.* *Tend to your candle from the inside out.* *Choose humility, and let it guide you to the grace that exists within struggle.* It is the book's most recognisable structural signature and Version 2.0 had dropped it entirely.
+
+It is restored, on every chapter from 1 to 14, as a final short paragraph after a scene break. Rules for writing one:
+
+- Second person, one to three sentences, no more.
+- It must be earned by the chapter above it. It states what the chapter proved, addressed to the reader, and never introduces a new idea or a fact that hasn't appeared.
+- It replaces any forward-pointer to the next chapter. Four chapters used to end on "the next chapter is about…" and now end on the charge instead.
+- It does not repeat a phrase from the paragraph immediately above it.
+- No comfort the book has not earned. The Chapter 5 charge is the test case: *Being very good at seeming fine is not evidence that you are fine. Tell one person the true version this week, before you are sure it's warranted.*
+
+**Chapter 15 and the Epilogue have none, deliberately.** Chapter 15 is addressed to Adrian and Elliot rather than to the reader, and both end on a deliberately quiet beat that a charge would break.
+
 ## 6. Who owns what (to prevent duplication across chapters)
 
 | Idea, story, or image | Owner | Others may |

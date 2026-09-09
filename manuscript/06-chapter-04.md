@@ -16,7 +16,7 @@ Does Beyoncé have a big ego? Obviously. She also has the other thing, the part 
 
 You don't have to look far in medicine for the version that has stopped taking in information. A certain kind of surgeon believes he is God's gift to the earth, and I've written before that some of them seem to need a servant trailing behind them holding a little velvet pillow at exactly the right height, not too hot and not too cold, Goldilocks style. There is a reason the playboy plastic surgeon with the obnoxious red sports car is a stereotype, and I say that with love for my plastic surgery friends and colleagues, with whom I hit the interview trail and now share patients.
 
-The problem isn't personality. It's what an unchecked ego does to a team. These are the people who create cultures where it's acceptable to scream at nurses and interns and anyone who looks at them wrong. They steamroll patients rather than spend the extra four minutes that would put a frightened person at ease. They believe nobody in the room is as smart as they're, which is occasionally true and never relevant. And they're the ones who might, on the wrong day, take off the wrong leg, because the patient is asleep and can't advocate for himself and nobody else in that room feels safe saying, "Doctor, I think we're on the left."
+The problem isn't personality. It's what an unchecked ego does to a team. These are the people who create cultures where it's acceptable to scream at nurses and interns and anyone who looks at them wrong. They steamroll patients rather than spend the extra four minutes that would put a frightened person at ease. They believe nobody in the room is as smart as they are, which is occasionally true and never relevant. And they're the ones who might, on the wrong day, take off the wrong leg, because the patient is asleep and can't advocate for himself and nobody else in that room feels safe saying, "Doctor, I think we're on the left."
 
 The first step in not being that guy is accepting that you aren't always right. Can you tell me, with complete confidence, that you've never made a mistake, that you have the answers? Get a grip, dude. You are one set of eyeballs and one brain, carrying whatever you happen to have lived through, whatever textbooks you read, whatever media you consumed. I know, because I've been there, and I thought I knew it all. I didn't, and neither do you. Happily, the correction costs almost nothing. Take the humility pill and you'll find more joy in your own life, and you'll find that people respect you more, because what you were getting before wasn't respect. It was fear wearing respect's clothes.
 
@@ -91,3 +91,7 @@ If there is anything usable in this chapter, it's that the correction can't come
 I could have answered that question in 2021 with a list of names. What I couldn't have told you is that every person on the list had an interest in my momentum continuing, including me.
 
 Then the story I'd been telling about money stopped being true.
+
+* * *
+
+Keep the confidence. It built everything you have, and you'll need it again. Just stop letting it be the only witness you call.

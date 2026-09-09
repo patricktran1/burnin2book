@@ -63,7 +63,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 62,030 words.** Notes: 1,103. Total including notes: 63,133. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 62,401 words.** Notes: 1,103. Total including notes: 63,504. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
@@ -351,6 +351,20 @@ The signposts were the largest single drag on the voice. The first edition almos
 The word targets in `book.yml` were set against the stiffer register. Matching the first edition's voice removed about 4.5% of the words without removing content, so the minimums are scaled to match and the maxima widened; the bands are planning guides, and no prose was padded or trimmed to hit a number. Manuscript 64,207 to 62,030 words, still inside the brief's 55,000–70,000.
 
 Direct address is still at half the first edition's rate. That is the remaining voice work, and it is not mechanical: it means turning observations toward the reader where the chapter earns it, which has to be done by hand, chapter by chapter.
+
+## 8i. The closing charge, and how far direct address should go
+
+Reading the first edition for its structure rather than its voice turned up a device Version 2.0 had lost completely: **every chapter ends with a short second-person charge.** *Be the creator of your own life.* *Tend to your candle from the inside out.* *Choose humility, and let it guide you to the grace that exists within struggle.* It is the most recognisable thing about the shape of that book, and dropping it is a large part of why the rewrite read as a different genre.
+
+Fourteen have been written, one for each chapter from 1 to 14, each earned by the chapter above it and none introducing anything new. Four chapters that used to end by pointing at the next chapter now end on the charge instead, which is a strictly better use of the position. `BOOK_BIBLE.md` §5b records the rules so the device stays consistent.
+
+Chapter 15 and the Epilogue deliberately have none. Chapter 15 is addressed to Adrian and Elliot rather than to the reader, and both close on a quiet beat that a charge would flatten.
+
+**On the direct-address number, a correction to the earlier plan.** The first edition runs 37.5 "you"/"your" per thousand words; this book now runs 19.3. The gap was not closed, and it should not be. Working through the low chapters showed why: Chapter 1 (6.1) and Chapter 5 (6.3) are narrative, and nearly every impersonal sentence in them is about a specific person on a specific day. Converting those to second person would not have been voice work, it would have been damage.
+
+What the first edition really is, is a self-help book with a memoir thread. This one is a memoir with an argument. The right test is not the book-wide rate but whether the *argument* passages address the reader, and they do: Chapter 3 is at 36.0, Chapter 13 at 30.1, Chapter 15 at 43.0, the reader's note at 39.1, plus fourteen closing charges. Five further turns were made where an impersonal sentence was making a general claim and landed harder aimed at the reader — "your calendar is the only honest document you keep" — and the rest were left alone.
+
+**Two more classes of contraction damage were found and fixed**, both from the mechanical pass: 25 clause-final contractions, which are simply not English ("the thing you're", "You know who you're", "how sure I'm", "Here it's"), and two where a pronoun object was misread as a subject ("the people who love you'd be better off"). Searches confirm none remain of either kind. Taken with the two classes caught earlier, that is four distinct failure modes from one regex pass, which is the honest argument for why the register work needed reading afterward and not just running.
 
 ## 9. Remaining factual items requiring Patrick's confirmation
 

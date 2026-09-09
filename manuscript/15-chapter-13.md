@@ -85,6 +85,10 @@ None of that is a cure. It's the crash-cart card, the thing you follow when judg
 
 The definition comes last, because a protocol without one is just a list, and because I want you to leave this chapter with something short enough to carry.
 
-Burn In, as I understand it now, means keeping your fire and building the container first. It means staying reachable to the people who can tell you the truth, treating the body and the brain as the instrument everything else runs on, and building margin before you build height. It means that when the fire gets onto the floor, and it will, you say so, out loud, to a person, while you can still say it. The first edition understood burning in as turning inward until the outside world couldn't touch you. This edition understands it as building a life, inside and out, that a person can stay in, including on the nights when he doesn't want to.
+Burn In, as I understand it now, means keeping your fire and building the container first. It means staying reachable to the people who can tell you the truth, treating the body and the brain as the instrument everything else runs on, and building margin before you build height. It means that when the fire gets onto the floor, and it will, you say so, out loud, to a person, while you can still say it. The first edition understood burning in as turning inward until the outside world couldn't touch you. This edition understands it as building a life, inside and out, that you can stay in, including on the nights when you don't want to.
 
-A protocol will keep you alive, and that is the whole of what it promises. It doesn't tell you what to build once you're standing again. I'm still ambitious, more carefully than before but not one degree less. The next chapter is about what that means now.
+A protocol will keep you alive, and that is the whole of what it promises. It doesn't tell you what to build once you're standing again. I'm still ambitious, more carefully than before but not one degree less.
+
+* * *
+
+Write your protocol before you need it, while your judgment is still working. That is the only time you'll be qualified to write it.

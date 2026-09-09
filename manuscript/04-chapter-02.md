@@ -94,4 +94,8 @@ What I concluded from that success is the part I'd revise. I decided that I had 
 
 There is one more thing I want to leave here before we move on. I'd just spent six years chasing a destination that turned out to be wrong for me, and the first thing I did after escaping it was to start choosing new destinations, faster and with more ambition than before. It didn't occur to me to ask whether the wanting itself was worth examining. I had upgraded the target. I hadn't touched the machinery.
 
-That machinery has a name, and most of the ambitious people I know are running it. It's a bargain, and it's what comes next.
+That machinery has a name, and if you are ambitious you are almost certainly running it.
+
+* * *
+
+You are allowed to change your mind about the thing you organized your whole life around. Ask the people a few years ahead of you whether they'd do it again, and pay attention to the ones who hesitate.

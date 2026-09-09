@@ -74,4 +74,8 @@ A fact about biochemistry isn't a relationship, though, and this is where the fi
 
  The people who found me did nothing sophisticated. They asked how I was, got the answer everybody got, and then asked again, which nobody else did. They came when it would have been easier not to and stayed when there was nothing to do, and staying turned out to be the whole job. For years I'd built a life that wouldn't need them, and when the life came apart they were what was left. They aren't named in this book because the who is theirs. The acknowledgments say the rest, and I've tried to say it to each of them in person, badly, more than once.
 
-Connections need feeding. I wrote that in 2021 too, and it's one of the sentences I got right the first time: they're living things, and you have to try. What I didn't add is that the trying has to be built into the structure of your days, because the version of you that most needs people is the version least able to reach for them, and no amount of believing in connection will make the call for you. That is a design problem, and it's the subject of the last part of this book. None of this survives contact with a bad calendar.
+Connections need feeding. I wrote that in 2021 too, and it's one of the sentences I got right the first time: they're living things, and you have to try. What I didn't add is that the trying has to be built into the structure of your days, because the version of you that most needs people is the version least able to reach for them, and no amount of believing in connection will make the call for you. That is a design problem. None of this survives contact with a bad calendar.
+
+* * *
+
+Build the list of people who are allowed to ask you twice, and build it on a good day. You will not be able to assemble it on the day you need it.

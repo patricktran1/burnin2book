@@ -81,3 +81,7 @@ The cost of performing fine wasn't the roof. The roof was the last item on the b
 Years later, I saw the bush again. It was an ordinary bush, the kind nobody chooses on purpose. There was still a hollow in it where I had gone through, the branches never having closed back over the gap, and flowers were growing out of the hollow. In the space my body had made, I mean, not on the bush around it. I stood there for a while and didn't think anything I could put into a sentence. For now I'm going to leave the picture there, without telling you what it means, partly because you can see what it means and partly because I want to come back to it at the very end of this book, when I have earned the right to say more.
 
 Let me end with a word. For most of my career I'd used it for everything that was wrong with doctors, and in the first edition of this book I used it about myself with some authority. Burnout is the word I'd have used for what happened to me, if I'd been describing it in someone else. It's the wrong word.
+
+* * *
+
+Being very good at seeming fine is not evidence that you are fine. Tell one person the true version this week, before you are sure it's warranted.
