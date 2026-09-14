@@ -11,27 +11,94 @@ Labels used throughout:
 
 A note on verification method: the build environment had web search but direct page fetches to several government and journal domains were blocked by the network policy. For items marked VERIFIED below, the source was located and its wording confirmed from indexed excerpts of the cited page. **Before print, each VERIFIED item should be re-checked against the live page** (a fifteen-minute task with the URLs below).
 
-## 1. Sourced claims (endnoted)
+## 1. Sourced claims — source-verification stage, 14 September 2026
 
-| # | Claim as used in the manuscript | Label | Source |
+**Access conditions.** Every primary host was tested directly at the start of this stage and every one was refused at the network gateway: justice.gov, irs.gov, courtlistener.com, accessdata.fda.gov, dailymed.nlm.nih.gov, who.int, nimh.nih.gov, pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov, mayoclinicproceedings.org, mayoclinic.org, frontiersin.org, academic.oup.com, samhsa.gov, accademia.org, britannica.com, record.umich.edu, drugs.com, pi.amgen.com, and web.archive.org. The proxy answers 403 to CONNECT for all of them; this is an environment policy and was not worked around. Indexed retrieval of those same pages did work, and returned their text.
+
+**What that means for these statuses.** "Verified" below means the specific claim — figure, denominator, wording, chronology, disposition — was recovered from the cited source's own indexed text and, wherever the claim was load-bearing, corroborated against at least one independent source that agrees precisely. It does **not** mean the PDF or page was opened in a browser. Each entry records what would settle it conclusively. The author should still open the fourteen URLs; this stage has changed what he is checking, from "is this right?" to "does the page still say this?"
+
+| # | Manuscript claim and location | Source | Status |
 |---|---|---|---|
-| S1 | A person connected to several of the author's commercial real-estate transactions was later convicted of bank fraud in federal court and sentenced to prison; the press release describes a 36-month sentence, two years of supervised release, $5,398,641 restitution, a 2020–2022 scheme of 68 deals and about $420.6 million in fraudulently obtained loans, purchase agreements assigned to novice investors at inflated prices, investors coached to give false information to banks, hidden down-payment loans, and a guilty plea about two years before sentencing | VERIFIED (re-check wording) | U.S. Attorney's Office, District of Minnesota, "Architect of massive $420 million bank fraud scheme sentenced to 3 years in prison" (Dec. 2025), https://www.justice.gov/usao-mn/pr/architect-massive-420-million-bank-fraud-scheme-sentenced-3-years-prison ; IRS-CI mirror, https://www.irs.gov/compliance/criminal-investigation/architect-of-massive-420-million-bank-fraud-scheme-sentenced-to-3-years-in-prison |
-| S2 | Otezla prescribing information: "Treatment with OTEZLA is associated with an increased incidence of depression"; prescribers should carefully weigh risks and benefits in patients with a history of depression or suicidal thoughts/behavior; patients and families should watch for emergence or worsening of depression, suicidal thoughts, or other mood changes. Incidence is reported **per indication** (psoriatic arthritis 1.0%, 10/998, vs 0.8%, 4/495 placebo; plaque psoriasis 1.3%, 12/920, vs 0.4%, 2/506; Behçet's 1%, 1/104, vs 1%, 1/103). Pooled across all 1,441 exposed subjects: serious depression 0.2% (3/1,441), discontinuation for depression 0.3% (4/1,441), suicidal ideation and behavior 0.2% (3/1,441), each against none of 495 placebo subjects. The label also records that **two placebo subjects died by suicide during the trials and no apremilast subject did.** | VERIFIED (re-check against current label) | FDA label, https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/205437s011lbl.pdf ; DailyMed, https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6b1f516-4972-4d82-bced-113e47b41cc5 |
-| S3 | WHO/ICD-11: burn-out is an occupational phenomenon, not a medical condition; "a syndrome conceptualized as resulting from chronic workplace stress that has not been successfully managed"; three dimensions (exhaustion; mental distance/negativism/cynicism; reduced professional efficacy); not to be applied to other areas of life | VERIFIED | WHO news release, 28 May 2019, https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases |
-| S4 | NIMH: depression diagnosis requires symptoms most of the day, nearly every day, for at least two weeks, including depressed mood or loss of interest or pleasure | VERIFIED | https://www.nimh.nih.gov/health/publications/depression |
-| S5 | Physician suicide: meta-analysis of 39 studies from 20 countries; rate ratio 1.05 (0.90–1.22) for male physicians and 1.76 (1.40–2.21) for female physicians; declining over time but female physicians still ~24% higher in the most recent period | VERIFIED | Zimmermann C, et al., BMJ 2024;386:e078964, https://pubmed.ncbi.nlm.nih.gov/39168499/ |
-| S6 | Physician burnout prevalence (at least one symptom): 45.2% in 2023, 62.8% in 2021, 38.2% in 2020, 43.9% in 2017, 54.4% in 2014, 45.5% in 2011 | VERIFIED | Shanafelt TD, et al., Mayo Clinic Proceedings (2025), https://www.mayoclinicproceedings.org/article/S0025-6196(24)00668-2/fulltext |
-| S7 | Clear cell sarcoma of the kidney: about 0.2 per million children per year; about 3% of childhood kidney cancers; most common ages 2–4; roughly a dozen or so children a year in the US and Canada per the cooperative group | VERIFIED (incidence); the "dozen or so a year" figure derives from the 2021 edition's quotation of Dr. Mullen (about 14/year in COG AREN03B2) and is paraphrased and attributed to the cooperative group's published study | Frontiers in Pediatrics 2021, https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2021.675373/full ; Benedetti DJ, et al., Cancer 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11162327/ |
-| S8 | Intussusception: one segment of intestine slides into another like a telescope; obstructs and can cut off blood supply; most common cause of intestinal obstruction in children under three | VERIFIED | Mayo Clinic, https://www.mayoclinic.org/diseases-conditions/intussusception/symptoms-causes/syc-20351452 |
-| S9 | Hypertrophic cardiomyopathy is autosomal dominant; each first-degree relative has a 50% chance of carrying the variant | VERIFIED | European Heart Journal 2024;45(30):2727, https://academic.oup.com/eurheartj/article/45/30/2727/7710314 |
-| S10 | Ayahuasca: a published case report of a switch to mania after ayahuasca in a man with bipolar disorder; a systematic review found psychotic or manic episodes after ayahuasca rare, and advised that people with a personal or family history of psychosis or non-psychotic mania avoid hallucinogens | VERIFIED | Szmulewicz AG, et al., Int J Bipolar Disord 2015;3:4, https://pubmed.ncbi.nlm.nih.gov/25713771/ ; dos Santos RG, et al., Ther Adv Psychopharmacol 2017;7(4):141–157, https://pmc.ncbi.nlm.nih.gov/articles/PMC5433617/ |
-| S11 | 988 Suicide & Crisis Lifeline: call or text 988 in the United States; free, confidential, 24/7; launched July 16, 2022 | VERIFIED | SAMHSA, https://www.samhsa.gov/mental-health/988 |
-| S12 | Michelangelo's David: block first worked by Agostino di Duccio (1464), then Antonio Rossellino (1476), both abandoned it; it sat about 25 years; Michelangelo received it in 1501 and finished in 1504 | VERIFIED | Galleria dell'Accademia, https://www.accademia.org/explore-museum/artworks/michelangelos-david/ ; Britannica, https://www.britannica.com/topic/David-sculpture |
-| S13 | Epinephrine in the fingers: Lalonde et al.'s prospective multicenter study of 3,110 cases found the long-held contraindication lacked valid evidence | VERIFIED | J Hand Surg Am 2005;30(5):1061–1067, https://pubmed.ncbi.nlm.nih.gov/16182068/ |
-| S14 | Paul DeWolf: University of Michigan medical student, 25, shot and killed July 24, 2013, in his room at the Phi Rho Sigma house during a break-in; on an Air Force scholarship; a game console was taken; three men were convicted or pleaded guilty | VERIFIED | University Record, https://record.umich.edu/articles/suspect-charged-homicide-u-m-medical-student/ ; Detroit News, https://www.detroitnews.com/story/news/local/michigan/2015/01/21/university-michigan-medical-student-death-sentancing/22108899/ |
-| S15 | Ram Dass had a stroke in 1997; "I don't wish you the stroke, but I wish you the grace from the stroke" is from the documentary *Ram Dass, Going Home* (2017) | VERIFIED | IMDb quotes page for the film; multiple reviews. The 2021 edition's wording ("I would not wish you the stroke, but I do wish you the grace that came from it") was a paraphrase |
-| S16 | Beyoncé performed "Run the World (Girls)" at the Billboard Music Awards on May 22, 2011, synchronized with video duplicates of herself; rehearsals appear in *Life Is But a Dream* (HBO, Feb. 16, 2013), which she directed; she said she had never worked so hard on anything | VERIFIED | Billboard, https://www.billboard.com/music/music-news/beyonces-bbma-performance-i-never-worked-so-hard-in-my-life-471200/ |
-| S17 | Vietnamese proverb "Không ai giàu ba họ, không ai khó ba đời" (no one is rich for three generations; no one is poor for three generations) | VERIFIED (rendering and gloss) | Thanh Niên, https://thanhnien.vn/khong-ai-giau-ba-ho-khong-ai-kho-ba-doi-hieu-sao-cho-dung-1851454713.htm |
+| S1 | Ch. 5: Onofrio named; guilty plea; December 2025 federal sentence of three years; 2020–2022; 68 transactions; ~$420m in loans obtained fraudulently; mechanism | U.S. Attorney's Office, D. Minn. press release, 11 Dec 2025; IRS-CI mirror | **Correction required — corrected** |
+| S2 | Ch. 6: Otezla label warning; depression and suicidality figures | FDA prescribing information | **Correction required — corrected** |
+| S3 | Ch. 6, Ch. 12: ICD-11 burn-out definition and three dimensions | WHO news release, 28 May 2019 | **Verified** |
+| S4 | Ch. 6: depression requires symptoms most of the day, nearly every day, ≥2 weeks, including depressed mood or loss of interest | NIMH, *Depression* | **Verified** |
+| S5 | Ch. 2: 39 studies, 20 countries; male physicians not measurably different; female 76% higher; ~24% higher in the most recent period | Zimmermann et al., *BMJ* 2024;386:e078964 | **Verified** |
+| S6 | Ch. 3: at least one burnout symptom in ~45% (2023), ~38% (2020), ~63% (2021) | Shanafelt et al., *Mayo Clin Proc* (2025) | **Verified** |
+| S7 | Introduction: rarity of clear cell sarcoma of the kidney | Frontiers in Pediatrics 2021; Benedetti, *Cancer* 2024 | **Correction required — corrected** |
+| S8 | Introduction: intussusception telescopes and obstructs | Mayo Clinic | **Verified** |
+| S9 | Ch. 1, Ch. 6: HCM autosomal dominant; 50% for each first-degree relative | *Eur Heart J* 2024;45(30):2727 | **Verified** |
+| S10 | Ch. 6: case reports of mania after ayahuasca; review finds episodes rare; advisory to avoid | Szmulewicz 2015; dos Santos 2017 | **Verified with qualification** |
+| S11 | Front matter, Author's Note, Ch. 5, Ch. 13: call or text 988 at any hour | 988 Lifeline / SAMHSA | **Verified** |
+| S12 | Ch. 14: David block — Agostino di Duccio 1464, Rossellino 1476, ~25 years, Michelangelo 1501–1504 | Galleria dell'Accademia; Britannica | **Verified with qualification** |
+| S13 | Ch. 14: Lalonde and colleagues, >3,000 consecutive cases of elective epinephrine in the fingers and hand | *J Hand Surg Am* 2005;30(5):1061–1067 | **Verified** |
+| S14 | Ch. 11: DeWolf, 25, Air Force scholarship, July 2013, fraternity house, game console, three men convicted or pleaded guilty | University Record; Detroit News; contemporaneous reporting | **Verified** |
+
+### S1 — the legal matter, in detail
+
+Every legal term was checked separately, because the manuscript states them as fact about a named living person.
+
+| Element | Record | Manuscript |
+|---|---|---|
+| Indictment | Three counts, 17 Nov 2022 | not stated |
+| Plea | Guilty, 10 July 2023, to **one** count of bank fraud; the other two counts dismissed under the agreement | "He pleaded guilty to bank fraud" — accurate |
+| Sentence | 11 Dec 2025; U.S. District Judge Susan Richard Nelson; 36 months; 2 years supervised release; $5,398,641 restitution | "in December 2025 a federal judge in Minnesota sentenced him to three years in prison" — accurate |
+| Scale | 68 deals; $420,564,795 in fraudulently obtained loans; netted at least $35,745,252 | "sixty-eight transactions, and roughly four hundred and twenty million dollars" — accurate |
+| Period | Sentencing release: "between 2020 and 2022." Charging-stage reporting: 2019 to August 2022 | "a scheme running from 2020 to 2022" — follows the sentencing release |
+
+**The correction.** The manuscript described the mechanism as "down-payment loans kept off the paperwork." That is a real fraud pattern — an undisclosed silent second — but it is **not** what this record describes, and nothing found supports it. What the release describes is: Onofrio helped investors prepare financial statements falsely showing enough cash for the down payment; when banks asked for proof of funds he temporarily wired money into the investors' accounts so it appeared they had it; and he coached them on what to say if asked about the source.
+
+> **Before:** purchase agreements assigned on to new investors at inflated prices, down-payment loans kept off the paperwork, buyers coached on what to tell the banks.
+> **After:** purchase agreements assigned on to new investors at inflated prices, money wired into their accounts so the down payments would look real, buyers coached on what to tell the banks.
+
+Nothing in the passage attributes conduct to the author, and the release names no other individual. The endnote now carries the indictment date, the plea date and its single count, the sentencing date, the judge, and the restitution figure.
+
+**Qualification.** The date range differs between the charging stage (2019–August 2022) and the sentencing release (2020–2022). The manuscript follows the sentencing release, which is the document cited. Left unchanged and recorded here.
+
+**What would settle it conclusively:** the DOJ or IRS-CI release opened directly, or the judgment in *United States v. Onofrio* (D. Minn.) from PACER.
+
+### S2 — the Otezla label, in detail
+
+**This entry corrected an error introduced by the previous correction.** The passage originally quoted the psoriatic arthritis figures as though they were the general result. That was fixed in an earlier pass by re-describing them as "pooled across all 1,441 exposed subjects" — which is also wrong, and in a subtler way. The label pools nothing across indications. Section 5.1 reports everything per indication, and **1,441 is the psoriatic arthritis exposed population.**
+
+| Indication | Controlled period | Serious depression | Discontinued | Suicidal ideation/behaviour | Deaths |
+|---|---|---|---|---|---|
+| Psoriatic arthritis | 1.0% (10/998) vs 0.8% (4/495) | 0.2% (3/1,441) vs 0/495 | 0.3% (4/1,441) vs 0/495 | 0.2% (3/1,441) vs 0/495 | 2 placebo subjects died by suicide; no apremilast subject did |
+| Plaque psoriasis | 1.3% (12/920) vs 0.4% (2/506) | 0.1% (1/1,308) vs 0/506 | 0.1% (1/1,308) vs 0/506 | 0.1% (1/1,308) vs 0.2% (1/506) | one apremilast subject attempted suicide; one placebo subject died by suicide |
+| Behçet's disease | 1% (1/104) vs 1% (1/103) | none | none | none on apremilast (0/104) | — |
+
+Two corrections followed.
+
+> **Before:** Among the 1,441 subjects exposed to the drug, depression was reported as serious in 0.2 percent…
+> **After:** In the psoriatic arthritis trials, among the 1,441 subjects exposed to the drug, depression was reported as serious in 0.2 percent…
+
+The second is more serious, because the passage exists to include the evidence that cuts against the author's own hypothesis. It gave the psoriatic arthritis death figures — which favour the drug — and omitted the plaque psoriasis line, in which a subject on the drug attempted suicide. Reporting only the favourable half, in the paragraph that claims not to, is exactly the failure the chapter is about.
+
+> **Before:** …two of the subjects taking placebo died by suicide, and none of the subjects taking the drug did.
+> **After:** …two of the subjects taking placebo died by suicide, and none of the subjects taking the drug did. In the psoriasis trials it runs the other way, and I should give you that too: one subject on the drug attempted suicide, and one on placebo died.
+
+Naming the two indications as label sections does not disclose the author's own indication, which the book withholds; the label covers both and he is describing the label. The endnote is rewritten to give all three indications with their own denominators, and the cited label is updated from the 2021 version (205437s011) to the current 2025 version (205437s014).
+
+**Verified with qualification** on one point: the manuscript's summary sentence says depression was reported in "roughly one percent" on the drug and "just under one percent" on placebo, "with the exact figures differing by which condition was being treated." Placebo actually ranges from 0.4% to 1%. The sentence is explicitly hedged and was left alone.
+
+**What would settle it conclusively:** label 205437s014 opened from Drugs@FDA, with its printed revision date, and checked against whichever version was current when the author took the drug.
+
+### S7 — the correction
+
+The Introduction said the cancer "affects roughly a dozen or so children a year in the United States and Canada, according to the cooperative group that studies these tumors." The published sources support the rarity but not that sentence: the attribution traces to the 2021 edition's paraphrase of a physician's remark, not to any figure the Children's Oncology Group has published, and no per-year North American incidence in those terms could be found. What is published is an age-adjusted incidence of 0.205 per million children and about 3% of childhood renal tumours — which the endnote already carried, so the body text was the only thing out of step.
+
+> **Before:** …so rare that it affects roughly a dozen or so children a year in the United States and Canada, according to the cooperative group that studies these tumors.
+> **After:** …so rare that it turns up in about one child in five million a year and accounts for roughly three percent of childhood kidney cancers.
+
+### S10 and S12 — qualifications, left unchanged
+
+**S10.** The manuscript's paraphrase — "people with a personal or family history of psychotic illness or of mania should avoid hallucinogens" — is a fair compression of the review's "personal or family history of schizophrenia or schizophreniform disorders, psychotic depression or mania, or with ongoing manic or psychotic symptomatology." An earlier row in this file glossed it as "psychosis or non-psychotic mania," which was this file's error, not the manuscript's, and is corrected here. One qualification: the manuscript says episodes are rare "in ritual settings and outside them," while the review associates the reported episodes partly with unsupervised settings. Rarity in both is not contradicted, and the sentence stands.
+
+**S12.** Sources conflict on one date. The Galleria dell'Accademia gives Rossellino 1475; other standard references give 1476, which is what the manuscript uses. Everything else checks: Agostino di Duccio 1464, both sculptors abandoning the block over flaws in the marble, roughly 25 years in the Opera del Duomo yard, Michelangelo 1501 to 1504, and no 1521. Left unchanged under the rule that conflicting evidence is documented rather than acted on — noting the irony that this sits in the paragraph about getting a date wrong without checking.
+
+### S14 — dispositions confirmed individually
+
+The manuscript says "Three men were later convicted or pleaded guilty" and names none of them. Each disposition was checked separately: one pleaded guilty to second-degree murder; one was convicted by a Washtenaw County jury of first-degree felony murder, home invasion and conspiracy, and sentenced to life without parole; the third is also serving life without parole. The console was a PlayStation 3, which confirms the manuscript's own note that the first edition named the brand and got it wrong. The manuscript's decision not to name the three men stands.
 
 ## 2. Items removed from the 2021 edition as unsourced or unsafe
 

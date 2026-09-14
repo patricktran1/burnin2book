@@ -69,7 +69,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 62,291 words.** Notes: 1,103. Total including notes: 63,394. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 62,327 words.** Notes: 1,166. Total including notes: 63,493. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
@@ -387,6 +387,18 @@ Three failures were structural rather than stylistic, and none of them was visib
 Four others failed on tone: Chapter 5's "before you are sure it's warranted" was clinical, Chapter 7 dismissed writing as a first disclosure, Chapter 8's "you'll be no use to yourself" was punitive, and Chapter 14 ended by arguing with a critic nobody had named.
 
 Checks after the revision: no two charges share a three-word phrase; none shares a three-word phrase with the paragraphs above it; none shares a four-word phrase with Chapter 15; all fourteen open on a different word; lengths run 11 to 33 words. Chapters 1 to 14 each end with exactly one set-off charge, and Chapter 15 and the Epilogue still have none.
+
+## 8k. Source verification
+
+All fourteen citations were worked through on 14 September 2026. `FACT_CHECK.md` §1 carries the per-claim evidence trail; the summary is that eleven held and three did not.
+
+Every primary host was refused at the network gateway — twenty of them, tested at the start. Indexed retrieval of the same pages worked, so the verification rests on the sources' own text plus independent corroboration rather than on opening the documents, and each entry records what would settle it conclusively. The two urgent items are now specific enough for the author to close in minutes rather than hours.
+
+**Three corrections.** The fraud mechanism in Chapter 5 was wrong: the manuscript described "down-payment loans kept off the paperwork," an undisclosed silent second, when the record describes falsified financial statements and money temporarily wired into investors' accounts to fake proof of funds. The Otezla passage was wrong twice over — 1,441 is the psoriatic arthritis exposed population, not a pooled total, and the passage gave only the death figures that favour the drug while omitting the plaque psoriasis line in which a subject on the drug attempted suicide. That second one mattered most, because the paragraph exists to include the evidence that cuts against the author. And the Introduction's account of the cancer's rarity rested on an attribution to "the cooperative group" that traces to a physician's remark quoted in the 2021 edition rather than to anything published.
+
+The Otezla entry is worth recording as a process point: the previous pass corrected one version of that error and introduced a subtler one. Fixing "these are the psoriatic arthritis figures presented as general" by writing "pooled across all 1,441 exposed subjects" replaced a visible mistake with an invisible one. A correction is not self-verifying.
+
+**Two qualifications left unchanged.** Sources conflict on whether Rossellino took on the David block in 1475 or 1476, so the manuscript's 1476 stands and the conflict is documented — in the paragraph about getting a date wrong without checking. And the charging-stage reporting gives the fraud period as 2019 to August 2022 where the sentencing release says 2020 to 2022; the manuscript follows the release it cites.
 
 ## 9. Remaining factual items requiring Patrick's confirmation
 
