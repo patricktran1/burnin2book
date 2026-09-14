@@ -84,4 +84,4 @@ I no longer believe money is an antidote to burnout, or to depression, or to any
 
 * * *
 
-Buy yourself the freedom to walk out of a room you should walk out of. Everything else you want is not for sale.
+Buy yourself the freedom to leave any room that costs you too much to stay in. The rest of what you want was never for sale.

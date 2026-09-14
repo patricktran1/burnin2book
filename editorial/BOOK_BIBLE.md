@@ -194,7 +194,7 @@ It is restored, on every chapter from 1 to 14, as a final short paragraph after 
 - Test it five ways before keeping it: could it stand alone on a page; does it carry one governing idea; does it address the reader; does it close emotionally rather than explain, summarise or preview; does its last sentence feel like the chapter's true last word.
 - No coaching or therapeutic register, no scolding, no rebuttal to an unnamed critic, no abstraction that could close any other chapter.
 - Check it against Chapter 15 as well as against the paragraph above it. Chapter 15 owns "say it early, say it badly," "tell a person, not a page," and "keep enough that a bad year doesn't become a catastrophe." Three charges once duplicated those almost verbatim.
-- No two charges may share a three-word phrase, an opening word, or a construction.
+- No two charges should share a construction or arrive at the same conclusion. Phrase-overlap and opening-word counts were useful as diagnostics while the fourteen were being written; they are not literary requirements and should not be enforced as such.
 - No comfort the book has not earned. The Chapter 5 charge is the test case: *Being good at seeming fine does not mean you are fine. Tell one person the true version, and let them reach you.*
 
 **Chapter 15 and the Epilogue have none, deliberately.** Chapter 15 is addressed to Adrian and Elliot rather than to the reader, and both end on a deliberately quiet beat that a charge would break.

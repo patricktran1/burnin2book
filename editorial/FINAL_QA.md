@@ -1,5 +1,11 @@
 # Final QA — BURN IN, Version 2.0
 
+> **Developmental and register editing is frozen as of this commit, by the author's instruction.**
+> The manuscript is closed to structural, voice, and line-level revision. The two remaining stages are
+> source verification (`AUTHOR_CHECKLIST.md` §2, fourteen citations, the DOJ press release first) and a
+> formal copyedit and proofread by a human. Changes arising from those two stages are expected; anything
+> beyond them reopens work that has been signed off.
+
 Actual results of the final checks, not aspirations. Every command below was run in this repository and its real output is recorded. Anything unfinished is listed as unfinished.
 
 ---
@@ -63,7 +69,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 62,290 words.** Notes: 1,103. Total including notes: 63,393. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 62,291 words.** Notes: 1,103. Total including notes: 63,394. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|

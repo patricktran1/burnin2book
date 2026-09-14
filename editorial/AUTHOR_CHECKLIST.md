@@ -4,6 +4,8 @@ Answered September 2026. Most of this page is now a record of decisions rather t
 
 Roughly what is left: four people to ask, half a day of source re-checking, a copyedit, and a cover. Nothing on this page can stop the book.
 
+**The writing is finished.** Developmental and register editing are frozen; the manuscript is closed to structural, voice, and line-level revision. What follows is verification and copyediting, in that order.
+
 ---
 
 ## Still open
