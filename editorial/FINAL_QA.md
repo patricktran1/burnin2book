@@ -69,7 +69,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 62,309 words.** Notes: 1,163. Total including notes: 63,472. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 62,309 words.** Notes: 1,230. Total including notes: 63,539. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
