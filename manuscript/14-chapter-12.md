@@ -82,4 +82,4 @@ None of these systems is impressive. Nobody is going to invite me on a podcast t
 
 * * *
 
-Stop trying to want it more. Change the arrangement while you're strong, and let the arrangement carry you when you aren't.
+Stop trying to want it more. Build the thing that works when you don't.

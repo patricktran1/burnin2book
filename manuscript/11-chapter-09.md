@@ -86,4 +86,4 @@ I said at the start that the first edition's "Here and Now" was mostly about rea
 
 * * *
 
-Put down whatever you are holding and notice the room you are standing in. It costs nothing, and it will not arrive on its own once the deals close.
+Put down whatever you are holding and notice the room you are standing in. Nothing has to close first.

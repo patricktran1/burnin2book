@@ -98,4 +98,4 @@ That machinery has a name, and if you are ambitious you are almost certainly run
 
 * * *
 
-You are allowed to change your mind about the thing you organized your whole life around. Ask the people a few years ahead of you whether they'd do it again, and pay attention to the ones who hesitate.
+You are allowed to change your mind about the thing you organized your whole life around. The people a few years ahead of you already know it. Listen for the ones who hesitate.

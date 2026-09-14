@@ -94,4 +94,4 @@ I've spent this chapter on words because words were where I failed first. The cr
 
 * * *
 
-Get the name right before you accept it. The wrong word sends you to the wrong room, and you can spend years being treated for something you don't have.
+Get the name right before you accept it. A wrong word sends you to the wrong room. The right one is where help starts.

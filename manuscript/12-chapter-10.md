@@ -84,4 +84,4 @@ I no longer believe money is an antidote to burnout, or to depression, or to any
 
 * * *
 
-Keep enough that a bad year can't become a catastrophe, and don't keep your worth where you keep your money. Margin is what money is for. Meaning was never on offer.
+Buy yourself the freedom to walk out of a room you should walk out of. Everything else you want is not for sale.

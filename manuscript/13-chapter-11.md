@@ -78,4 +78,4 @@ Connections need feeding. I wrote that in 2021 too, and it's one of the sentence
 
 * * *
 
-Build the list of people who are allowed to ask you twice, and build it on a good day. You will not be able to assemble it on the day you need it.
+Decide who gets to ask you twice. Then let them ask.

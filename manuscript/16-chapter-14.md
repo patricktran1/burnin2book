@@ -82,4 +82,4 @@ Then I go back inside, because there is a small boy in the house who will be awa
 
 * * *
 
-Keep the fire. Build the container. Nobody who tells you to build one is telling you to burn smaller.
+Keep the fire. Build the container. Then burn as hot as you like.

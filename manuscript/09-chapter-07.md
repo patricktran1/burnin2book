@@ -96,4 +96,4 @@ So the idea needs rebuilding from the ground.
 
 * * *
 
-Say it early, say it badly, and say it to a person rather than to a page. Shame only survives in a room with one occupant.
+Shame only survives in a room with one occupant. Let somebody else in.

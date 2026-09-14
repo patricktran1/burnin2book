@@ -96,4 +96,4 @@ None of that can be done from inside a story. The sorting requires you to look a
 
 * * *
 
-None of this is your fault, and your next move still matters. Hold both of those at once. Let go of either one and you'll be no use to yourself.
+What happened was not your fault. What happens next is still yours. Neither of those cancels the other.

@@ -91,4 +91,4 @@ A protocol will keep you alive, and that is the whole of what it promises. It do
 
 * * *
 
-Write your protocol before you need it, while your judgment is still working. That is the only time you'll be qualified to write it.
+Write it down while your judgment still works. On the night you need it, you won't be deciding. You'll be following.

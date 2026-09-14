@@ -191,7 +191,11 @@ It is restored, on every chapter from 1 to 14, as a final short paragraph after 
 - It must be earned by the chapter above it. It states what the chapter proved, addressed to the reader, and never introduces a new idea or a fact that hasn't appeared.
 - It replaces any forward-pointer to the next chapter. Four chapters used to end on "the next chapter is about…" and now end on the charge instead.
 - It does not repeat a phrase from the paragraph immediately above it.
-- No comfort the book has not earned. The Chapter 5 charge is the test case: *Being very good at seeming fine is not evidence that you are fine. Tell one person the true version this week, before you are sure it's warranted.*
+- Test it five ways before keeping it: could it stand alone on a page; does it carry one governing idea; does it address the reader; does it close emotionally rather than explain, summarise or preview; does its last sentence feel like the chapter's true last word.
+- No coaching or therapeutic register, no scolding, no rebuttal to an unnamed critic, no abstraction that could close any other chapter.
+- Check it against Chapter 15 as well as against the paragraph above it. Chapter 15 owns "say it early, say it badly," "tell a person, not a page," and "keep enough that a bad year doesn't become a catastrophe." Three charges once duplicated those almost verbatim.
+- No two charges may share a three-word phrase, an opening word, or a construction.
+- No comfort the book has not earned. The Chapter 5 charge is the test case: *Being good at seeming fine does not mean you are fine. Tell one person the true version, and let them reach you.*
 
 **Chapter 15 and the Epilogue have none, deliberately.** Chapter 15 is addressed to Adrian and Elliot rather than to the reader, and both end on a deliberately quiet beat that a charge would break.
 

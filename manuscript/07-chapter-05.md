@@ -84,4 +84,4 @@ Let me end with a word. For most of my career I'd used it for everything that wa
 
 * * *
 
-Being very good at seeming fine is not evidence that you are fine. Tell one person the true version this week, before you are sure it's warranted.
+Being good at seeming fine does not mean you are fine. Tell one person the true version, and let them reach you.

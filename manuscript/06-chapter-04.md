@@ -94,4 +94,4 @@ Then the story I'd been telling about money stopped being true.
 
 * * *
 
-Keep the confidence. It built everything you have, and you'll need it again. Just stop letting it be the only witness you call.
+Confidence built everything you have, and you will need it again. It should not be the only witness you call.

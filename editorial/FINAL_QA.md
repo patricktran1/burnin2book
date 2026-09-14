@@ -63,7 +63,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 62,401 words.** Notes: 1,103. Total including notes: 63,504. The brief asked for approximately 55,000–70,000 polished words.
+**Manuscript total, excluding notes: 62,290 words.** Notes: 1,103. Total including notes: 63,393. The brief asked for approximately 55,000–70,000 polished words.
 
 | File | Words | Target | Title |
 |---|---|---|---|
@@ -365,6 +365,22 @@ Chapter 15 and the Epilogue deliberately have none. Chapter 15 is addressed to A
 What the first edition really is, is a self-help book with a memoir thread. This one is a memoir with an argument. The right test is not the book-wide rate but whether the *argument* passages address the reader, and they do: Chapter 3 is at 36.0, Chapter 13 at 30.1, Chapter 15 at 43.0, the reader's note at 39.1, plus fourteen closing charges. Five further turns were made where an impersonal sentence was making a general claim and landed harder aimed at the reader — "your calendar is the only honest document you keep" — and the rest were left alone.
 
 **Two more classes of contraction damage were found and fixed**, both from the mechanical pass: 25 clause-final contractions, which are simply not English ("the thing you're", "You know who you're", "how sure I'm", "Here it's"), and two where a pronoun object was misread as a subject ("the people who love you'd be better off"). Searches confirm none remain of either kind. Taken with the two classes caught earlier, that is four distinct failure modes from one regex pass, which is the honest argument for why the register work needed reading afterward and not just running.
+
+## 8j. The charges, revised against five tests
+
+Every charge was reread against the two or three paragraphs above it and tested five ways: could it stand alone; does it carry one governing idea; does it address the reader; does it close emotionally rather than explain or preview; does its last sentence feel like the chapter's true last word. Thirteen of fourteen failed at least one. Only Chapter 3's passed untouched.
+
+Three failures were structural rather than stylistic, and none of them was visible from the charge alone.
+
+**Three charges plagiarised Chapter 15.** Chapter 15 gets to "say it early, and say it badly if you have to," "Tell a person, not a page," and "keep enough that a bad year doesn't become a catastrophe, and don't keep it where you keep your worth" first, in a chapter addressed to his sons. The charges on Chapters 5, 7 and 10 had arrived at nearly the same sentences. In a book read front to back, Chapter 15 would have read as a reprise of three earlier lines rather than as the place those thoughts are finally said to someone. All three are rewritten off that ground.
+
+**Three charges repeated the paragraph directly above them.** Chapter 9's said "it costs nothing" under a paragraph ending "Presence is cheap." Chapter 10's said "Money can do that much" under "What money can do is give the rest of your life room to work." Chapter 11's said "you will not be able to assemble it on the day you need it" under "the version of you that most needs people is the version least able to reach for them." Each was the same thought twice in forty words.
+
+**Three charges shared one construction.** Chapters 11, 12 and 13 all said do it in advance, on a good day, while you are strong. Chapter 13 keeps that idea because the protocol is what it is about; the other two moved.
+
+Four others failed on tone: Chapter 5's "before you are sure it's warranted" was clinical, Chapter 7 dismissed writing as a first disclosure, Chapter 8's "you'll be no use to yourself" was punitive, and Chapter 14 ended by arguing with a critic nobody had named.
+
+Checks after the revision: no two charges share a three-word phrase; none shares a three-word phrase with the paragraphs above it; none shares a four-word phrase with Chapter 15; all fourteen open on a different word; lengths run 11 to 33 words. Chapters 1 to 14 each end with exactly one set-off charge, and Chapter 15 and the Epilogue still have none.
 
 ## 9. Remaining factual items requiring Patrick's confirmation
 

@@ -74,4 +74,4 @@ So that is who was standing there at the start of surgical training. A young man
 
 * * *
 
-Your ambition isn't the problem, and you don't owe anyone an apology for wanting what you want. Go and find out what you bolted onto it while you weren't looking.
+Your ambition is not the flaw. Find what attached itself to it while you were busy being rewarded.
