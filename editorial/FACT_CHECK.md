@@ -11,94 +11,68 @@ Labels used throughout:
 
 A note on verification method: the build environment had web search but direct page fetches to several government and journal domains were blocked by the network policy. For items marked VERIFIED below, the source was located and its wording confirmed from indexed excerpts of the cited page. **Before print, each VERIFIED item should be re-checked against the live page** (a fifteen-minute task with the URLs below).
 
-## 1. Sourced claims — source-verification stage, 14 September 2026
+## 1. Source verification — status and evidence packet
 
-**Access conditions.** Every primary host was tested directly at the start of this stage and every one was refused at the network gateway: justice.gov, irs.gov, courtlistener.com, accessdata.fda.gov, dailymed.nlm.nih.gov, who.int, nimh.nih.gov, pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov, mayoclinicproceedings.org, mayoclinic.org, frontiersin.org, academic.oup.com, samhsa.gov, accademia.org, britannica.com, record.umich.edu, drugs.com, pi.amgen.com, and web.archive.org. The proxy answers 403 to CONNECT for all of them; this is an environment policy and was not worked around. Indexed retrieval of those same pages did work, and returned their text.
+Stage worked 14 September 2026; S1 and S2 re-opened and corrected after independent direct access to the two primary sources.
 
-**What that means for these statuses.** "Verified" below means the specific claim — figure, denominator, wording, chronology, disposition — was recovered from the cited source's own indexed text and, wherever the claim was load-bearing, corroborated against at least one independent source that agrees precisely. It does **not** mean the PDF or page was opened in a browser. Each entry records what would settle it conclusively. The author should still open the fourteen URLs; this stage has changed what he is checking, from "is this right?" to "does the page still say this?"
+### Levels of verification used here
 
-| # | Manuscript claim and location | Source | Status |
-|---|---|---|---|
-| S1 | Ch. 5: Onofrio named; guilty plea; December 2025 federal sentence of three years; 2020–2022; 68 transactions; ~$420m in loans obtained fraudulently; mechanism | U.S. Attorney's Office, D. Minn. press release, 11 Dec 2025; IRS-CI mirror | **Correction required — corrected** |
-| S2 | Ch. 6: Otezla label warning; depression and suicidality figures | FDA prescribing information | **Correction required — corrected** |
-| S3 | Ch. 6, Ch. 12: ICD-11 burn-out definition and three dimensions | WHO news release, 28 May 2019 | **Verified** |
-| S4 | Ch. 6: depression requires symptoms most of the day, nearly every day, ≥2 weeks, including depressed mood or loss of interest | NIMH, *Depression* | **Verified** |
-| S5 | Ch. 2: 39 studies, 20 countries; male physicians not measurably different; female 76% higher; ~24% higher in the most recent period | Zimmermann et al., *BMJ* 2024;386:e078964 | **Verified** |
-| S6 | Ch. 3: at least one burnout symptom in ~45% (2023), ~38% (2020), ~63% (2021) | Shanafelt et al., *Mayo Clin Proc* (2025) | **Verified** |
-| S7 | Introduction: rarity of clear cell sarcoma of the kidney | Frontiers in Pediatrics 2021; Benedetti, *Cancer* 2024 | **Correction required — corrected** |
-| S8 | Introduction: intussusception telescopes and obstructs | Mayo Clinic | **Verified** |
-| S9 | Ch. 1, Ch. 6: HCM autosomal dominant; 50% for each first-degree relative | *Eur Heart J* 2024;45(30):2727 | **Verified** |
-| S10 | Ch. 6: case reports of mania after ayahuasca; review finds episodes rare; advisory to avoid | Szmulewicz 2015; dos Santos 2017 | **Verified with qualification** |
-| S11 | Front matter, Author's Note, Ch. 5, Ch. 13: call or text 988 at any hour | 988 Lifeline / SAMHSA | **Verified** |
-| S12 | Ch. 14: David block — Agostino di Duccio 1464, Rossellino 1476, ~25 years, Michelangelo 1501–1504 | Galleria dell'Accademia; Britannica | **Verified with qualification** |
-| S13 | Ch. 14: Lalonde and colleagues, >3,000 consecutive cases of elective epinephrine in the fingers and hand | *J Hand Surg Am* 2005;30(5):1061–1067 | **Verified** |
-| S14 | Ch. 11: DeWolf, 25, Air Force scholarship, July 2013, fraternity house, game console, three men convicted or pleaded guilty | University Record; Detroit News; contemporaneous reporting | **Verified** |
+| Label | Meaning |
+|---|---|
+| **Verified (direct)** | The full source document was consulted. The claim is supported by named section or passage. |
+| **Provisional (indexed)** | The claim was recovered from the cited source's own indexed text and corroborated against at least one independent source, but the full document was never opened. **Awaiting direct-source confirmation.** |
+| **Provisional (indexed), qualified** | As above, with a recorded conflict or nuance. |
 
-### S1 — the legal matter, in detail
+**Why the distinction is not cosmetic.** Twelve of these fourteen rest on indexed retrieval, because every primary host is refused at this environment's network gateway. That method failed once, materially, and the failure is instructive: in S1 the indexed text returned one of the two mechanisms the DOJ release describes, and the absence of the second was read as evidence the manuscript's wording was unsupported. An accurate sentence was replaced with a narrower one, and a false justification was written into this file. Snippet retrieval establishes that a source says something. It never establishes that a source says nothing further. No entry below marked Provisional should be treated as settled.
 
-Every legal term was checked separately, because the manuscript states them as fact about a named living person.
+### S1 — DOJ / Onofrio — **Verified (direct)**
 
-| Element | Record | Manuscript |
+- **Manuscript claim** (Ch. 5): "Several of the commercial real-estate transactions I had entered were put together by a man I trusted named Matt Onofrio. He pleaded guilty to bank fraud, and in December 2025 a federal judge in Minnesota sentenced him to three years in prison. The government's case described a scheme running from 2020 to 2022, sixty-eight transactions, and roughly four hundred and twenty million dollars in loans obtained fraudulently: purchase agreements assigned on to new investors at inflated prices, **down-payment loans kept off the paperwork**, buyers coached on what to tell the banks."
+- **Source:** U.S. Attorney's Office, District of Minnesota, "Architect of massive $420 million bank fraud scheme sentenced to 3 years in prison," 11 December 2025. https://www.justice.gov/usao-mn/pr/architect-massive-420-million-bank-fraud-scheme-sentenced-3-years-prison
+- **Supporting passages:** the release describes **two** distinct mechanisms. First, Onofrio helped investors prepare financial statements falsely showing enough cash for the down payment, and when banks asked for proof of funds he temporarily wired money into the investors' accounts. Second, **he loaned investors their down-payment money, omitted those loans from their personal financial statements, and did not record the promissory notes as second mortgages.**
+- **Assessment:** the manuscript's "down-payment loans kept off the paperwork" is an accurate compression of the second mechanism. It is loans, for down payments, kept off the borrowers' financial statements, with the notes unrecorded.
+- **Action:** the earlier change is **reverted**; the original wording stands.
+
+**Withdrawn.** This file previously stated that nothing supported the original wording and that it described an unsupported "silent second." Both statements were wrong and are withdrawn. The release expressly says the promissory notes were **not** recorded as second mortgages, which is the fact the manuscript's phrase captures. The error was not in the manuscript.
+
+Legal terms, each checked separately and unaffected by the above: indicted on three counts 17 November 2022; pleaded guilty 10 July 2023 to one count of bank fraud, the other two dismissed under the agreement; sentenced 11 December 2025 by U.S. District Judge Susan Richard Nelson to 36 months, two years of supervised release, $5,398,641 restitution; 68 deals, $420,564,795 in fraudulently obtained loans. **Qualification:** the sentencing release gives the period as 2020–2022 while charging-stage reporting gives 2019–August 2022; the manuscript follows the release it cites.
+
+The endnote's sentence that the release does not mention the author is retained as it stood before this stage. A broader negative added during the previous pass — that the release "names no other individual" — has been removed, being exactly the kind of claim partial retrieval cannot support.
+
+### S2 — Otezla label — **Verified (direct)**
+
+- **Manuscript claim** (Ch. 6): the label's depression warning; depression or depressed mood in roughly one percent on drug and just under one percent on placebo, differing by indication; serious depression, discontinuation and suicidal ideation figures; and the suicide-event sentences.
+- **Source:** Otezla (apremilast) full prescribing information, **revised December 2025**, **section 5.3, Depression**. https://www.pi.amgen.com/united_states/otezla/otezla_pi_english.pdf — stable record: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6b1f516-4972-4d82-bced-113e47b41cc5
+- **Supporting passages, section 5.3, per indication:**
+
+| Indication | Suicidal ideation / behaviour | Deaths |
 |---|---|---|
-| Indictment | Three counts, 17 Nov 2022 | not stated |
-| Plea | Guilty, 10 July 2023, to **one** count of bank fraud; the other two counts dismissed under the agreement | "He pleaded guilty to bank fraud" — accurate |
-| Sentence | 11 Dec 2025; U.S. District Judge Susan Richard Nelson; 36 months; 2 years supervised release; $5,398,641 restitution | "in December 2025 a federal judge in Minnesota sentenced him to three years in prison" — accurate |
-| Scale | 68 deals; $420,564,795 in fraudulently obtained loans; netted at least $35,745,252 | "sixty-eight transactions, and roughly four hundred and twenty million dollars" — accurate |
-| Period | Sentencing release: "between 2020 and 2022." Charging-stage reporting: 2019 to August 2022 | "a scheme running from 2020 to 2022" — follows the sentencing release |
+| Psoriatic arthritis | 3/1,441 on Otezla vs 0/495 placebo | two placebo subjects died by suicide; none on Otezla |
+| Plaque psoriasis | 1/1,308 on Otezla vs 1/506 placebo | the Otezla subject attempted suicide; the placebo subject died |
+| Behçet's disease | 0/104 vs 0/103 | — |
 
-**The correction.** The manuscript described the mechanism as "down-payment loans kept off the paperwork." That is a real fraud pattern — an undisclosed silent second — but it is **not** what this record describes, and nothing found supports it. What the release describes is: Onofrio helped investors prepare financial statements falsely showing enough cash for the down payment; when banks asked for proof of funds he temporarily wired money into the investors' accounts so it appeared they had it; and he coached them on what to say if asked about the source.
+- **Assessment and action.** The indication-specific correction stands and was necessary: the label pools nothing across indications, and 1,441 is the psoriatic arthritis exposed population, not a total. Two further fixes were made at this stage. The endnote now cites the December 2025 prescribing information and section 5.3 rather than describing a Drugs@FDA supplement number as current. And the body phrase "In the psoriasis trials it runs the other way" has been removed: the psoriasis event rate was lower on Otezla (0.1%) than on placebo (0.2%), so the direction did not reverse — what differed was the severity of the two events. The manuscript now states the two events and characterises neither.
 
-> **Before:** purchase agreements assigned on to new investors at inflated prices, down-payment loans kept off the paperwork, buyers coached on what to tell the banks.
-> **After:** purchase agreements assigned on to new investors at inflated prices, money wired into their accounts so the down payments would look real, buyers coached on what to tell the banks.
+### The other twelve — **Provisional (indexed), awaiting direct-source confirmation**
 
-Nothing in the passage attributes conduct to the author, and the release names no other individual. The endnote now carries the indictment date, the plea date and its single count, the sentencing date, the judge, and the restitution figure.
+Research from the previous pass is retained in full; only the status labels change, to reflect that none of these documents was opened.
 
-**Qualification.** The date range differs between the charging stage (2019–August 2022) and the sentencing release (2020–2022). The manuscript follows the sentencing release, which is the document cited. Left unchanged and recorded here.
-
-**What would settle it conclusively:** the DOJ or IRS-CI release opened directly, or the judgment in *United States v. Onofrio* (D. Minn.) from PACER.
-
-### S2 — the Otezla label, in detail
-
-**This entry corrected an error introduced by the previous correction.** The passage originally quoted the psoriatic arthritis figures as though they were the general result. That was fixed in an earlier pass by re-describing them as "pooled across all 1,441 exposed subjects" — which is also wrong, and in a subtler way. The label pools nothing across indications. Section 5.1 reports everything per indication, and **1,441 is the psoriatic arthritis exposed population.**
-
-| Indication | Controlled period | Serious depression | Discontinued | Suicidal ideation/behaviour | Deaths |
+| # | Exact manuscript claim | Source title and URL | Section | Supporting passage recovered | Status |
 |---|---|---|---|---|---|
-| Psoriatic arthritis | 1.0% (10/998) vs 0.8% (4/495) | 0.2% (3/1,441) vs 0/495 | 0.3% (4/1,441) vs 0/495 | 0.2% (3/1,441) vs 0/495 | 2 placebo subjects died by suicide; no apremilast subject did |
-| Plaque psoriasis | 1.3% (12/920) vs 0.4% (2/506) | 0.1% (1/1,308) vs 0/506 | 0.1% (1/1,308) vs 0/506 | 0.1% (1/1,308) vs 0.2% (1/506) | one apremilast subject attempted suicide; one placebo subject died by suicide |
-| Behçet's disease | 1% (1/104) vs 1% (1/103) | none | none | none on apremilast (0/104) | — |
+| S3 | Ch. 6: burn-out is "a syndrome conceptualized as resulting from chronic workplace stress that has not been successfully managed," an occupational phenomenon rather than a medical condition, with three dimensions | WHO, "Burn-out an 'occupational phenomenon': International Classification of Diseases," 28 May 2019. https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases | News release, ICD-11 entry | Quoted definition verbatim; three dimensions (exhaustion; mental distance or cynicism; reduced professional efficacy); "should not be applied to describe experiences in other areas of life" | Provisional (indexed) |
+| S4 | Ch. 6: diagnosis requires symptoms most of the day, nearly every day, for at least two weeks, including depressed mood or loss of interest or pleasure | NIMH, *Depression*. https://www.nimh.nih.gov/health/publications/depression | Signs and symptoms | "most of the day, nearly every day, for at least two weeks," with one symptom necessarily depressed mood or loss of interest | Provisional (indexed) |
+| S5 | Ch. 2: 39 studies from 20 countries; male physicians not measurably different; female about 76% higher; roughly 24% higher in the most recent period | Zimmermann C, et al., "Suicide rates among physicians compared with the general population in studies from 20 countries," *BMJ* 2024;386:e078964. https://pubmed.ncbi.nlm.nih.gov/39168499/ | Results | Male 1.05 (0.90–1.22); female 1.76 (1.40–2.21); 10 most recent studies show decline with female rate still elevated by 24% | Provisional (indexed) |
+| S6 | Ch. 3: at least one burnout symptom in ~45% (2023), ~38% (2020), nearly 63% (2021) | Shanafelt TD, et al., "Changes in Burnout and Satisfaction With Work–Life Integration…," *Mayo Clin Proc* (2025). https://www.mayoclinicproceedings.org/article/S0025-6196(24)00668-2/fulltext | Results | 45.2% (2023), 62.8% (2021), 38.2% (2020), 43.9% (2017), 54.4% (2014), 45.5% (2011) | Provisional (indexed) |
+| S7 | Introduction: "so rare that it turns up in about one child in five million a year and accounts for roughly three percent of childhood kidney cancers" | "Childhood Clear Cell Sarcoma of Kidney: Incidence and Survival," *Frontiers in Pediatrics* 2021. https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2021.675373/full — with Benedetti DJ, et al., *Cancer* 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11162327/ | Incidence | Age-adjusted incidence 0.205 per million children; 3.00% of childhood kidney cancers | Provisional (indexed). **Correction retained**: the previous wording attributed "a dozen or so children a year in the United States and Canada" to the cooperative group; that attribution traces to a physician's remark quoted in the 2021 edition, not to a published COG figure, and no such figure was located |
+| S8 | Introduction: one segment of the bowel telescopes into the next and obstructs it | Mayo Clinic, "Intussusception." https://www.mayoclinic.org/diseases-conditions/intussusception/symptoms-causes/syc-20351452 | Symptoms & causes | "part of the intestine slides into another part, much like a telescope"; blocks passage; cuts off blood supply; most common cause of intestinal blockage in children under 3 | Provisional (indexed) |
+| S9 | Ch. 1, Ch. 6: autosomal dominant; each first-degree relative has a 50% chance of carrying the variant | "Genetics of hypertrophic cardiomyopathy: established and emerging implications for clinical practice," *Eur Heart J* 2024;45(30):2727. https://academic.oup.com/eurheartj/article/45/30/2727/7710314 | Inheritance | Autosomal dominant; each first-degree relative has a 50% chance of carrying the variant | Provisional (indexed) |
+| S10 | Ch. 6: case reports of mania after ayahuasca in bipolar disorder; review finds psychotic or manic episodes rare; advisory to avoid | Szmulewicz AG, et al., *Int J Bipolar Disord* 2015;3:4, DOI 10.1186/s40345-014-0020-y, https://pubmed.ncbi.nlm.nih.gov/25713771/ ; dos Santos RG, et al., *Ther Adv Psychopharmacol* 2017;7(4):141–157, https://pubmed.ncbi.nlm.nih.gov/28540034/ | Case report; review discussion | Switch to mania after an ayahuasca ritual in a man with bipolar disorder; incidence of psychotic episodes rare; advisory covers "personal or family history of schizophrenia or schizophreniform disorders, psychotic depression or mania" | Provisional (indexed), qualified: the review associates reported episodes partly with unsupervised settings, where the manuscript says rare "in ritual settings and outside them." Not contradicted; left unchanged |
+| S11 | Front matter, Author's Note, Ch. 5, Ch. 13: call or text 988 at any hour and reach a person | 988 Suicide & Crisis Lifeline. https://988lifeline.org/about/ ; SAMHSA, https://www.samhsa.gov/mental-health/988 | About | Launched 16 July 2022; confidential, no cost, 24/7; calls, texts and chats | Provisional (indexed) |
+| S12 | Ch. 14: Agostino di Duccio 1464; Rossellino 1476; block sat about twenty-five years; Michelangelo 1501–1504; no 1521 | Galleria dell'Accademia, https://www.accademia.org/explore-museum/artworks/michelangelos-david/ ; *Encyclopaedia Britannica*, https://www.britannica.com/topic/David-sculpture | History of the block | 1464 Agostino; Rossellino in the 1470s; both rejected the block over flaws; ~25 years in the Opera del Duomo yard; 1501–1504 | Provisional (indexed), qualified: the Accademia gives Rossellino **1475**, other standard references **1476**. Conflicting, so the manuscript's 1476 is left unchanged |
+| S13 | Ch. 14: Lalonde and colleagues followed more than three thousand consecutive cases of elective epinephrine use in the fingers and hand | Lalonde D, et al., "A multicenter prospective study of 3,110 consecutive cases of elective epinephrine use in the fingers and hand: the Dalhousie Project clinical phase," *J Hand Surg Am* 2005;30(5):1061–1067. https://pubmed.ncbi.nlm.nih.gov/16182068/ | Title and methods | 3,110 consecutive cases; 9 hand surgeons, 6 cities, 2002–2004 | Provisional (indexed) |
+| S14 | Ch. 11: twenty-five, Air Force scholarship, July 2013, fraternity house, a game console taken, three men later convicted or pleaded guilty | University Record, https://record.umich.edu/articles/suspect-charged-homicide-u-m-medical-student/ ; contemporaneous Michigan reporting | News reports | DeWolf, 25, found 24 July 2013 at the Phi Rho Sigma house, Air Force scholarship; PlayStation 3 taken; one guilty plea to second-degree murder, one jury conviction for first-degree felony murder with life without parole, a third also serving life without parole | Provisional (indexed) |
 
-Two corrections followed.
-
-> **Before:** Among the 1,441 subjects exposed to the drug, depression was reported as serious in 0.2 percent…
-> **After:** In the psoriatic arthritis trials, among the 1,441 subjects exposed to the drug, depression was reported as serious in 0.2 percent…
-
-The second is more serious, because the passage exists to include the evidence that cuts against the author's own hypothesis. It gave the psoriatic arthritis death figures — which favour the drug — and omitted the plaque psoriasis line, in which a subject on the drug attempted suicide. Reporting only the favourable half, in the paragraph that claims not to, is exactly the failure the chapter is about.
-
-> **Before:** …two of the subjects taking placebo died by suicide, and none of the subjects taking the drug did.
-> **After:** …two of the subjects taking placebo died by suicide, and none of the subjects taking the drug did. In the psoriasis trials it runs the other way, and I should give you that too: one subject on the drug attempted suicide, and one on placebo died.
-
-Naming the two indications as label sections does not disclose the author's own indication, which the book withholds; the label covers both and he is describing the label. The endnote is rewritten to give all three indications with their own denominators, and the cited label is updated from the 2021 version (205437s011) to the current 2025 version (205437s014).
-
-**Verified with qualification** on one point: the manuscript's summary sentence says depression was reported in "roughly one percent" on the drug and "just under one percent" on placebo, "with the exact figures differing by which condition was being treated." Placebo actually ranges from 0.4% to 1%. The sentence is explicitly hedged and was left alone.
-
-**What would settle it conclusively:** label 205437s014 opened from Drugs@FDA, with its printed revision date, and checked against whichever version was current when the author took the drug.
-
-### S7 — the correction
-
-The Introduction said the cancer "affects roughly a dozen or so children a year in the United States and Canada, according to the cooperative group that studies these tumors." The published sources support the rarity but not that sentence: the attribution traces to the 2021 edition's paraphrase of a physician's remark, not to any figure the Children's Oncology Group has published, and no per-year North American incidence in those terms could be found. What is published is an age-adjusted incidence of 0.205 per million children and about 3% of childhood renal tumours — which the endnote already carried, so the body text was the only thing out of step.
-
-> **Before:** …so rare that it affects roughly a dozen or so children a year in the United States and Canada, according to the cooperative group that studies these tumors.
-> **After:** …so rare that it turns up in about one child in five million a year and accounts for roughly three percent of childhood kidney cancers.
-
-### S10 and S12 — qualifications, left unchanged
-
-**S10.** The manuscript's paraphrase — "people with a personal or family history of psychotic illness or of mania should avoid hallucinogens" — is a fair compression of the review's "personal or family history of schizophrenia or schizophreniform disorders, psychotic depression or mania, or with ongoing manic or psychotic symptomatology." An earlier row in this file glossed it as "psychosis or non-psychotic mania," which was this file's error, not the manuscript's, and is corrected here. One qualification: the manuscript says episodes are rare "in ritual settings and outside them," while the review associates the reported episodes partly with unsupervised settings. Rarity in both is not contradicted, and the sentence stands.
-
-**S12.** Sources conflict on one date. The Galleria dell'Accademia gives Rossellino 1475; other standard references give 1476, which is what the manuscript uses. Everything else checks: Agostino di Duccio 1464, both sculptors abandoning the block over flaws in the marble, roughly 25 years in the Opera del Duomo yard, Michelangelo 1501 to 1504, and no 1521. Left unchanged under the rule that conflicting evidence is documented rather than acted on — noting the irony that this sits in the paragraph about getting a date wrong without checking.
-
-### S14 — dispositions confirmed individually
-
-The manuscript says "Three men were later convicted or pleaded guilty" and names none of them. Each disposition was checked separately: one pleaded guilty to second-degree murder; one was convicted by a Washtenaw County jury of first-degree felony murder, home invasion and conspiracy, and sentenced to life without parole; the third is also serving life without parole. The console was a PlayStation 3, which confirms the manuscript's own note that the first edition named the brand and got it wrong. The manuscript's decision not to name the three men stands.
+**Not among the fourteen**, unchanged from earlier passes: S15 Ram Dass, S16 Beyoncé, S17 the Vietnamese proverb.
 
 ## 2. Items removed from the 2021 edition as unsourced or unsafe
 

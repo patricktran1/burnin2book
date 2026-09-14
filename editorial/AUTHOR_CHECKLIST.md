@@ -17,10 +17,13 @@ Roughly what is left: four people to ask, half a day of source re-checking, a co
 - [ ] **Adam and Bill** — the two plastic surgeons who told you the truth (Chapter 2, first names only)
 - [ ] **Linda** — the histotechnician and her dream about her father (Chapter 11). You may prefer to describe her by role.
 
-**2. Source verification — done, with two items to close.** All fourteen citations were worked through on 14 September 2026; `FACT_CHECK.md` §1 has the evidence trail. Three claims were wrong and are corrected: the description of how the fraud worked, the Otezla denominator and its missing counterweight, and the attribution behind the cancer's rarity. Every primary host was refused at this environment's network gateway, so the verification rests on the sources' own indexed text plus independent corroboration rather than on opening the pages. That changes what is left for you from "is this right?" to "does the page still say this?"
+**2. Source verification — two done directly, twelve provisional.** `FACT_CHECK.md` §1 has the packet: exact claim, source, section, supporting passage, status.
 
-- [ ] **Open the DOJ or IRS-CI release** and confirm the mechanism paragraph in Chapter 5 and the endnote's dates. The endnote now carries the indictment date, the plea date and its single count, the sentencing date, the judge, and the restitution figure.
-- [ ] **Open Otezla label 205437s014** on Drugs@FDA, note its printed revision date, and confirm the three indication blocks. If you know which label version was current when you took the drug, check that one too.
+The two priority sources have now been confirmed against the full documents, and one of those confirmations reversed a change I had made. The other twelve rest on indexed retrieval only, because every primary host is refused at this environment's network gateway, and they are labelled **Provisional (indexed) — awaiting direct-source confirmation** rather than verified. That distinction is real: indexed retrieval already failed once here, returning one of the two mechanisms the DOJ release describes and not the other.
+
+- [x] **DOJ release** — confirmed. It describes two mechanisms, not one: money temporarily wired in to fake proof of funds, **and** down-payment loans left off investors' financial statements with the promissory notes unrecorded. Chapter 5's original wording was accurate and has been restored.
+- [x] **Otezla** — confirmed against the December 2025 prescribing information, section 5.3. Endnote updated to that document; the indication-specific denominators stand.
+- [ ] **The remaining twelve** still want opening. They are lower risk and the numbers were corroborated independently, but none of those documents has been read in full.
 
 **3. Front matter.** Copyright year (currently 2026), ISBNs if any, and the publisher line.
 
