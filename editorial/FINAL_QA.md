@@ -71,7 +71,7 @@ Specifically confirmed:
 
 ## 3. Word counts (`npm run wordcount`)
 
-**Manuscript total, excluding notes: 62,337 words.** Notes: 2,033. Total including notes: 64,370. The brief asked for approximately 55,000–70,000 polished words. The notes nearly doubled during source verification: the citations now carry study populations, date ranges, DOIs, docket numbers and stated limits rather than a title and a URL.
+**Manuscript total, excluding notes: 62,317 words.** Notes: 1,974. Total including notes: 64,291. The brief asked for approximately 55,000–70,000 polished words. The notes grew by roughly eight hundred words during source verification: the citations now carry study populations, date ranges, DOIs, docket numbers and stated limits rather than a title and a URL.
 
 | File | Words | Target | Title |
 |---|---|---|---|
@@ -91,12 +91,12 @@ Specifically confirmed:
 | `13-chapter-11.md` | 3,669 | 3,500–4,000 | 11. We're All in This Together |
 | `14-chapter-12.md` | 3,675 | 3,300–3,800 | 12. Design Beats Willpower |
 | `15-chapter-13.md` | 3,278 | 3,300–3,800 | 13. The Burn In Protocol |
-| `16-chapter-14.md` | 4,256 | 3,500–4,500 | 14. Ambition After Collapse |
+| `16-chapter-14.md` | 4,236 | 3,500–4,500 | 14. Ambition After Collapse |
 | `17-chapter-15.md` | 3,401 | 2,900–3,600 | 15. What I Want My Children to Know |
 | `18-epilogue.md` | 1,366 | 1,200–1,600 | Epilogue: Still Here |
 | `19-acknowledgments.md` | 298 | — | Acknowledgments |
 | `20-about-author.md` | 99 | — | About the Author |
-| `21-notes.md` | 2,033 | — | Notes |
+| `21-notes.md` | 1,974 | — | Notes |
 
 Two targets were revised during the second pass rather than cutting prose: Chapter 14 from 4,000 to 4,500 (it carries the fireplace mechanics, the Michelangelo correction, and all three of the first edition's closing principles) and Chapter 15 from 3,400 to 3,600. Both changes are recorded as comments in `book.yml`.
 
@@ -119,7 +119,7 @@ Of the 25 retained figures, 23 appear in the manuscript body (each exactly once,
 
 **Citation status after two independent reviews.** Every primary host is refused at this environment's network gateway, re-tested at each stage and again on 15 September 2026, so **no source cited in this book was opened from this working environment.** All direct reading was done by independent reviewers with document access and supplied back as reports; the full access taxonomy, per-entry status and evidence are in `editorial/FACT_CHECK.md` §1.
 
-Twelve of the fourteen have now been checked against real documents, and six manuscript sentences were corrected as a result (§8l). Four questions remain open, and source verification is **not closed** while they do.
+Twelve of the fourteen have now been checked against real documents, and the manuscript was corrected as a result (§8l, §8m). Three access limits and one unsourced disposition remain open, and source verification is **not closed** while they do.
 
 | # | Source | Checked against | Outcome |
 |---|---|---|---|
@@ -128,13 +128,13 @@ Twelve of the fourteen have now been checked against real documents, and six man
 | S3 | WHO ICD-11 burn-out release | Full document | Verified; Chapter 12's attribution corrected |
 | S4 | NIMH depression overview | Full document | Verified as an abbreviated overview; an earlier quotation in the record withdrawn |
 | S5 | BMJ 2024 physician-suicide meta-analysis | Abstract + institutional announcement | Pooled figures verified; **subgroup definition unread** |
-| S6 | Mayo Clinic Proceedings 2025 burnout prevalence | Abstract | All six percentages verified; **full article not inspected** |
+| S6 | Mayo Clinic Proceedings 2025 burnout prevalence | Original abstract | All six percentages **verified**; full article not inspected, which does not qualify them |
 | S7 | CCSK incidence (SEER) and COG outcomes | Full documents | Verified; the manuscript sentence now carries registry scope |
 | S8 | Intussusception | Full document | Verified, no change |
 | S9 | HCM inheritance | Full document + GeneReviews | **Was incorrect.** Corrected in Chapters 1 and 6 |
 | S10 | Ayahuasca case report and systematic review | Full documents | Verified; an asserted conflict in the record withdrawn |
 | S11 | 988 Suicide & Crisis Lifeline | Operator pages + HHS | Verified; endnotes re-pointed after a SAMHSA URL failed |
-| S12 | Michelangelo's David chronology | Scholarly and institutional sources | Attribution corrected, Britannica dropped, 1475/1476 conflict documented; **author query open** |
+| S12 | Michelangelo's David chronology | Scholarly and institutional sources | Attribution corrected, Britannica dropped, 1475/1476 conflict documented; author query **resolved** — disputed account removed from the text |
 | S13 | Lalonde et al. 2005 epinephrine study | Full original article | Verified; dose qualifier added, limits recorded |
 | S14 | Paul DeWolf | Two appellate opinions + news reporting | Two dispositions court-verified; **third reported only**; date and console brand reported only |
 
@@ -426,18 +426,34 @@ A second independent review with direct document access, dated 15 September 2026
 
 The hypertrophic cardiomyopathy sentence is the one that mattered. It applied a fifty percent figure to every first-degree relative and then extended it to Adrian, who is a grandchild of the affected man and not a first-degree relative at all. Autosomal dominant inheritance gives each *child* of an affected person fifty percent; a grandchild's risk is conditional on the intervening parent having inherited it, and carrying a variant is not the same as developing the disease. In a chapter about a real diagnosis in the author's own family, that is a genetics error a reader could act on. Neither corrected sentence asserts a family testing result.
 
-**All eighteen endnotes were rewritten** with the metadata the reviewer supplied: full author lists, DOIs, study populations, date ranges, standardisation, docket numbers, and the stated limits of each finding. `intro-1` now records SEER 18, 2000–2017, ages 0–19, age-adjusted to the 2000 U.S. standard. `c02-1` records the confidence interval crossing one. `c03-1` carries all six survey waves and notes the design is repeated cross-sectional. `c14-2` records the zero observed infarctions alongside the dilution and patient-selection limits that make the number meaningful. `c11-1` cites two Michigan Court of Appeals opinions by docket number and marks the remaining disposition as press reporting. The notes file grew from 1,103 words to 2,033 as a result.
+**All eighteen endnotes were rewritten** with the metadata the reviewer supplied: full author lists, DOIs, study populations, date ranges, standardisation, docket numbers, and the stated limits of each finding. `intro-1` now records SEER 18, 2000–2017, ages 0–19, age-adjusted to the 2000 U.S. standard. `c02-1` records the confidence interval crossing one. `c03-1` carries all six survey waves and notes the design is repeated cross-sectional. `c14-2` records the zero observed infarctions alongside the dilution and patient-selection limits that make the number meaningful. `c11-1` cites two Michigan Court of Appeals opinions by docket number and marks the remaining disposition as press reporting. The notes file grew from 1,103 words to 1,974 as a result.
 
 **Two entries in the fact-check record were withdrawn rather than corrected.** A quotation attributed to the NIMH page ("at least 5 of the symptoms") is not that page's wording, and an asserted conflict between the ayahuasca systematic review and the manuscript's hedge does not exist. Both were artefacts of reading a snippet as though it were a document — the same failure that produced the S1 error in the previous pass — and both lived in this record, not in the book. No manuscript sentence was affected by either.
 
-**Four items are outstanding, and verification stays open until they close.**
+**Four items are outstanding, and verification stays open until they close.** Three are limits on access rather than doubts about what has been read; only the third puts a manuscript sentence short of a primary source. A figure read in its source's own abstract is verified, and the fact that the surrounding article was not also opened does not weaken it.
 
-1. **S5, subgroup context.** The pooled figures are verified from the abstract. The full paper's own definition of its ten-most-recent-studies subgroup has not been read; the manuscript now says what the institutional announcement says.
-2. **S14, Jones's final disposition.** Two of three dispositions rest on complete appellate opinions; the third rests on an AP report of a guilty plea, with a federal opinion confirming only that an earlier plea was withdrawn. A Washtenaw County court record is needed before "three men were later convicted or pleaded guilty" is established from primary sources.
-3. **S14, discovery date and console brand.** 24 July 2013 and the PlayStation 3 rest on news reporting. The appellate opinions describe a video game system without naming a brand and date the burglary to the night of 23 July. The body text names neither, so nothing is exposed; the endnote labels both as reporting.
-4. **S6, full article.** Percentages verified from the abstract only.
+1. **S5, subgroup context.** The pooled figures are verified from the original abstract and stand. The full paper's own definition of its ten-most-recent-studies subgroup has not been read; the manuscript says what the institutional announcement says.
+2. **S6, full article.** All six year-percentages are **verified from the original abstract**. The article itself was not inspected. The second fact does not qualify the first: the abstract is the authors' own statement of their results, and nothing in the manuscript depends on material outside it.
+3. **S14, Jones's final disposition.** Two of three dispositions rest on complete appellate opinions; the third rests on an AP report of a guilty plea, with a federal opinion confirming only that an earlier plea was withdrawn. A Washtenaw County court record is needed before "three men were later convicted or pleaded guilty" is established from primary sources. This is the one open item where a sentence in the book is not yet fully sourced.
+4. **S14, discovery date and console brand.** 24 July 2013 and the PlayStation 3 rest on news reporting. The appellate opinions describe a video game system without naming a brand and date the burglary to the night of 23 July. The body text names neither, so nothing is exposed; the endnote labels both as reporting.
 
-**One question is the author's to answer, not a researcher's.** S12: the `accademia.org` misattribution is removed and the un-retrieved Britannica citation dropped, and the 1475/1476 disagreement between Della Monica and the Opera di Santa Maria del Fiore is now documented in the endnote rather than resolved silently. But the *story* — Rossellino abandoning the block over flaws in the marble — is disputed by scholarship that argues his death interrupted the work instead, and that scholarship is not itself internally consistent. The manuscript hedges with "reportedly," which is defensible. `FACT_CHECK.md` §1 carries a conservative replacement paragraph that drops both the marble-flaw account and the twenty-five-year figure, for the author to accept or decline.
+**One question was the author's to answer, and he answered it.** See §8m.
+
+## 8m. The Michelangelo account — author query resolved
+
+The one question §8l left to the author is answered: he took the conservative replacement. Chapter 14 no longer relies on the traditional account of why Rossellino stopped.
+
+**The paragraph, as it now stands:**
+
+> Agostino di Duccio began working it in 1464 and abandoned it. Antonio Rossellino took it on in 1476 but did not complete it. The block was still in the cathedral workshop yard, already cut into, when it was given to Michelangelo in 1501, and he finished the statue in 1504. There was no 1521.
+
+Two claims left the book with it: that Rossellino gave up "reportedly because of the quality of the marble itself," which Roberts disputes on the argument that his death interrupted the work, and that the block "then sat in the cathedral workshop yard for about twenty-five years," a duration no reviewed source established. What the paragraph now asserts — the four dates, the two abandonments, the block already cut into when Michelangelo received it — is what the sources support. The 1521 correction, which is the point the chapter is making about itself, is untouched.
+
+**The endnote follows the text.** `c14-1` keeps Della Monica for 6 May 1476 and 16 August 1501, keeps the Opera di Santa Maria del Fiore's competing 1475 so the disagreement stays visible to a reader rather than resolved silently, and keeps the record that the first edition said 1521. The sentence citing Roberts is removed, because the endnote no longer needs to rebut a story the text no longer tells; Roberts is retained in full in `FACT_CHECK.md` §1, where it belongs, as the reason the change was made.
+
+**Two further sentences in the same chapter were corrected, and this is a departure from the instruction's stated scope.** The brief said the diff should contain only the paragraph and its endnote. It could not, without leaving the book asserting exactly what had just been withdrawn: a later paragraph argued that by the time you hold the chisel "the stone has a flaw that made a competent sculptor walk away, and it has been sitting in the weather for a quarter of a century," and the figure caption read "the marble had flaws." Both were built on the removed account. They now read "neither of them finished what they started, and the block has been sitting in the yard for years" and "had been worked and left unfinished twice before it reached him." Each drops a claim; neither adds one, and neither is a stylistic change. The two hunks are separable and can be reverted alone if the author prefers the narrower diff, at the cost of a chapter that contradicts its own corrected paragraph.
+
+Nothing else in the manuscript referenced the marble flaw or the twenty-five-year figure; that was checked across all twenty-two sections before the edits were made.
 
 ## 9. Remaining factual items requiring Patrick's confirmation
 

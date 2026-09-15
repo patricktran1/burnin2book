@@ -37,13 +37,13 @@ An entry is not upgraded as a whole because one of its sources opened.
 | S3 | WHO burnout definition | Full document (reviewer) | Verified; Ch. 12 attribution corrected | **Corrected** |
 | S4 | NIMH depression overview | Full document (reviewer) | Verified as an abbreviated overview | No change; **quotation withdrawn below** |
 | S5 | Physician suicide meta-analysis | Original abstract + institutional announcement (reviewer) | Verified in part; subgroup context **outstanding** | **Corrected** |
-| S6 | Burnout prevalence | Original abstract (reviewer) | Percentages verified; full article not inspected | **Corrected** |
+| S6 | Burnout prevalence | Original abstract (reviewer) | All six percentages verified from the original abstract; full article not inspected | **Corrected** |
 | S7 | Clear cell sarcoma incidence | Full documents (reviewer) | Verified with population and registry scope | **Corrected** |
 | S8 | Intussusception | Full document (reviewer) | Verified | No change |
 | S9 | HCM inheritance | Full document (reviewer) + GeneReviews | **Was incorrect**; corrected | **Corrected** |
 | S10 | Ayahuasca | Full documents (reviewer) | Verified | No change; **asserted conflict withdrawn below** |
 | S11 | 988 Lifeline | Full operator pages + HHS (reviewer) | Verified; SAMHSA URL failed retrieval | Endnotes re-pointed |
-| S12 | Michelangelo's David | Full scholarly and institutional sources (reviewer) | Attribution error corrected; chronology disputed | **Corrected**; author query open |
+| S12 | Michelangelo's David | Full scholarly and institutional sources (reviewer) | Attribution error corrected; chronology disputed and documented | **Corrected**; author query **resolved** |
 | S13 | Lalonde epinephrine study | Full original article (reviewer) | Verified with dose and selection limits | **Corrected** |
 | S14 | Paul DeWolf | Reproduced court opinions + news reporting (reviewer) | Two dispositions court-verified; third reported; **Jones's final disposition outstanding** | Endnote re-sourced |
 
@@ -78,26 +78,30 @@ The endnote now records SEER 18, 2000–2017, ages 0–19, age-adjusted to the 2
 
 Both withdrawals are recorded rather than deleted, because the same failure mode produced the S1 error in the previous stage: reading absence in a snippet as evidence about a document.
 
-### S12 — corrected attribution, disputed chronology, open author query
+### S12 — corrected attribution, disputed chronology, author query resolved
 
 **Definite correction.** `accademia.org` identifies itself as an unofficial guide and was being credited as the Galleria dell'Accademia's own publication. That attribution is removed from the endnote.
 
-**The 1476 date stands, and the earlier packet was wrong to suggest nothing supported it.** Della Monica et al. give 6 May 1476 for Rossellino and 16 August 1501 for Michelangelo. The disagreement is real and is now documented rather than suppressed: the Opera di Santa Maria del Fiore, which holds the cathedral's records, gives 1475. Both are in the endnote.
+**The 1476 date stands, and the earlier packet was wrong to suggest nothing supported it.** Della Monica et al. give 6 May 1476 for Rossellino and 16 August 1501 for Michelangelo. The disagreement is real and is documented rather than suppressed: the Opera di Santa Maria del Fiore, which holds the cathedral's records, gives 1475. Both are in the endnote, and both stay there.
 
-**Author query, not applied.** Roberts argues that the familiar account — Rossellino abandoning the block over flaws in the marble — may be wrong, and that his death interrupted the work; his own chronology varies across that article. The manuscript's "reportedly because of the quality of the marble itself" is hedged, and the reviewer did not establish a single replacement account as certain. A conservative alternative is available if the author wants it:
+**Author query resolved — the conservative replacement was accepted and is now in the book.** Roberts argues that the familiar account, Rossellino abandoning the block over flaws in the marble, may be wrong, and that his death interrupted the work; his own chronology varies across that article. Rather than rest on a disputed account behind a hedge, the author elected to state only what the sources establish. Chapter 14 now reads:
 
 > Agostino di Duccio began working it in 1464 and abandoned it. Antonio Rossellino took it on in 1476 but did not complete it. The block was still in the cathedral workshop yard, already cut into, when it was given to Michelangelo in 1501, and he finished the statue in 1504. There was no 1521.
 
-That removes both the marble-flaw account and the twenty-five-year figure. It is the author's call.
+The marble-flaw explanation and the twenty-five-year duration are gone from the manuscript and from the endnote. Two later sentences in the same chapter had been built on them — a line of argument that the stone "has a flaw that made a competent sculptor walk away" and had sat "in the weather for a quarter of a century," and a figure caption asserting "the marble had flaws" — and both were corrected with it, since leaving them would have kept the withdrawn account in the book while the paragraph that sourced it no longer said so. Neither correction adds a claim; each drops one.
+
+**Roberts is retained here, not in the endnote.** It is the reason the account was removed, so it belongs in the record of the decision; the endnote no longer needs to rebut a story the text no longer tells. Full citation: Roberts S, "Antonio Rossellino, the Eros of Praxiteles, and Michelangelo's David," *Source: Notes in the History of Art* 2020;39(4):219–229, pp. 224 and 226 n.19, doi:10.1086/709189.
 
 **Britannica was not directly retrieved** by either review and its citation has been dropped rather than left carrying an access claim it cannot support.
 
 ### Outstanding — source verification is not closed
 
-1. **S5, subgroup context.** The pooled figures are verified from the abstract. The full paper's definition of its ten-most-recent-studies subgroup was not inspected. The manuscript now says "in the ten most recent studies," which is what the institutional announcement states, but the paper's own framing is unread.
-2. **S14, Jones's final disposition.** Two of the three dispositions rest on complete appellate opinions. The third rests on an Associated Press report describing a guilty plea, with a federal opinion confirming only that an earlier plea was withdrawn. A Washtenaw County court record is needed before the manuscript's "three men were later convicted or pleaded guilty" is fully established from primary sources.
-3. **S14, discovery date and console brand.** 24 July 2013 and the PlayStation 3 rest on news reporting. The appellate opinions describe a video game system without naming a brand, and date the burglary to the night of 23 July, which does not conflict with being found on the 24th. The manuscript body names no brand and no date.
-4. **S6, full article.** Percentages verified from the abstract; the article itself was not inspected.
+Three of the four are limits on *access*, not doubts about what has been read. Where a figure was read in the source's own abstract, it is verified; that the surrounding article was not also opened does not weaken it. What is unverified is stated as unverified below, and nothing else should be read as provisional by association.
+
+1. **S5, subgroup context.** The pooled figures are verified from the original abstract and stand. What is unread is the full paper's own definition of its ten-most-recent-studies subgroup. The manuscript says "in the ten most recent studies," which is what the institutional announcement states; the paper's framing of that subgroup has not been inspected.
+2. **S6, full article.** All six year-percentages are **verified from the original abstract** and stand on that basis. The full article was not inspected. These are two separate facts and the second does not qualify the first: the abstract is the authors' own statement of their results, and nothing in the manuscript depends on material outside it.
+3. **S14, Jones's final disposition.** Two of the three dispositions rest on complete appellate opinions. The third rests on an Associated Press report describing a guilty plea, with a federal opinion confirming only that an earlier plea was withdrawn. A Washtenaw County court record is needed before the manuscript's "three men were later convicted or pleaded guilty" is fully established from primary sources. This is the one open item where a manuscript sentence is not yet fully sourced.
+4. **S14, discovery date and console brand.** 24 July 2013 and the PlayStation 3 rest on news reporting. The appellate opinions describe a video game system without naming a brand, and date the burglary to the night of 23 July, which does not conflict with being found on the 24th. The manuscript body names no brand and no date, so nothing in the text is exposed; the endnote labels both as reporting.
 
 ## 2. Items removed from the 2021 edition as unsourced or unsafe
 

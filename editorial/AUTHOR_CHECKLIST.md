@@ -2,7 +2,7 @@
 
 Answered September 2026. Most of this page is now a record of decisions rather than a list of questions. What remains open is at the top; everything settled is kept below, because a decision you can no longer find the reasoning for is a decision you will have to make twice.
 
-Roughly what is left: four people to ask, one decision about a Michelangelo story, four source questions that want a library or a county clerk rather than a search engine, a copyedit, and a cover. Nothing on this page can stop the book.
+Roughly what is left: four people to ask, one court record to pull, two papers to read in full, a copyedit, and a cover. Nothing on this page can stop the book.
 
 **The writing is finished.** Developmental and register editing are frozen; the manuscript is closed to structural, voice, and line-level revision. What follows is verification and copyediting, in that order.
 
@@ -17,7 +17,7 @@ Roughly what is left: four people to ask, one decision about a Michelangelo stor
 - [ ] **Adam and Bill** — the two plastic surgeons who told you the truth (Chapter 2, first names only)
 - [ ] **Linda** — the histotechnician and her dream about her father (Chapter 11). You may prefer to describe her by role.
 
-**2. Source verification — twelve of fourteen now checked against real documents, four questions still open.** `FACT_CHECK.md` §1 has the packet: access level, status, evidence and what changed.
+**2. Source verification — twelve of fourteen now checked against real documents, one sentence still short of a primary source.** `FACT_CHECK.md` §1 has the packet: access level, status, evidence and what changed.
 
 Two independent reviews with direct source access have now been applied. The first covered the DOJ release and the Otezla label. The second, dated 15 September 2026, covered the remaining twelve. **Nothing in this file was opened from this environment** — every primary host is still refused at the network gateway — so where an entry says a document was read in full, that reading belongs to the reviewer.
 
@@ -27,14 +27,14 @@ Six corrections went into the manuscript. One of them was a real error and worth
 - [x] **Five narrower corrections.** WHO burnout "describes it as" → "describes it as resulting from" (Ch. 12); "measurably different" → "statistically significantly different" and "the most recent period" → "the ten most recent studies" (Ch. 2); "the worst year of the pandemic" → "the pandemic peak in these surveys" (Ch. 3); the cancer's rarity restated with its registry scope (Introduction); "elective epinephrine use" → "elective low-dose epinephrine use" (Ch. 14).
 - [x] **Two things I had recorded were withdrawn, not corrected**: a quotation attributed to the NIMH page that the page does not contain, and an asserted conflict between the ayahuasca review and the manuscript that does not exist. Both were artefacts of partial retrieval, both were in the record rather than in the book, and both are documented in `FACT_CHECK.md` so the same failure isn't repeated.
 - [x] **DOJ release and Otezla** — confirmed earlier and unchanged. The DOJ release describes two mechanisms; Chapter 5's original wording was accurate and was restored.
+- [x] **Michelangelo's block (Chapter 14) — you answered this and it is done.** You took the conservative replacement, so the chapter no longer says Rossellino gave up over flaws in the marble, and the twenty-five-year figure is gone with it. Two later sentences in the same chapter leaned on those claims — the argument that "the stone has a flaw that made a competent sculptor walk away" and the figure caption saying "the marble had flaws" — and both were corrected too, since leaving them would have kept the withdrawn story in the book. The 1521 correction is untouched, and the endnote still shows the 1475/1476 disagreement rather than quietly picking a side.
 
 Still open, and the reason verification is **not closed**:
 
-- [ ] **Michelangelo's block (Chapter 14) — one question for you.** Two corrections are already in: an unofficial site was being credited as the Accademia's own, and that attribution is gone; a Britannica citation that neither review actually retrieved has been dropped. The 1476 date stands, but the sources disagree — Della Monica gives 6 May 1476, the Opera di Santa Maria del Fiore gives 1475 — and both are now in the endnote. The open question is the *story*: scholarship argues Rossellino may not have abandoned the block over flaws in the marble at all, but died before finishing. Your text is hedged ("reportedly"), so it is defensible as it stands. `FACT_CHECK.md` §1 has a conservative replacement paragraph if you would rather not rely on the traditional account. **Your call.**
-- [ ] **Physician suicide (Chapter 2)** — the pooled figures are confirmed from the abstract, but the full paper's definition of its ten-most-recent-studies subgroup has not been read. The sentence now says what the institutional announcement says.
+- [ ] **Physician suicide (Chapter 2)** — the pooled figures are **confirmed** from the abstract and stand. What has not been read is the full paper's own definition of its ten-most-recent-studies subgroup; your sentence says what the institutional announcement says.
 - [ ] **Paul DeWolf (Chapter 11)** — two of the three convictions rest on complete appellate opinions. The third rests on an AP report of a guilty plea. A Washtenaw County court record would settle it.
 - [ ] **The 24 July 2013 date and the console brand** rest on news reporting only; the appellate opinions name no brand and date the burglary to the night of the 23rd. The body text names neither, so nothing needs changing unless you want to.
-- [ ] **Burnout prevalence (Chapter 3)** — percentages confirmed from the abstract; the article itself has not been inspected.
+- [ ] **Burnout prevalence (Chapter 3)** — all six percentages are **confirmed** from the paper's own abstract and stand. The full article has not been inspected. Those are two separate things: the abstract is the authors' own statement of their results, and nothing in your sentence depends on anything outside it. This is on the list for completeness, not because the number is in doubt.
 
 **3. Front matter.** Copyright year (currently 2026), ISBNs if any, and the publisher line.
 
