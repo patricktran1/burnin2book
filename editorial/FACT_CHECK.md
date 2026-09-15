@@ -9,70 +9,95 @@ Labels used throughout:
 - **NEEDS SOURCE** — a claim the manuscript hedges or states generally because no authoritative source was available in the build environment.
 - **REMOVE / UNSAFE TO ASSERT** — removed from the manuscript; recorded here so it is not reintroduced.
 
-A note on verification method: the build environment had web search but direct page fetches to several government and journal domains were blocked by the network policy. For items marked VERIFIED below, the source was located and its wording confirmed from indexed excerpts of the cited page. **Before print, each VERIFIED item should be re-checked against the live page** (a fifteen-minute task with the URLs below).
+A note on verification method, superseded in part by §1. Every primary host is refused at this environment's network gateway, so the drafting stage could only confirm wording from indexed excerpts, and a VERIFIED label at that stage meant no more than that. **Two independent reviews with real document access have since been applied**, and §1 now records, per source, who read what and at what level. Labels elsewhere in this file that predate those reviews should be read against §1, which governs.
 
-## 1. Source verification — status and evidence packet
+## 1. Source verification — status, evidence and access
 
-Stage worked 14 September 2026; S1 and S2 re-opened and corrected after independent direct access to the two primary sources.
+Two independent reviews with direct source access have now been applied: the first covering S1 and S2, the second dated 15 September 2026 covering S3–S14.
 
-### Levels of verification used here
+### Who reached what
 
-| Label | Meaning |
+**No source in this file was opened from this environment.** Every primary host is refused at the network gateway, re-tested at each stage and again on 15 September 2026. Where an entry below says a document was read in full, that access belongs to the independent reviewer, not to this working environment. Claims recovered here by indexed retrieval are labelled as such and are not equivalent to reading a document.
+
+| Access label | Meaning |
 |---|---|
-| **Verified (direct)** | The full source document was consulted. The claim is supported by named section or passage. |
-| **Provisional (indexed)** | The claim was recovered from the cited source's own indexed text and corroborated against at least one independent source, but the full document was never opened. **Awaiting direct-source confirmation.** |
-| **Provisional (indexed), qualified** | As above, with a recorded conflict or nuance. |
+| **Full document (reviewer)** | The complete source was read by the independent reviewer. |
+| **Original abstract (reviewer)** | The publisher's or PubMed's own abstract was read. The printed results are supported; the full article was not inspected. |
+| **Institutional announcement (reviewer)** | A university, agency or operator page, read in full. Corroborating, not the primary study. |
+| **Reproduced court opinion (reviewer)** | A complete judicial opinion, hosted by a third party; hosting provenance named. |
+| **News reporting (reviewer)** | Secondary journalism. Never sufficient alone for a legal disposition. |
+| **Indexed retrieval (this environment)** | A search tool's rendering of a page. Establishes that a source says something; never that it says nothing further. |
 
-**Why the distinction is not cosmetic.** Twelve of these fourteen rest on indexed retrieval, because every primary host is refused at this environment's network gateway. That method failed once, materially, and the failure is instructive: in S1 the indexed text returned one of the two mechanisms the DOJ release describes, and the absence of the second was read as evidence the manuscript's wording was unsupported. An accurate sentence was replaced with a narrower one, and a false justification was written into this file. Snippet retrieval establishes that a source says something. It never establishes that a source says nothing further. No entry below marked Provisional should be treated as settled.
+An entry is not upgraded as a whole because one of its sources opened.
 
-### S1 — DOJ / Onofrio — **Verified (direct)**
+### Status by entry
 
-- **Manuscript claim** (Ch. 5): "Several of the commercial real-estate transactions I had entered were put together by a man I trusted named Matt Onofrio. He pleaded guilty to bank fraud, and in December 2025 a federal judge in Minnesota sentenced him to three years in prison. The government's case described a scheme running from 2020 to 2022, sixty-eight transactions, and roughly four hundred and twenty million dollars in loans obtained fraudulently: purchase agreements assigned on to new investors at inflated prices, **down-payment loans kept off the paperwork**, buyers coached on what to tell the banks."
-- **Source:** U.S. Attorney's Office, District of Minnesota, "Architect of massive $420 million bank fraud scheme sentenced to 3 years in prison," 11 December 2025. https://www.justice.gov/usao-mn/pr/architect-massive-420-million-bank-fraud-scheme-sentenced-3-years-prison
-- **Supporting passages:** the release describes **two** distinct mechanisms. First, Onofrio helped investors prepare financial statements falsely showing enough cash for the down payment, and when banks asked for proof of funds he temporarily wired money into the investors' accounts. Second, **he loaned investors their down-payment money, omitted those loans from their personal financial statements, and did not record the promissory notes as second mortgages.**
-- **Assessment:** the manuscript's "down-payment loans kept off the paperwork" is an accurate compression of the second mechanism. It is loans, for down payments, kept off the borrowers' financial statements, with the notes unrecorded.
-- **Action:** the earlier change is **reverted**; the original wording stands.
+| # | Topic | Access | Status | Action taken |
+|---|---|---|---|---|
+| S3 | WHO burnout definition | Full document (reviewer) | Verified; Ch. 12 attribution corrected | **Corrected** |
+| S4 | NIMH depression overview | Full document (reviewer) | Verified as an abbreviated overview | No change; **quotation withdrawn below** |
+| S5 | Physician suicide meta-analysis | Original abstract + institutional announcement (reviewer) | Verified in part; subgroup context **outstanding** | **Corrected** |
+| S6 | Burnout prevalence | Original abstract (reviewer) | Percentages verified; full article not inspected | **Corrected** |
+| S7 | Clear cell sarcoma incidence | Full documents (reviewer) | Verified with population and registry scope | **Corrected** |
+| S8 | Intussusception | Full document (reviewer) | Verified | No change |
+| S9 | HCM inheritance | Full document (reviewer) + GeneReviews | **Was incorrect**; corrected | **Corrected** |
+| S10 | Ayahuasca | Full documents (reviewer) | Verified | No change; **asserted conflict withdrawn below** |
+| S11 | 988 Lifeline | Full operator pages + HHS (reviewer) | Verified; SAMHSA URL failed retrieval | Endnotes re-pointed |
+| S12 | Michelangelo's David | Full scholarly and institutional sources (reviewer) | Attribution error corrected; chronology disputed | **Corrected**; author query open |
+| S13 | Lalonde epinephrine study | Full original article (reviewer) | Verified with dose and selection limits | **Corrected** |
+| S14 | Paul DeWolf | Reproduced court opinions + news reporting (reviewer) | Two dispositions court-verified; third reported; **Jones's final disposition outstanding** | Endnote re-sourced |
 
-**Withdrawn.** This file previously stated that nothing supported the original wording and that it described an unsupported "silent second." Both statements were wrong and are withdrawn. The release expressly says the promissory notes were **not** recorded as second mortgages, which is the fact the manuscript's phrase captures. The error was not in the manuscript.
+### Corrections applied to the manuscript
 
-Legal terms, each checked separately and unaffected by the above: indicted on three counts 17 November 2022; pleaded guilty 10 July 2023 to one count of bank fraud, the other two dismissed under the agreement; sentenced 11 December 2025 by U.S. District Judge Susan Richard Nelson to 36 months, two years of supervised release, $5,398,641 restitution; 68 deals, $420,564,795 in fraudulently obtained loans. **Qualification:** the sentencing release gives the period as 2020–2022 while charging-stage reporting gives 2019–August 2022; the manuscript follows the release it cites.
+**S9 — hypertrophic cardiomyopathy. This was a factual error, not an imprecision.** The sentence applied a fifty percent figure to *every* first-degree relative and then extended it to Adrian, who is a grandchild of the affected man and not a first-degree relative at all. Autosomal dominant inheritance gives each *child* of an affected person a fifty percent chance; a grandchild's risk is conditional on the intervening parent having inherited it. Carrying a variant is also not the same as developing the disease.
 
-The endnote's sentence that the release does not mention the author is retained as it stood before this stage. A broader negative added during the previous pass — that the release "names no other individual" — has been removed, being exactly the kind of claim partial retrieval cannot support.
+> **Before:** And if his disease comes from one of the known pathogenic variants, each of his first-degree relatives has a fifty percent chance of carrying it too. That includes me. That includes Adrian.
+> **After:** And if his disease comes from a pathogenic variant inherited in an autosomal dominant pattern, each of his children has a fifty percent chance of carrying it too. That includes me. If I carry it, Adrian has the same chance of inheriting it from me.
 
-### S2 — Otezla label — **Verified (direct)**
+Chapter 6 carried the same overstatement in passing and now reads "nobody told me to reframe the chance that I carried the same variant." Neither sentence asserts a family testing result.
 
-- **Manuscript claim** (Ch. 6): the label's depression warning; depression or depressed mood in roughly one percent on drug and just under one percent on placebo, differing by indication; serious depression, discontinuation and suicidal ideation figures; and the suicide-event sentences.
-- **Source:** Otezla (apremilast) full prescribing information, **revised December 2025**, **section 5.3, Depression**. https://www.pi.amgen.com/united_states/otezla/otezla_pi_english.pdf — stable record: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6b1f516-4972-4d82-bced-113e47b41cc5
-- **Supporting passages, section 5.3, per indication:**
+**S3 — WHO.** Chapter 12 introduced the quotation with "describes it as," which equates burnout with its cause. Now "describes it as resulting from." The quoted words are unchanged; Chapter 6 needed nothing.
 
-| Indication | Suicidal ideation / behaviour | Deaths |
-|---|---|---|
-| Psoriatic arthritis | 3/1,441 on Otezla vs 0/495 placebo | two placebo subjects died by suicide; none on Otezla |
-| Plaque psoriasis | 1/1,308 on Otezla vs 1/506 placebo | the Otezla subject attempted suicide; the placebo subject died |
-| Behçet's disease | 0/104 vs 0/103 | — |
+**S5 — physician suicide.** Three changes. "Weren't measurably different" became "weren't statistically significantly different," because a confidence interval crossing one is not a demonstration of equality. "Rates have fallen" became "relative rates have fallen." "In the most recent period" became "in the ten most recent studies," which is what the subgroup actually is; no calendar boundary is invented.
 
-- **Assessment and action.** The indication-specific correction stands and was necessary: the label pools nothing across indications, and 1,441 is the psoriatic arthritis exposed population, not a total. Two further fixes were made at this stage. The endnote now cites the December 2025 prescribing information and section 5.3 rather than describing a Drugs@FDA supplement number as current. And the body phrase "In the psoriasis trials it runs the other way" has been removed: the psoriasis event rate was lower on Otezla (0.1%) than on placebo (0.2%), so the direction did not reverse — what differed was the severity of the two events. The manuscript now states the two events and characterises neither.
+**S6 — burnout prevalence.** "2021, the worst year of the pandemic" became "2021, the pandemic peak in these surveys." The study supports a comparison between its own survey waves, not a ranking of pandemic years. The endnote now carries all six waves.
 
-### The other twelve — **Provisional (indexed), awaiting direct-source confirmation**
+**S7 — clear cell sarcoma.** The replacement sentence lost the population, geography and standardisation behind the figure.
 
-Research from the previous pass is retained in full; only the status labels change, to reflect that none of these documents was opened.
+> **After:** …a pediatric kidney cancer so rare that U.S. registry data put its age-adjusted annual incidence at about 0.2 cases per million children and adolescents; it accounted for roughly three percent of childhood kidney cancers in those data.
 
-| # | Exact manuscript claim | Source title and URL | Section | Supporting passage recovered | Status |
-|---|---|---|---|---|---|
-| S3 | Ch. 6: burn-out is "a syndrome conceptualized as resulting from chronic workplace stress that has not been successfully managed," an occupational phenomenon rather than a medical condition, with three dimensions | WHO, "Burn-out an 'occupational phenomenon': International Classification of Diseases," 28 May 2019. https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases | News release, ICD-11 entry | Quoted definition verbatim; three dimensions (exhaustion; mental distance or cynicism; reduced professional efficacy); "should not be applied to describe experiences in other areas of life" | Provisional (indexed) |
-| S4 | Ch. 6: diagnosis requires symptoms most of the day, nearly every day, for at least two weeks, including depressed mood or loss of interest or pleasure | NIMH, *Depression*. https://www.nimh.nih.gov/health/publications/depression | Signs and symptoms | "most of the day, nearly every day, for at least two weeks," with one symptom necessarily depressed mood or loss of interest | Provisional (indexed) |
-| S5 | Ch. 2: 39 studies from 20 countries; male physicians not measurably different; female about 76% higher; roughly 24% higher in the most recent period | Zimmermann C, et al., "Suicide rates among physicians compared with the general population in studies from 20 countries," *BMJ* 2024;386:e078964. https://pubmed.ncbi.nlm.nih.gov/39168499/ | Results | Male 1.05 (0.90–1.22); female 1.76 (1.40–2.21); 10 most recent studies show decline with female rate still elevated by 24% | Provisional (indexed) |
-| S6 | Ch. 3: at least one burnout symptom in ~45% (2023), ~38% (2020), nearly 63% (2021) | Shanafelt TD, et al., "Changes in Burnout and Satisfaction With Work–Life Integration…," *Mayo Clin Proc* (2025). https://www.mayoclinicproceedings.org/article/S0025-6196(24)00668-2/fulltext | Results | 45.2% (2023), 62.8% (2021), 38.2% (2020), 43.9% (2017), 54.4% (2014), 45.5% (2011) | Provisional (indexed) |
-| S7 | Introduction: "so rare that it turns up in about one child in five million a year and accounts for roughly three percent of childhood kidney cancers" | "Childhood Clear Cell Sarcoma of Kidney: Incidence and Survival," *Frontiers in Pediatrics* 2021. https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2021.675373/full — with Benedetti DJ, et al., *Cancer* 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11162327/ | Incidence | Age-adjusted incidence 0.205 per million children; 3.00% of childhood kidney cancers | Provisional (indexed). **Correction retained**: the previous wording attributed "a dozen or so children a year in the United States and Canada" to the cooperative group; that attribution traces to a physician's remark quoted in the 2021 edition, not to a published COG figure, and no such figure was located |
-| S8 | Introduction: one segment of the bowel telescopes into the next and obstructs it | Mayo Clinic, "Intussusception." https://www.mayoclinic.org/diseases-conditions/intussusception/symptoms-causes/syc-20351452 | Symptoms & causes | "part of the intestine slides into another part, much like a telescope"; blocks passage; cuts off blood supply; most common cause of intestinal blockage in children under 3 | Provisional (indexed) |
-| S9 | Ch. 1, Ch. 6: autosomal dominant; each first-degree relative has a 50% chance of carrying the variant | "Genetics of hypertrophic cardiomyopathy: established and emerging implications for clinical practice," *Eur Heart J* 2024;45(30):2727. https://academic.oup.com/eurheartj/article/45/30/2727/7710314 | Inheritance | Autosomal dominant; each first-degree relative has a 50% chance of carrying the variant | Provisional (indexed) |
-| S10 | Ch. 6: case reports of mania after ayahuasca in bipolar disorder; review finds psychotic or manic episodes rare; advisory to avoid | Szmulewicz AG, et al., *Int J Bipolar Disord* 2015;3:4, DOI 10.1186/s40345-014-0020-y, https://pubmed.ncbi.nlm.nih.gov/25713771/ ; dos Santos RG, et al., *Ther Adv Psychopharmacol* 2017;7(4):141–157, https://pubmed.ncbi.nlm.nih.gov/28540034/ | Case report; review discussion | Switch to mania after an ayahuasca ritual in a man with bipolar disorder; incidence of psychotic episodes rare; advisory covers "personal or family history of schizophrenia or schizophreniform disorders, psychotic depression or mania" | Provisional (indexed), qualified: the review associates reported episodes partly with unsupervised settings, where the manuscript says rare "in ritual settings and outside them." Not contradicted; left unchanged |
-| S11 | Front matter, Author's Note, Ch. 5, Ch. 13: call or text 988 at any hour and reach a person | 988 Suicide & Crisis Lifeline. https://988lifeline.org/about/ ; SAMHSA, https://www.samhsa.gov/mental-health/988 | About | Launched 16 July 2022; confidential, no cost, 24/7; calls, texts and chats | Provisional (indexed) |
-| S12 | Ch. 14: Agostino di Duccio 1464; Rossellino 1476; block sat about twenty-five years; Michelangelo 1501–1504; no 1521 | Galleria dell'Accademia, https://www.accademia.org/explore-museum/artworks/michelangelos-david/ ; *Encyclopaedia Britannica*, https://www.britannica.com/topic/David-sculpture | History of the block | 1464 Agostino; Rossellino in the 1470s; both rejected the block over flaws; ~25 years in the Opera del Duomo yard; 1501–1504 | Provisional (indexed), qualified: the Accademia gives Rossellino **1475**, other standard references **1476**. Conflicting, so the manuscript's 1476 is left unchanged |
-| S13 | Ch. 14: Lalonde and colleagues followed more than three thousand consecutive cases of elective epinephrine use in the fingers and hand | Lalonde D, et al., "A multicenter prospective study of 3,110 consecutive cases of elective epinephrine use in the fingers and hand: the Dalhousie Project clinical phase," *J Hand Surg Am* 2005;30(5):1061–1067. https://pubmed.ncbi.nlm.nih.gov/16182068/ | Title and methods | 3,110 consecutive cases; 9 hand surgeons, 6 cities, 2002–2004 | Provisional (indexed) |
-| S14 | Ch. 11: twenty-five, Air Force scholarship, July 2013, fraternity house, a game console taken, three men later convicted or pleaded guilty | University Record, https://record.umich.edu/articles/suspect-charged-homicide-u-m-medical-student/ ; contemporaneous Michigan reporting | News reports | DeWolf, 25, found 24 July 2013 at the Phi Rho Sigma house, Air Force scholarship; PlayStation 3 taken; one guilty plea to second-degree murder, one jury conviction for first-degree felony murder with life without parole, a third also serving life without parole | Provisional (indexed) |
+The endnote now records SEER 18, 2000–2017, ages 0–19, age-adjusted to the 2000 U.S. standard population, and states that this is a population estimate rather than an individual risk. The earlier "a dozen a year in the United States and Canada, according to the cooperative group" remains unsupported and is not restored.
 
-**Not among the fourteen**, unchanged from earlier passes: S15 Ram Dass, S16 Beyoncé, S17 the Vietnamese proverb.
+**S13 — Lalonde.** "Elective epinephrine use" became "elective low-dose epinephrine use." The endnote records the zero observed infarctions, tissue loss and phentolamine reversals, and the limits that make them meaningful: 1:100,000 or more dilute, in patients selected to exclude significant pre-existing ischemia, with the authors arguing against a blanket prohibition rather than claiming zero risk.
+
+### Withdrawals from this file
+
+**S4.** An earlier row in this file quoted the NIMH page as requiring "at least 5 of the symptoms." **That is not the wording of the cited page** and the quotation is withdrawn. It came from indexed retrieval that had blended the page with DSM-5 criteria restated elsewhere. The manuscript sentence was never affected and is unchanged; the discrepancy was in this record, not in the book.
+
+**S10.** An earlier row asserted that the dos Santos review contradicted the manuscript's "in ritual settings and outside them," on the ground that the review associates reported episodes with unsupervised settings. **That asserted contradiction is withdrawn.** The review's abstract discusses rarity in ritual *and* in noncontrolled or recreational settings, and its avoidance recommendation expressly includes non-psychotic mania. The manuscript's "appear to be rare" is appropriately hedged and asserts no equality of incidence between settings. The conflict was an artefact of partial retrieval.
+
+Both withdrawals are recorded rather than deleted, because the same failure mode produced the S1 error in the previous stage: reading absence in a snippet as evidence about a document.
+
+### S12 — corrected attribution, disputed chronology, open author query
+
+**Definite correction.** `accademia.org` identifies itself as an unofficial guide and was being credited as the Galleria dell'Accademia's own publication. That attribution is removed from the endnote.
+
+**The 1476 date stands, and the earlier packet was wrong to suggest nothing supported it.** Della Monica et al. give 6 May 1476 for Rossellino and 16 August 1501 for Michelangelo. The disagreement is real and is now documented rather than suppressed: the Opera di Santa Maria del Fiore, which holds the cathedral's records, gives 1475. Both are in the endnote.
+
+**Author query, not applied.** Roberts argues that the familiar account — Rossellino abandoning the block over flaws in the marble — may be wrong, and that his death interrupted the work; his own chronology varies across that article. The manuscript's "reportedly because of the quality of the marble itself" is hedged, and the reviewer did not establish a single replacement account as certain. A conservative alternative is available if the author wants it:
+
+> Agostino di Duccio began working it in 1464 and abandoned it. Antonio Rossellino took it on in 1476 but did not complete it. The block was still in the cathedral workshop yard, already cut into, when it was given to Michelangelo in 1501, and he finished the statue in 1504. There was no 1521.
+
+That removes both the marble-flaw account and the twenty-five-year figure. It is the author's call.
+
+**Britannica was not directly retrieved** by either review and its citation has been dropped rather than left carrying an access claim it cannot support.
+
+### Outstanding — source verification is not closed
+
+1. **S5, subgroup context.** The pooled figures are verified from the abstract. The full paper's definition of its ten-most-recent-studies subgroup was not inspected. The manuscript now says "in the ten most recent studies," which is what the institutional announcement states, but the paper's own framing is unread.
+2. **S14, Jones's final disposition.** Two of the three dispositions rest on complete appellate opinions. The third rests on an Associated Press report describing a guilty plea, with a federal opinion confirming only that an earlier plea was withdrawn. A Washtenaw County court record is needed before the manuscript's "three men were later convicted or pleaded guilty" is fully established from primary sources.
+3. **S14, discovery date and console brand.** 24 July 2013 and the PlayStation 3 rest on news reporting. The appellate opinions describe a video game system without naming a brand, and date the burglary to the night of 23 July, which does not conflict with being found on the 24th. The manuscript body names no brand and no date.
+4. **S6, full article.** Percentages verified from the abstract; the article itself was not inspected.
 
 ## 2. Items removed from the 2021 edition as unsourced or unsafe
 
@@ -106,7 +131,7 @@ These are drawn from the 2021 edition or from the author's fact sheet and are us
 | A8 | Whether the 2020–2021 "meditation retreats" of the first edition were the ceremonial settings referred to in A5 | AUTHOR MEMORY / VERIFY (the manuscript does not equate them) | Ch. 4, Ch. 9 |
 | A9 | Adrian's birth year (2019, per the 2021 text) and age at diagnosis ("not yet two"); the 2021 text is internally inconsistent about when the diagnosis occurred relative to October 2020; V2 avoids dates | AUTHOR MEMORY / VERIFY | Intro |
 | A10 | Adrian's current health; V2 says nothing about it | REMOVE / UNSAFE TO ASSERT | Epilogue, Ch. 15 (written timelessly) |
-| A11 | Whether the author has children other than Adrian; Chapter 15 is addressed to Adrian "and to any child of mine who reads this later" | AUTHOR MEMORY / VERIFY | Ch. 15 |
+| A11 | ~~Whether the author has children other than Adrian~~ **Answered:** two sons, Adrian and Elliot. Chapter 15 is addressed to both by name; the dedication and About the Author match | AUTHOR-CONFIRMED | Ch. 15, dedication, About the Author |
 | A12 | Family history: mother arrived from Vietnam at 17 during the war, college in Long Beach, UCSF medical school, allergist/immunologist; father a UCSF-trained prosthodontist; grandfather a Johns Hopkins-trained OB/GYN, minister of health for South Vietnam, later WHO in Cameroon; siblings Natalie (kindergarten teacher) and Eric (DMA); 36 cousins with almost none in medicine | AUTHOR MEMORY / VERIFY (from the 2021 edition) | Ch. 1, Ch. 3, Ch. 15 |
 | A13 | Education and training: Piedmont; yearbook "Berkeley, Class of 2010"; Berkeley MCB summa cum laude; Michigan MD on a merit scholarship; Indiana integrated plastics; Howard University Hospital dermatology (VA-funded spot); Mohs fellowship in Mountain View; practice in Modesto | AUTHOR MEMORY / VERIFY (from the 2021 edition) | Ch. 1, 2, 8, About the Author |
 | A14 | Organic Chemistry midterm 115/155; second-highest on the second midterm; GSI's "Do practice problems" | AUTHOR MEMORY / VERIFY | Ch. 8, Ch. 4 |

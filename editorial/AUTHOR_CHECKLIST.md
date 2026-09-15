@@ -2,7 +2,7 @@
 
 Answered September 2026. Most of this page is now a record of decisions rather than a list of questions. What remains open is at the top; everything settled is kept below, because a decision you can no longer find the reasoning for is a decision you will have to make twice.
 
-Roughly what is left: four people to ask, half a day of source re-checking, a copyedit, and a cover. Nothing on this page can stop the book.
+Roughly what is left: four people to ask, one decision about a Michelangelo story, four source questions that want a library or a county clerk rather than a search engine, a copyedit, and a cover. Nothing on this page can stop the book.
 
 **The writing is finished.** Developmental and register editing are frozen; the manuscript is closed to structural, voice, and line-level revision. What follows is verification and copyediting, in that order.
 
@@ -17,13 +17,24 @@ Roughly what is left: four people to ask, half a day of source re-checking, a co
 - [ ] **Adam and Bill** — the two plastic surgeons who told you the truth (Chapter 2, first names only)
 - [ ] **Linda** — the histotechnician and her dream about her father (Chapter 11). You may prefer to describe her by role.
 
-**2. Source verification — two done directly, twelve provisional.** `FACT_CHECK.md` §1 has the packet: exact claim, source, section, supporting passage, status.
+**2. Source verification — twelve of fourteen now checked against real documents, four questions still open.** `FACT_CHECK.md` §1 has the packet: access level, status, evidence and what changed.
 
-The two priority sources have now been confirmed against the full documents, and one of those confirmations reversed a change I had made. The other twelve rest on indexed retrieval only, because every primary host is refused at this environment's network gateway, and they are labelled **Provisional (indexed) — awaiting direct-source confirmation** rather than verified. That distinction is real: indexed retrieval already failed once here, returning one of the two mechanisms the DOJ release describes and not the other.
+Two independent reviews with direct source access have now been applied. The first covered the DOJ release and the Otezla label. The second, dated 15 September 2026, covered the remaining twelve. **Nothing in this file was opened from this environment** — every primary host is still refused at the network gateway — so where an entry says a document was read in full, that reading belongs to the reviewer.
 
-- [x] **DOJ release** — confirmed. It describes two mechanisms, not one: money temporarily wired in to fake proof of funds, **and** down-payment loans left off investors' financial statements with the promissory notes unrecorded. Chapter 5's original wording was accurate and has been restored.
-- [x] **Otezla** — confirmed against the December 2025 prescribing information, section 5.3. Endnote updated to that document; the indication-specific denominators stand.
-- [ ] **The remaining twelve** still want opening. They are lower risk and the numbers were corroborated independently, but none of those documents has been read in full.
+Six corrections went into the manuscript. One of them was a real error and worth your attention:
+
+- [x] **Hypertrophic cardiomyopathy (Chapter 1) — this was wrong and is now right.** The sentence gave every first-degree relative a fifty percent chance of carrying your father's variant and then extended that to Adrian. Autosomal dominant inheritance gives each *child* of an affected person fifty percent; Adrian is a grandchild, and his risk is conditional on yours. It now reads "each of his children has a fifty percent chance of carrying it too. That includes me. If I carry it, Adrian has the same chance of inheriting it from me." Chapter 6 carried the same overstatement in passing and was fixed with it. Neither sentence asserts that anyone in the family has been tested.
+- [x] **Five narrower corrections.** WHO burnout "describes it as" → "describes it as resulting from" (Ch. 12); "measurably different" → "statistically significantly different" and "the most recent period" → "the ten most recent studies" (Ch. 2); "the worst year of the pandemic" → "the pandemic peak in these surveys" (Ch. 3); the cancer's rarity restated with its registry scope (Introduction); "elective epinephrine use" → "elective low-dose epinephrine use" (Ch. 14).
+- [x] **Two things I had recorded were withdrawn, not corrected**: a quotation attributed to the NIMH page that the page does not contain, and an asserted conflict between the ayahuasca review and the manuscript that does not exist. Both were artefacts of partial retrieval, both were in the record rather than in the book, and both are documented in `FACT_CHECK.md` so the same failure isn't repeated.
+- [x] **DOJ release and Otezla** — confirmed earlier and unchanged. The DOJ release describes two mechanisms; Chapter 5's original wording was accurate and was restored.
+
+Still open, and the reason verification is **not closed**:
+
+- [ ] **Michelangelo's block (Chapter 14) — one question for you.** Two corrections are already in: an unofficial site was being credited as the Accademia's own, and that attribution is gone; a Britannica citation that neither review actually retrieved has been dropped. The 1476 date stands, but the sources disagree — Della Monica gives 6 May 1476, the Opera di Santa Maria del Fiore gives 1475 — and both are now in the endnote. The open question is the *story*: scholarship argues Rossellino may not have abandoned the block over flaws in the marble at all, but died before finishing. Your text is hedged ("reportedly"), so it is defensible as it stands. `FACT_CHECK.md` §1 has a conservative replacement paragraph if you would rather not rely on the traditional account. **Your call.**
+- [ ] **Physician suicide (Chapter 2)** — the pooled figures are confirmed from the abstract, but the full paper's definition of its ten-most-recent-studies subgroup has not been read. The sentence now says what the institutional announcement says.
+- [ ] **Paul DeWolf (Chapter 11)** — two of the three convictions rest on complete appellate opinions. The third rests on an AP report of a guilty plea. A Washtenaw County court record would settle it.
+- [ ] **The 24 July 2013 date and the console brand** rest on news reporting only; the appellate opinions name no brand and date the burglary to the night of the 23rd. The body text names neither, so nothing needs changing unless you want to.
+- [ ] **Burnout prevalence (Chapter 3)** — percentages confirmed from the abstract; the article itself has not been inspected.
 
 **3. Front matter.** Copyright year (currently 2026), ISBNs if any, and the publisher line.
 
@@ -32,7 +43,7 @@ The two priority sources have now been confirmed against the full documents, and
 - [ ] **Cover.** `assets/cover/burn-in-v2-cover.png` is a typographic derivation of the original wordmark in the original palette — a placeholder. A designer should take it from here.
 - [ ] **Author photo.** The 2021 back cover was cut; a current photograph is needed.
 - [ ] **Copyedit.** The mechanical layer is done — spelling convention, compounds, number style, spacing, doubled words, punctuation, typographic quotes, with what it found in `FINAL_QA.md` §8b. It still needs a human copyeditor and a proofreader, who read for what a search cannot express.
-- [ ] **Typesetting.** `dist/burn-in-v2.pdf` is readable as a book now — 199 pages, 72 characters to the line, page numbers — but it is printed from HTML, not typeset. For a printed edition, hand a designer `dist/burn-in-v2.docx` or `dist/burn-in-v2.md`.
+- [ ] **Typesetting.** `dist/burn-in-v2.pdf` is readable as a book now — 202 pages, 72 characters to the line, page numbers — but it is printed from HTML, not typeset. For a printed edition, hand a designer `dist/burn-in-v2.docx` or `dist/burn-in-v2.md`.
 - [ ] **Read it aloud.** You recorded the first audiobook yourself. Reading this one aloud is still the fastest way to find a sentence that sounds like someone else wrote it.
 
 ---

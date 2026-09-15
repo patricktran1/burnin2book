@@ -38,7 +38,7 @@ Here is the version I'd write now. The brain is hardware. I once described the b
 
 But no software update fixes a cracked board, and anyone who has kept an old phone alive knows the cruel part: it keeps offering you the update. The home screen looks the same. From across the room, the thing works.
 
-When my father's heart condition was diagnosed during Adrian's treatment, nobody suggested he fix it with gratitude, and nobody told me to reframe my fifty percent chance of carrying the same variant. A heart is hardware, and the correct response to hardware is a cardiologist. I extended that courtesy to every organ except the one I was using to think about it.
+When my father's heart condition was diagnosed during Adrian's treatment, nobody suggested he fix it with gratitude, and nobody told me to reframe the chance that I carried the same variant. A heart is hardware, and the correct response to hardware is a cardiologist. I extended that courtesy to every organ except the one I was using to think about it.
 
 * * *
 
