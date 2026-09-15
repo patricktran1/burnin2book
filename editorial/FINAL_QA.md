@@ -467,7 +467,7 @@ Twenty items are catalogued in `editorial/FACT_CHECK.md` §3 (A1–A20). The one
 2. ~~**A11 — Chapter 15**~~ **Answered.** There are two sons, Adrian and Elliot. Chapter 15 is now addressed to both by name, the dedication reads "For Adrian and Elliot," and three present-tense references to "my son" that would have implied an only child were made plural or given Adrian's name. No child's birth date appears anywhere in the book, Elliot's included.
 3. **A4, A5, A6 — Otezla timing, ayahuasca timing, and the bipolar formulation.** The manuscript deliberately gives no dates for either substance, states no indication for the medication, and says "probably… vulnerability" rather than naming a diagnosis. Confirm the author is comfortable with each disclosure at this level of detail.
 4. **A7 — The hospital and treatment after the attempt** are described only in the most general terms. Confirm nothing is overstated.
-5. **A16, A17 — Names.** Paul Cederna, Steve Wolverton, Adam, Bill, Linda, and the physicians and book team in the Acknowledgments are all named as they were in the 2021 edition. Confirm each person is still comfortable appearing, and confirm spellings.
+5. ~~**A16, A17 — Names.**~~ **Closed by author decision, not by consent.** Paul Cederna, Steve Wolverton, Adam, Bill, Linda, and the physicians and book team in the Acknowledgments are named as they were in the 2021 edition. The author elects to proceed without requesting consent; nobody has been contacted and no consent is obtained or represented as obtained. Spellings should still be checked at proof.
 6. **A12, A13, A14, A15, A18 — Family and training history** is drawn from the 2021 edition (immigration, grandfather's WHO posting in Cameroon, 36 cousins, the yearbook quote, Berkeley and Michigan, the Organic Chemistry scores, Howard and the Mohs fellowship, the father's diagnosis, the author's age in 2021). Confirm.
 7. **A20 — A current author photograph** is needed; the 2021 back cover was cut.
 
@@ -480,10 +480,10 @@ Full list in `editorial/LEGAL_REVIEW.md`, including per-chapter passages collect
 1. **The endnote naming the convicted individual.** The body text never names him; the endnote identifies the federal case. Confirm the author is comfortable with that split, or restrict the endnote to the release title and URL.
 2. **Any settlement, litigation, or confidentiality obligation** the author may have. The manuscript was written without knowledge of any; the author must confirm that nothing here breaches one.
 3. **Rights to reuse the 2021 text and illustrations.** The first edition was published by a third party and the cover was designed by an outside firm; confirm the author's rights to the 23 retained figures, the stacked wordmark, and the passages quoted from that edition.
-4. **Re-permission from the DeWolf family** for the paraphrase of Thom DeWolf's words and the mention of the memorial scholarship. His statement was given for the first edition.
+4. ~~**Re-permission from the DeWolf family**~~ **— closed by author decision.** The author elects not to contact the family. The paraphrase of Thom DeWolf's words and the mention of the memorial scholarship stand on his judgment that they will not object. No permission has been sought and none is recorded.
 5. **Otezla label language** re-verified against the current prescribing information, and the author's self-administration passage reviewed for professional-conduct implications he may not intend to raise in print.
 6. **Ayahuasca disclosure** (use of a controlled substance, undated and without location or facilitator).
-7. **Linda's first name** in Chapter 11 — consider omitting or obtaining consent.
+7. **Linda's first name** in Chapter 11 — the author elects not to seek consent and to keep the name. Recorded as his decision; counsel may still wish to advise on it.
 
 ## 11. Known limitations
 
@@ -505,4 +505,4 @@ Full list in `editorial/LEGAL_REVIEW.md`, including per-chapter passages collect
 
 None of them can be settled from this environment, because every primary host is refused at the network gateway. One needs a library, one more optionally so; one needs the primary court record; one needs directly inspected supporting evidence from any sound primary or contemporaneous source. The Michelangelo account in Chapter 14 was the fifth item and is now closed: it was a decision for the author, and he took the conservative reading (§8m).
 
-Nothing above blocks a read-through. The manuscript is complete, every chapter is in range, all builds pass, `npm run check-output` reports no errors, and the prohibited-term searches are clean. What stands between this repository and a publishable book is the list in §9 (author confirmations), §10 (counsel), the four open items in §8l, and a professional copyedit and cover design.
+Nothing above blocks a read-through. The manuscript is complete, every chapter is in range, all builds pass, `npm run check-output` reports no errors, and the prohibited-term searches are clean. What stands between this repository and a publishable book is the list in §9 (author confirmations), §10 (counsel), the open items in §8l, and a professional copyedit and cover design. Naming consent and DeWolf outreach are not among them: both were closed by author decision rather than by evidence, and neither is recorded as cleared.

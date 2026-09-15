@@ -1,10 +1,16 @@
-# Naming-Consent Requests — drafts
+# Naming-Consent Requests — drafts, UNUSED
 
-Five separate messages, one per person. **Nothing has been sent.** Contact details are deliberately unspecified — no address, channel, or phone number is filled in anywhere below, because none has been confirmed.
+> **STATUS: NOT A PENDING TASK. NOTHING SENT.**
+>
+> On 15 September 2026 the author recorded the decision: **"Author elects to proceed without requesting consent."**
+> These drafts are retained only in case that decision is reversed. No message here has been sent to anyone, no
+> contact details are filled in, and **no consent has been obtained or is represented as obtained anywhere in this
+> repository.** Naming consent has been removed from the pending tasks and from the review package; see
+> `PUBLICATION_HANDOFF.md` §A.
 
-**Before sending each one:** fill in the greeting and your sign-off, choose the channel, and check the spelling of the person's name against how they write it themselves. Each message quotes the exact passage as it appears in the manuscript, so the person is agreeing to the words that will be printed rather than to a description of them. Send them separately; Adam and Bill were separate conversations in the book and are separate asks now.
+Five separate messages, one per person, each quoting the exact passage as it appears in the manuscript. If the decision is ever reversed: fill in the greeting, sign-off and channel, check each name's spelling against how the person writes it, and send them separately — Adam and Bill were separate conversations in the book and would be separate asks.
 
-**If someone says no,** the fix is small in every case — a role in place of a name, or the passage cut — and none of the five is load-bearing for the chapter it sits in.
+If someone were to decline, the fix is small in every case — a role in place of a name, or the passage cut — and none of the five is load-bearing for the chapter it sits in.
 
 ---
 

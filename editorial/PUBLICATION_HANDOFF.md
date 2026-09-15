@@ -2,24 +2,21 @@
 
 One page. Every task that stands between this repository and a publishable book, who owns it, and the specific thing that closes it.
 
+**Two categories were closed by author decision rather than by evidence, and are marked as such:** naming consents (§A) and the DeWolf family paraphrase (C4). Neither is represented as cleared or permitted. Factual verification (§B) is unaffected by those decisions and keeps its real statuses.
+
 **State of the book.** The manuscript is complete and frozen: 62,317 words excluding notes, 22 sections, 18 endnotes, 23 figures. Developmental and register editing closed at `4937da5`; every change since is a factual correction traceable to source verification. `npm run validate` reports 0 errors and 5 reviewed warnings, `npm run check-output` reports 0 errors and 0 warnings, and all outputs build (HTML, Markdown, EPUB, DOCX, and a 202-page PDF). Nothing below blocks a read-through.
 
 **Source verification is open.** Twelve of fourteen citations have been checked against real documents by independent reviewers; four items remain, listed in §B. No source in this book was opened from the build environment — every primary host is refused at its network gateway — so the remaining items need someone with ordinary library and court-record access.
 
 ---
 
-## A. Naming consents — owner: Patrick
+## A. Naming consents — closed by author decision
 
-Each person is a separate conversation. All were named in the 2021 edition in neutral or favourable contexts. Confirm spelling while you are there. **Drafted messages for all five are in `CONSENT_REQUESTS.md`, each quoting the exact passage. Nothing has been sent, and no contact details are filled in.**
+**Author elects to proceed without requesting consent.** Recorded 15 September 2026 as the author's decision, on his stated view that consent is not required here.
 
-| # | Person | Where | How named | What closes it |
-|---|---|---|---|---|
-| A1 | **Paul Cederna** | Chapter 1 — the Z-plasties and the "Ahhhhh" | Full name | His agreement to appear under his own name |
-| A2 | **Steve Wolverton** | Chapter 2 — the conversation that changed your specialty | Full name | His agreement to appear under his own name |
-| A3 | **Adam** | Chapter 2 — one of the two plastic surgeons who told you the truth | First name only | His agreement. Independent of A4 |
-| A4 | **Bill** | Chapter 2 — the other of the two | First name only | His agreement. A separate person and a separate ask; Adam's consent does not cover him |
-| A5 | **Linda** | Chapter 11 — the histotechnician and her dream about her father | First name only | Her agreement, or your decision to describe her by role instead. The most personal of the five |
-| A6 | **Acknowledgments names** | Acknowledgments — Adrian's physicians and the first-edition book team | Full names | Confirmed already; re-check spellings at proof stage |
+**Consent has not been obtained and is not represented as obtained anywhere in this repository.** Nothing was sent to anyone. The five people below — Paul Cederna, Steve Wolverton, Adam, Bill and Linda — are named in the manuscript as they were in the 2021 edition, and none has been contacted about this edition. This is a decision, not a clearance, and it is recorded so that a later reader of these files cannot mistake one for the other.
+
+Drafted messages remain in `CONSENT_REQUESTS.md`. They are **unused and unsent**, retained only in case the author reverses this decision. They are not a pending task and no owner is assigned to them.
 
 ## B. Source verification — owner: Patrick, or a researcher acting for him
 
@@ -42,7 +39,7 @@ What closes an item depends on the claim. A **legal disposition** requires the p
 | C1 | **Publishing attorney** | **Declined.** Recorded in `LEGAL_REVIEW.md` §0 | Nothing. Your decision, on the record |
 | C2 | **Rights to reuse the first edition** | **Granted** — the 2021 publisher permits any reuse | Nothing. This was the only item that could have stopped the book |
 | C3 | **Obligations constraining the account** | **None** — no settlement, litigation, lender, or confidentiality agreement | Nothing |
-| C4 | **The DeWolf family paraphrase** | Standing on your prediction that they will not object — a prediction, not a permission | **An affirmative response granting it.** A note to the family is outreach; sending one changes nothing on its own, and silence is not consent. Record permission only if they answer and that answer grants it. Absent that, the paraphrase continues to stand on your judgment, which is where it stands now |
+| C4 | **The DeWolf family paraphrase** | **Closed by author decision.** The author elects not to contact the family. The paraphrase stands on his judgment that they will not object | **Nothing pending.** No outreach is planned and none is a task. Permission has not been sought and is not recorded as obtained; if the family is ever contacted and affirmatively grants permission, that response — not the sending of a note — would be what changes this row |
 | C5 | **Naming Matt Onofrio** | Named in Chapter 5 with the plea, the sentence, and the scale of the scheme, all endnoted to the government's own account | Nothing outstanding |
 
 ## D. Front matter and production — owner: Patrick, then a designer

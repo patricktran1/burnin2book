@@ -18,7 +18,7 @@ What a lawyer would have looked at, and where it now stands:
 | Any obligation constraining the account | Answered: none. |
 | The Otezla passage, the ayahuasca disclosure, naming Linda | His call, made — all three stay. |
 | Rights to reuse the first edition | **Resolved.** The author states the 2021 publisher permits any reuse. The 23 illustrations, the stacked wordmark, and the quoted passages stand. |
-| Re-permission from the DeWolf family | **The author's judgment is that they will not object**, and the paraphrase stays on that basis. Recorded as a prediction rather than a permission, since no one has asked them. A courtesy note before publication would convert it into one, and would cost nothing. |
+| Re-permission from the DeWolf family | **Closed by author decision.** The author elects not to contact the family; the paraphrase stays on his judgment that they will not object. Recorded as a prediction, never as a permission, and no outreach is pending. |
 
 With those two resolved, nothing in this document is blocking. It stands as the record of what was considered and why the manuscript is phrased the way it is.
 
@@ -58,9 +58,9 @@ With those two resolved, nothing in this document is blocking. It stands as the 
 
 | Person | Treatment | Flag |
 |---|---|---|
-| Paul DeWolf (deceased) and his family | Public record of the 2013 homicide; his father's words from the 2021 edition paraphrased (not re-quoted at length) | The 2021 quotation was given for that edition; **re-confirm permission** with the DeWolf family for the paraphrase and the mention of the memorial scholarship. Perpetrators are not named. |
+| Paul DeWolf (deceased) and his family | Public record of the 2013 homicide; his father's words from the 2021 edition paraphrased (not re-quoted at length) | The 2021 quotation was given for that edition. **The author elects not to seek re-permission**; the paraphrase and the mention of the memorial scholarship proceed on his judgment. No permission obtained or claimed. Perpetrators are not named. |
 | Nurse in the apology story | Unnamed, favorable | None |
-| Linda (histotechnician) and her dream | First name, favorable, as in 2021 | Confirm she is comfortable appearing again; consider omitting the name |
+| Linda (histotechnician) and her dream | First name, favorable, as in 2021 | **The author elects to proceed without requesting consent** and to keep the first name. Recorded as his decision; not sought, not obtained. |
 | Physicians named in Acknowledgments (Yamout, Kelley, Hung Tran) and mentors in the text (Paul Cederna, Steve Wolverton, Greg Morganroth if retained) | Named as in 2021, favorable or neutral | Confirm names and spellings; consider whether any prefers not to appear |
 | Adam and Bill (older plastic surgeons) | First names, as in 2021 | None |
 | First-edition team named in Acknowledgments (Serratore, David, Aksoy) | Neutral | Confirm |
@@ -122,7 +122,7 @@ No former spouse, no convicted individual, no portfolio or dollar figures, no su
 
 1. **A named living physician (mentor).**
    > "The surgeon was Paul Cederna, and the operation was a series of Z-plasties ... Dr. Cederna would breathe out a long sigh, as if he were feeling the release of the scar's tension in his own body: 'Ahhhhh.'"
-   Why: Dr. Cederna is named in full, as he was in the 2021 edition, and depicted favorably. Bible §3 allows mentors by name as in 2021. Suggest a courtesy notice; no permission issue is apparent. The patient in the scene is unnamed and undated, described only by injury and outcome; no identifying detail beyond what the first edition printed.
+   Why: Dr. Cederna is named in full, as he was in the 2021 edition, and depicted favorably. Bible §3 allows mentors by name as in 2021. No permission issue is apparent; the author has elected not to send a courtesy notice, and none is pending. The patient in the scene is unnamed and undated, described only by injury and outcome; no identifying detail beyond what the first edition printed.
 
 2. **Father's medical information.**
    > "my father passed out ... his electrocardiogram showed concerning signs ... my father has hypertrophic cardiomyopathy. One wall of his heart is about two and a half times thicker than it should be ..." and the paragraph describing the mechanism of his syncope and his treatment options.
