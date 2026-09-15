@@ -36,7 +36,7 @@ An entry is not upgraded as a whole because one of its sources opened.
 |---|---|---|---|---|
 | S3 | WHO burnout definition | Full document (reviewer) | Verified; Ch. 12 attribution corrected | **Corrected** |
 | S4 | NIMH depression overview | Full document (reviewer) | Verified as an abbreviated overview | No change; **quotation withdrawn below** |
-| S5 | Physician suicide meta-analysis | Original abstract + institutional announcement (reviewer) | Verified in part; subgroup context **outstanding** | **Corrected** |
+| S5 | Physician suicide meta-analysis | Varies by claim — see the claim-level table below | Pooled estimates verified; the 24% subgroup figure corroborated only at institutional level | **Corrected** |
 | S6 | Burnout prevalence | Original abstract (reviewer) | All six percentages verified from the original abstract; full article not inspected | **Corrected** |
 | S7 | Clear cell sarcoma incidence | Full documents (reviewer) | Verified with population and registry scope | **Corrected** |
 | S8 | Intussusception | Full document (reviewer) | Verified | No change |
@@ -59,6 +59,17 @@ Chapter 6 carried the same overstatement in passing and now reads "nobody told m
 **S3 — WHO.** Chapter 12 introduced the quotation with "describes it as," which equates burnout with its cause. Now "describes it as resulting from." The quoted words are unchanged; Chapter 6 needed nothing.
 
 **S5 — physician suicide.** Three changes. "Weren't measurably different" became "weren't statistically significantly different," because a confidence interval crossing one is not a demonstration of equality. "Rates have fallen" became "relative rates have fallen." "In the most recent period" became "in the ten most recent studies," which is what the subgroup actually is; no calendar boundary is invented.
+
+**S5 does not have a single evidence status, and should not be described as though it did.** The three figures in the Chapter 2 sentence rest on different sources at different levels:
+
+| Claim in the manuscript | Evidence | Status |
+|---|---|---|
+| Male physicians' rate not statistically significantly different (pooled RR 1.05, 95% CI 0.90–1.22) | Original abstract | **Verified** |
+| Female physicians about 76% higher overall (pooled RR 1.76, 95% CI 1.40–2.21) | Original abstract | **Verified** |
+| Relative rates have fallen over time | Original abstract | **Verified** |
+| Roughly 24% higher for female physicians **in the ten most recent studies** | Institutional announcement by the authors' own institution; **not in the abstract** | **Corroborated, not abstract-verified.** The full paper's definition and framing of that subgroup are uninspected |
+
+The pooled estimates and the 24% figure are not interchangeable in status. The manuscript's wording follows the institutional announcement, which is the authors' own institution describing their own result; that is good corroboration and it is not the paper.
 
 **S6 — burnout prevalence.** "2021, the worst year of the pandemic" became "2021, the pandemic peak in these surveys." The study supports a comparison between its own survey waves, not a ranking of pandemic years. The endnote now carries all six waves.
 
@@ -96,12 +107,15 @@ The marble-flaw explanation and the twenty-five-year duration are gone from the 
 
 ### Outstanding — source verification is not closed
 
-Three of the four are limits on *access*, not doubts about what has been read. Where a figure was read in the source's own abstract, it is verified; that the surrounding article was not also opened does not weaken it. What is unverified is stated as unverified below, and nothing else should be read as provisional by association.
+Four items are open. They are not all the same kind of gap, and collapsing them into one category is how a checklist closes something it has not established.
 
-1. **S5, subgroup context.** The pooled figures are verified from the original abstract and stand. What is unread is the full paper's own definition of its ten-most-recent-studies subgroup. The manuscript says "in the ten most recent studies," which is what the institutional announcement states; the paper's framing of that subgroup has not been inspected.
-2. **S6, full article.** All six year-percentages are **verified from the original abstract** and stand on that basis. The full article was not inspected. These are two separate facts and the second does not qualify the first: the abstract is the authors' own statement of their results, and nothing in the manuscript depends on material outside it.
-3. **S14, Jones's final disposition.** Two of the three dispositions rest on complete appellate opinions. The third rests on an Associated Press report describing a guilty plea, with a federal opinion confirming only that an earlier plea was withdrawn. A Washtenaw County court record is needed before the manuscript's "three men were later convicted or pleaded guilty" is fully established from primary sources. This is the one open item where a manuscript sentence is not yet fully sourced.
-4. **S14, discovery date and console brand.** 24 July 2013 and the PlayStation 3 rest on news reporting. The appellate opinions describe a video game system without naming a brand, and date the burglary to the night of 23 July, which does not conflict with being found on the 24th. The manuscript body names no brand and no date, so nothing in the text is exposed; the endnote labels both as reporting.
+- **Access limits** (items 1 and 2 below): the figure itself is verified from the source's own abstract; what has not been opened is the surrounding article. The figure stands. Nothing should be treated as provisional by association.
+- **Provisional attributions** (items 3 and 4): a claim resting on secondary reporting that no primary record has yet confirmed. These are not closed, and no additional evidence was obtained for either in this pass.
+
+1. **S5, subgroup context — access limit.** The pooled rate ratios are verified from the original abstract and stand. The 24% figure for the ten most recent studies is a different claim with a different status: it was corroborated by the authors' institution, not read in the abstract, and the full paper's definition and framing of that subgroup remain uninspected. See the claim-level table in the S5 correction above.
+2. **S6, full article — access limit.** All six year-percentages are **verified from the original abstract** and stand on that basis. The full article was not inspected. These are two separate facts and the second does not qualify the first: the abstract is the authors' own statement of their results, and nothing in the manuscript depends on material outside it.
+3. **S14, Jones's final disposition — provisional.** Two of the three dispositions rest on complete appellate opinions. The third rests on an Associated Press report describing a guilty plea, with a federal opinion confirming only that an earlier plea was withdrawn. A Washtenaw County court record is needed before the manuscript's "three men were later convicted or pleaded guilty" is fully established from primary sources.
+4. **S14, discovery date and console brand — provisional.** 24 July 2013 and the PlayStation 3 attribution rest on news reporting alone. **No additional evidence was obtained in this pass, and neither is resolved.** The appellate opinions describe a video game system without naming a brand, and date the burglary to the night of 23 July, which does not conflict with a body being found on the 24th but does not confirm the 24th either. The manuscript body names no brand and no date, so no sentence in the book is exposed; `21-notes.md` labels both as reporting and that labelling is what keeps the record honest. **This item is not closed by the manuscript's silence.** Removing a claim from the text is not the same as establishing it, and the endnote still carries the attribution.
 
 ## 2. Items removed from the 2021 edition as unsourced or unsafe
 

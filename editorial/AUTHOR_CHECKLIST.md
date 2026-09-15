@@ -1,8 +1,8 @@
 # Author Checklist — what is left
 
-Answered September 2026. Most of this page is now a record of decisions rather than a list of questions. What remains open is at the top; everything settled is kept below, because a decision you can no longer find the reasoning for is a decision you will have to make twice.
+Answered September 2026. Most of this page is now a record of decisions rather than a list of questions. For the short version — every remaining task, its owner, and what closes it — see `PUBLICATION_HANDOFF.md`. What remains open is at the top; everything settled is kept below, because a decision you can no longer find the reasoning for is a decision you will have to make twice.
 
-Roughly what is left: four people to ask, one court record to pull, two papers to read in full, a copyedit, and a cover. Nothing on this page can stop the book.
+Roughly what is left: five people to ask, one court record to pull, two papers to read in full, a copyedit, and a cover. Nothing on this page can stop the book.
 
 **The writing is finished.** Developmental and register editing are frozen; the manuscript is closed to structural, voice, and line-level revision. What follows is verification and copyediting, in that order.
 
@@ -10,12 +10,13 @@ Roughly what is left: four people to ask, one court record to pull, two papers t
 
 ## Still open
 
-**1. Four people to confirm are willing to be named.** All were named in the 2021 edition in neutral or favourable contexts. Check the spellings while you are there.
+**1. Five people to confirm are willing to be named.** All were named in the 2021 edition in neutral or favourable contexts. Check the spellings while you are there.
 
-- [ ] **Paul Cederna** — the Z-plasties and the "Ahhhhh" (Chapter 1)
-- [ ] **Steve Wolverton** — the conversation that changed your specialty (Chapter 2)
-- [ ] **Adam and Bill** — the two plastic surgeons who told you the truth (Chapter 2, first names only)
-- [ ] **Linda** — the histotechnician and her dream about her father (Chapter 11). You may prefer to describe her by role.
+- [ ] **Paul Cederna** — the Z-plasties and the "Ahhhhh" (Chapter 1). Named in full.
+- [ ] **Steve Wolverton** — the conversation that changed your specialty (Chapter 2). Named in full.
+- [ ] **Adam** — one of the two plastic surgeons who told you the truth (Chapter 2). First name only.
+- [ ] **Bill** — the other (Chapter 2). First name only. A separate person and a separate conversation to have; he has not agreed to anything because Adam did.
+- [ ] **Linda** — the histotechnician and her dream about her father (Chapter 11). First name only, and the most personal of the four. You may prefer to describe her by role instead.
 
 **2. Source verification — twelve of fourteen now checked against real documents, one sentence still short of a primary source.** `FACT_CHECK.md` §1 has the packet: access level, status, evidence and what changed.
 
@@ -31,10 +32,10 @@ Six corrections went into the manuscript. One of them was a real error and worth
 
 Still open, and the reason verification is **not closed**:
 
-- [ ] **Physician suicide (Chapter 2)** — the pooled figures are **confirmed** from the abstract and stand. What has not been read is the full paper's own definition of its ten-most-recent-studies subgroup; your sentence says what the institutional announcement says.
+- [ ] **Physician suicide (Chapter 2) — two of your three figures are settled, one is a notch below.** The pooled rate ratios, the ones behind "not statistically significantly different" for men and "about seventy-six percent higher" for women, are **confirmed from the paper's own abstract** and stand. The **twenty-four percent** figure for the ten most recent studies is different: it comes from the authors' own institution describing their result, not from the abstract, and nobody has read how the paper itself defines that subgroup. Good corroboration, but not the paper. Worth one look at the full text.
 - [ ] **Paul DeWolf (Chapter 11)** — two of the three convictions rest on complete appellate opinions. The third rests on an AP report of a guilty plea. A Washtenaw County court record would settle it.
-- [ ] **The 24 July 2013 date and the console brand** rest on news reporting only; the appellate opinions name no brand and date the burglary to the night of the 23rd. The body text names neither, so nothing needs changing unless you want to.
-- [ ] **Burnout prevalence (Chapter 3)** — all six percentages are **confirmed** from the paper's own abstract and stand. The full article has not been inspected. Those are two separate things: the abstract is the authors' own statement of their results, and nothing in your sentence depends on anything outside it. This is on the list for completeness, not because the number is in doubt.
+- [ ] **The 24 July 2013 date and the PlayStation 3 — still unconfirmed.** Both rest on news reporting alone and nothing new was found. The appellate opinions name no brand and put the burglary on the night of the 23rd, which fits a discovery on the 24th without proving it. Your body text names neither, so no sentence in the book is at risk — but the endnote still carries both, labelled as reporting, and leaving them out of the text doesn't make them established. Staying on the list until a primary record says otherwise.
+- [ ] **Burnout prevalence (Chapter 3)** — all six percentages are **confirmed** from the paper's own abstract and stand. The full article has not been inspected. Those are two separate things: the abstract is the authors' own statement of their results, and nothing in your sentence depends on anything outside it. On the list for completeness, not because the number is in doubt.
 
 **3. Front matter.** Copyright year (currently 2026), ISBNs if any, and the publisher line.
 

@@ -119,7 +119,7 @@ Of the 25 retained figures, 23 appear in the manuscript body (each exactly once,
 
 **Citation status after two independent reviews.** Every primary host is refused at this environment's network gateway, re-tested at each stage and again on 15 September 2026, so **no source cited in this book was opened from this working environment.** All direct reading was done by independent reviewers with document access and supplied back as reports; the full access taxonomy, per-entry status and evidence are in `editorial/FACT_CHECK.md` §1.
 
-Twelve of the fourteen have now been checked against real documents, and the manuscript was corrected as a result (§8l, §8m). Three access limits and one unsourced disposition remain open, and source verification is **not closed** while they do.
+Twelve of the fourteen have now been checked against real documents, and the manuscript was corrected as a result (§8l, §8m). Four items remain open — two access limits and two provisional attributions, which are different kinds of gap and are kept apart in §8l — and source verification is **not closed** while they do.
 
 | # | Source | Checked against | Outcome |
 |---|---|---|---|
@@ -127,7 +127,7 @@ Twelve of the fourteen have now been checked against real documents, and the man
 | S2 | Otezla (apremilast) prescribing information, Dec 2025 | Full document | Verified against §5.3; indication-specific denominators stand |
 | S3 | WHO ICD-11 burn-out release | Full document | Verified; Chapter 12's attribution corrected |
 | S4 | NIMH depression overview | Full document | Verified as an abbreviated overview; an earlier quotation in the record withdrawn |
-| S5 | BMJ 2024 physician-suicide meta-analysis | Abstract + institutional announcement | Pooled figures verified; **subgroup definition unread** |
+| S5 | BMJ 2024 physician-suicide meta-analysis | Varies by claim | Pooled rate ratios **verified** from the original abstract; the 24% ten-most-recent-studies figure **corroborated at institutional level only**, subgroup definition unread |
 | S6 | Mayo Clinic Proceedings 2025 burnout prevalence | Original abstract | All six percentages **verified**; full article not inspected, which does not qualify them |
 | S7 | CCSK incidence (SEER) and COG outcomes | Full documents | Verified; the manuscript sentence now carries registry scope |
 | S8 | Intussusception | Full document | Verified, no change |
@@ -136,7 +136,7 @@ Twelve of the fourteen have now been checked against real documents, and the man
 | S11 | 988 Suicide & Crisis Lifeline | Operator pages + HHS | Verified; endnotes re-pointed after a SAMHSA URL failed |
 | S12 | Michelangelo's David chronology | Scholarly and institutional sources | Attribution corrected, Britannica dropped, 1475/1476 conflict documented; author query **resolved** — disputed account removed from the text |
 | S13 | Lalonde et al. 2005 epinephrine study | Full original article | Verified; dose qualifier added, limits recorded |
-| S14 | Paul DeWolf | Two appellate opinions + news reporting | Two dispositions court-verified; **third reported only**; date and console brand reported only |
+| S14 | Paul DeWolf | Two appellate opinions + news reporting | Two dispositions court-verified; **third reported only**; **24 July 2013 and the PlayStation 3 remain provisional** on news reporting |
 
 No citation was invented. Where no authoritative source could be reached, the claim was removed or hedged rather than sourced speculatively: the first edition's "300 to 400 doctors a year" suicide figure, its Medscape burnout percentage, and its lottery-winner/amputee happiness claim are all gone, and the Rumi line is attributed as "often attributed to."
 
@@ -430,12 +430,16 @@ The hypertrophic cardiomyopathy sentence is the one that mattered. It applied a 
 
 **Two entries in the fact-check record were withdrawn rather than corrected.** A quotation attributed to the NIMH page ("at least 5 of the symptoms") is not that page's wording, and an asserted conflict between the ayahuasca systematic review and the manuscript's hedge does not exist. Both were artefacts of reading a snippet as though it were a document — the same failure that produced the S1 error in the previous pass — and both lived in this record, not in the book. No manuscript sentence was affected by either.
 
-**Four items are outstanding, and verification stays open until they close.** Three are limits on access rather than doubts about what has been read; only the third puts a manuscript sentence short of a primary source. A figure read in its source's own abstract is verified, and the fact that the surrounding article was not also opened does not weaken it.
+**Four items are outstanding, and verification stays open until they close.** They are two different kinds of gap and are not interchangeable:
 
-1. **S5, subgroup context.** The pooled figures are verified from the original abstract and stand. The full paper's own definition of its ten-most-recent-studies subgroup has not been read; the manuscript says what the institutional announcement says.
-2. **S6, full article.** All six year-percentages are **verified from the original abstract**. The article itself was not inspected. The second fact does not qualify the first: the abstract is the authors' own statement of their results, and nothing in the manuscript depends on material outside it.
-3. **S14, Jones's final disposition.** Two of three dispositions rest on complete appellate opinions; the third rests on an AP report of a guilty plea, with a federal opinion confirming only that an earlier plea was withdrawn. A Washtenaw County court record is needed before "three men were later convicted or pleaded guilty" is established from primary sources. This is the one open item where a sentence in the book is not yet fully sourced.
-4. **S14, discovery date and console brand.** 24 July 2013 and the PlayStation 3 rest on news reporting. The appellate opinions describe a video game system without naming a brand and date the burglary to the night of 23 July. The body text names neither, so nothing is exposed; the endnote labels both as reporting.
+- **Access limits** — the figure is verified from the source's own abstract; only the surrounding article is unopened. The figure stands.
+- **Provisional attributions** — a claim resting on secondary reporting that no primary record has confirmed. **No additional evidence was obtained for either in this pass.**
+
+1. **S5, subgroup context — access limit, with a claim-level split.** The pooled rate ratios (1.05, 95% CI 0.90–1.22 for male physicians; 1.76, 1.40–2.21 for female physicians) are **verified from the original abstract**. The 24% figure for the ten most recent studies is a *different claim at a different level*: it was **corroborated by the authors' own institution**, not read in the abstract, and the paper's definition and framing of that subgroup are uninspected. S5 must not be described as uniformly abstract-verified; `FACT_CHECK.md` §1 carries the claim-level table.
+2. **S6, full article — access limit.** All six year-percentages are **verified from the original abstract**. The article itself was not inspected. The second fact does not qualify the first: the abstract is the authors' own statement of their results, and nothing in the manuscript depends on material outside it.
+3. **S14, Jones's final disposition — provisional.** Two of three dispositions rest on complete appellate opinions; the third rests on an AP report of a guilty plea, with a federal opinion confirming only that an earlier plea was withdrawn. A Washtenaw County court record is needed before "three men were later convicted or pleaded guilty" is established from primary sources.
+4. **S14, discovery date and console brand — provisional, and still open.** 24 July 2013 and the PlayStation 3 rest on news reporting alone and **neither was resolved in this pass.** The appellate opinions describe a video game system without naming a brand and date the burglary to the night of 23 July; that is consistent with a discovery on the 24th but does not confirm it. The body text names neither, so no sentence in the book is exposed — but the endnote still carries both as reporting, and the manuscript's silence does not establish them. An earlier draft of this report treated this item as settled by that silence. It is not, and it is restored here.
+
 
 **One question was the author's to answer, and he answered it.** See §8m.
 
@@ -491,10 +495,14 @@ Full list in `editorial/LEGAL_REVIEW.md`, including per-chapter passages collect
 
 ## 12. Handoff
 
-`editorial/AUTHOR_CHECKLIST.md` collects everything in sections 5, 9, and 10 into one page of questions and actions addressed to the author and his counsel, so that none of it has to be reconstructed from this report.
+`editorial/PUBLICATION_HANDOFF.md` is the handoff: one page listing every remaining task, its owner, and the specific evidence or decision that closes it, in five groups — naming consents, source verification, legal and permissions, front matter and production, personal-history confirmations. Each of the five people to be asked about naming is listed separately, Adam and Bill included, because each is a separate conversation.
+
+`editorial/AUTHOR_CHECKLIST.md` remains the longer record, collecting sections 5, 9, and 10 with the reasoning behind decisions already made, so that none of it has to be reconstructed from this report.
 
 ## 13. Unresolved issues
 
-**Source verification is open.** It is the one item here that is genuinely unfinished rather than merely delegated. Twelve of the fourteen citations have been checked against real documents and six manuscript sentences were corrected as a result, but four questions remain (§8l): the physician-suicide paper's subgroup definition, the burnout paper's full text, the final disposition in the third DeWolf case, and the date and console brand that rest on news reporting alone. None of them can be settled from this environment, because every primary host is refused at the network gateway. Two need a library; one needs a county court record. A fifth item, the Michelangelo account in Chapter 14, is a decision for the author rather than a research task.
+**Source verification is open.** It is the one item here that is genuinely unfinished rather than merely delegated. Twelve of the fourteen citations have been checked against real documents and seven manuscript sentences were corrected as a result, but four items remain (§8l), of two kinds. Two are **access limits**, where the figure is verified from its source's own abstract and only the surrounding article is unopened: the physician-suicide paper and the burnout paper. Two are **provisional attributions**, where a claim rests on secondary reporting that no primary record has confirmed: the final disposition in the third DeWolf case, and the 24 July 2013 date with the PlayStation 3. Within the first, S5 splits at claim level — the pooled rate ratios are abstract-verified, while the 24% subgroup figure is corroborated only by the authors' institution.
+
+None of them can be settled from this environment, because every primary host is refused at the network gateway. Two need a library; two need a primary record from Washtenaw County. The Michelangelo account in Chapter 14 was the fifth item and is now closed: it was a decision for the author, and he took the conservative reading (§8m).
 
 Nothing above blocks a read-through. The manuscript is complete, every chapter is in range, all builds pass, `npm run check-output` reports no errors, and the prohibited-term searches are clean. What stands between this repository and a publishable book is the list in §9 (author confirmations), §10 (counsel), the four open items in §8l, and a professional copyedit and cover design.
