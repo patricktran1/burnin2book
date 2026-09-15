@@ -10,7 +10,7 @@ One page. Every task that stands between this repository and a publishable book,
 
 ## A. Naming consents — owner: Patrick
 
-Each person is a separate conversation. All were named in the 2021 edition in neutral or favourable contexts. Confirm spelling while you are there.
+Each person is a separate conversation. All were named in the 2021 edition in neutral or favourable contexts. Confirm spelling while you are there. **Drafted messages for all five are in `CONSENT_REQUESTS.md`, each quoting the exact passage. Nothing has been sent, and no contact details are filled in.**
 
 | # | Person | Where | How named | What closes it |
 |---|---|---|---|---|
@@ -25,13 +25,15 @@ Each person is a separate conversation. All were named in the 2021 edition in ne
 
 Two different kinds of gap. They are not interchangeable, and an access limit is not a doubt about a number.
 
+What closes an item depends on the claim. A **legal disposition** requires the primary court record; news coverage is never sole authority for one. **Other factual details** require directly inspected, reliable supporting evidence, which a court record can supply but so can other primary or contemporaneous sources. A **figure verified in its source's own abstract** is closed for the claim as written, and further reading is optional unless a manuscript claim comes to depend on material outside it.
+
 | # | Item | Kind | Status | What closes it |
 |---|---|---|---|---|
 | B1 | **S5 — physician suicide, pooled estimates** (Ch. 2) | — | **Verified** from the original abstract. No action | — |
 | B2 | **S5 — the 24% ten-most-recent-studies figure** (Ch. 2) | Claim-level gap | **Corroborated by the authors' institution, not abstract-verified.** The paper's own definition of that subgroup is unread | The full text of Zimmermann et al., *BMJ* 2024;386:e078964 — read how the paper defines and frames the ten-most-recent-studies subgroup |
-| B3 | **S6 — burnout prevalence** (Ch. 3) | Access limit | All six percentages **verified** from the original abstract and standing. Full article uninspected | The full *Mayo Clinic Proceedings* 2025 article. Completeness only; the figures are not in doubt |
-| B4 | **S14 — Jones's final disposition** (Ch. 11) | Provisional attribution | Two of three dispositions rest on complete appellate opinions. The third rests on an AP report of a guilty plea; a federal opinion confirms only that an earlier plea was withdrawn | A Washtenaw County court record showing the final disposition. **This is the one open item where a sentence in the book — "three men were later convicted or pleaded guilty" — is not yet fully sourced** |
-| B5 | **S14 — 24 July 2013 discovery date and the PlayStation 3** | Provisional attribution | **Unresolved. No additional evidence obtained.** Both rest on news reporting alone; the appellate opinions name no brand and date the burglary to the night of 23 July | A primary record — the police report, charging document, or a court record naming the date and the item taken. The body text names neither, so nothing in the book is exposed, but the endnote carries both and the manuscript's silence does not establish them |
+| B3 | **S6 — burnout prevalence** (Ch. 3) | **Closed for the claim as written** | All six percentages are **verified** from the original abstract. The manuscript asserts nothing beyond them | **Nothing.** Reading the full *Mayo Clinic Proceedings* 2025 article is **optional**, and becomes necessary only if a manuscript claim comes to depend on material outside the abstract. It does not today. Independent of B2 |
+| B4 | **S14 — Jones's final disposition** (Ch. 11) | Provisional attribution | Two of three dispositions rest on complete appellate opinions. The third rests on an AP report of a guilty plea; a federal opinion confirms only that an earlier plea was withdrawn | **The primary court record.** This is a legal disposition, and the standard applied throughout this book is that news coverage is never sole authority for one — the other two dispositions were held to it and rest on complete opinions. Nothing short of the record closes this. **It is the one open item where a sentence in the book — "three men were later convicted or pleaded guilty" — is not yet fully sourced** |
+| B5 | **S14 — 24 July 2013 discovery date and the PlayStation 3** | Provisional attribution | **Unresolved. No additional evidence obtained.** Both rest on news reporting alone; the appellate opinions name no brand and date the burglary to the night of 23 July | **Directly inspected, reliable supporting evidence** — read, not retrieved in summary. A court record is one route but is **not required**: a charging document, a police or medical examiner's record, or a contemporaneous account from a source with direct knowledge would each do. Provisional until such evidence is obtained and inspected. The body text names neither, so nothing in the book is exposed; the endnote carries both, and the manuscript's silence does not establish them |
 
 ## C. Legal and permissions — owner: Patrick
 
@@ -40,7 +42,7 @@ Two different kinds of gap. They are not interchangeable, and an access limit is
 | C1 | **Publishing attorney** | **Declined.** Recorded in `LEGAL_REVIEW.md` §0 | Nothing. Your decision, on the record |
 | C2 | **Rights to reuse the first edition** | **Granted** — the 2021 publisher permits any reuse | Nothing. This was the only item that could have stopped the book |
 | C3 | **Obligations constraining the account** | **None** — no settlement, litigation, lender, or confidentiality agreement | Nothing |
-| C4 | **The DeWolf family paraphrase** | Standing on your prediction that they will not object | A note to the family before publication would convert a prediction into a permission. Costs nothing |
+| C4 | **The DeWolf family paraphrase** | Standing on your prediction that they will not object — a prediction, not a permission | **An affirmative response granting it.** A note to the family is outreach; sending one changes nothing on its own, and silence is not consent. Record permission only if they answer and that answer grants it. Absent that, the paraphrase continues to stand on your judgment, which is where it stands now |
 | C5 | **Naming Matt Onofrio** | Named in Chapter 5 with the plea, the sentence, and the scale of the scheme, all endnoted to the government's own account | Nothing outstanding |
 
 ## D. Front matter and production — owner: Patrick, then a designer
